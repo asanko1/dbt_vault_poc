@@ -1,7 +1,6 @@
 name: dbtvault_snowflake_demo
 profile: snowflake_demo
 version: '5.2.0'
-require-dbt-version: ['>=0.20.0', '<0.22.0']
 config-version: 2
 
 analysis-paths:
