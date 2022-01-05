@@ -1,0 +1,51 @@
+name: dbtvault_snowflake_demo
+profile: snowflake_demo
+version: '5.2.0'
+require-dbt-version: ['>=0.20.0', '<0.22.0']
+config-version: 2
+
+analysis-paths:
+  - analysis
+clean-targets:
+  - target
+data-paths:
+  - data
+macro-paths:
+  - macros
+source-paths:
+  - models
+test-paths:
+  - tests
+target-path: target
+
+vars:
+  load_date: '1992-01-08'
+  tpch_size: 10 #1, 10, 100, 1000, 10000
+
+models:
+  dbtvault_snowflake_demo:
+    raw_stage:
+      tags:
+        - 'raw'
+      materialized: view
+    stage:
+      tags:
+        - 'stage'
+      enabled: true
+      materialized: view
+    raw_vault:
+      tags:
+        - 'raw_vault'
+      materialized: incremental
+      hubs:
+        tags:
+          - 'hub'
+      links:
+        tags:
+          - 'link'
+      sats:
+        tags:
+          - 'satellite'
+      t_links:
+        tags:
+          - 't_link'
