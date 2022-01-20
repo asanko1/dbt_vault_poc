@@ -27,15 +27,18 @@ models:
       tags:
         - 'raw'
       materialized: view
+      +schema: DBT_POC
     stage:
       tags:
         - 'stage'
       enabled: true
       materialized: view
+      +schema: DBT_POC
     raw_vault:
       tags:
         - 'raw_vault'
       materialized: incremental
+      +schema: DBT_POC
       hubs:
         tags:
           - 'hub'
