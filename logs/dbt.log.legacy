@@ -5991,3 +5991,506 @@ The `data-paths` config has been renamed to `seed-paths`. Please update your
 2022-01-20 13:11:07.248643 (Thread-38): handling status request
 2022-01-20 13:11:07.249045 (Thread-38): 13:11:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf05dfa30>]}
 2022-01-20 13:11:07.251223 (Thread-38): sending response (<Response 63117 bytes [200 OK]>) to 10.0.33.1
+2022-01-20 13:11:09.959008 (Thread-39): 13:11:09  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-20 13:11:09.959221 (Thread-39): 13:11:09  Partial parsing enabled, no changes found, skipping parsing
+2022-01-20 13:11:09.966127 (Thread-39): 13:11:09  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bc92ec4c0>]}
+2022-01-20 13:11:10.651099 (Thread-40): handling status request
+2022-01-20 13:11:10.651437 (Thread-40): 13:11:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf06e7cd0>]}
+2022-01-20 13:11:10.651926 (Thread-40): sending response (<Response 1241 bytes [200 OK]>) to 10.0.3.65
+2022-01-20 13:11:10.844082 (Thread-41): handling status request
+2022-01-20 13:11:10.844425 (Thread-41): 13:11:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf065b5e0>]}
+2022-01-20 13:11:10.844913 (Thread-41): sending response (<Response 1241 bytes [200 OK]>) to 10.0.46.171
+2022-01-20 13:11:13.909842 (Thread-42): handling status request
+2022-01-20 13:11:13.910180 (Thread-42): 13:11:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf193ed60>]}
+2022-01-20 13:11:13.910655 (Thread-42): sending response (<Response 1219 bytes [200 OK]>) to 10.0.1.174
+2022-01-20 13:11:13.915893 (Thread-43): handling list request
+2022-01-20 13:11:13.916120 (Thread-43): 13:11:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7c08e6d790>]}
+2022-01-20 13:11:13.950295 (Thread-43): 13:11:13  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf05c1970>]}
+2022-01-20 13:11:13.950623 (Thread-43): 13:11:13  Found 31 models, 0 tests, 0 snapshots, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-20 13:11:13.955390 (Thread-43): sending response (<Response 14698 bytes [200 OK]>) to 10.0.1.174
+2022-01-20 13:11:51.817673 (Thread-44): handling status request
+2022-01-20 13:11:51.818014 (Thread-44): 13:11:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bca3e7400>]}
+2022-01-20 13:11:51.818484 (Thread-44): sending response (<Response 1241 bytes [200 OK]>) to 10.0.22.61
+2022-01-20 13:11:51.825002 (Thread-45): handling status request
+2022-01-20 13:11:51.825272 (Thread-45): 13:11:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf00afe80>]}
+2022-01-20 13:11:51.825620 (Thread-45): sending response (<Response 1241 bytes [200 OK]>) to 10.0.33.1
+2022-01-20 13:11:52.017902 (Thread-46): handling ps request
+2022-01-20 13:11:52.018259 (Thread-46): 13:11:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf00afca0>]}
+2022-01-20 13:11:52.018874 (Thread-46): sending response (<Response 1263 bytes [200 OK]>) to 10.0.46.171
+2022-01-20 13:11:52.100918 (Thread-47): handling status request
+2022-01-20 13:11:52.101249 (Thread-47): 13:11:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf00af970>]}
+2022-01-20 13:11:52.101692 (Thread-47): sending response (<Response 1241 bytes [200 OK]>) to 10.0.15.206
+2022-01-20 13:11:56.999872 (Thread-48): handling status request
+2022-01-20 13:11:57.000212 (Thread-48): 13:11:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf00af730>]}
+2022-01-20 13:11:57.000672 (Thread-48): sending response (<Response 1219 bytes [200 OK]>) to 10.0.1.174
+2022-01-20 13:11:57.005984 (Thread-49): handling list request
+2022-01-20 13:11:57.006228 (Thread-49): 13:11:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf05e66d0>]}
+2022-01-20 13:11:57.008355 (Thread-50): handling status request
+2022-01-20 13:11:57.047236 (Thread-49): 13:11:57  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf00f5d30>]}
+2022-01-20 13:11:57.011729 (Thread-50): 13:11:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf05e6130>]}
+2022-01-20 13:11:57.047492 (Thread-49): 13:11:57  Found 31 models, 0 tests, 0 snapshots, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-20 13:11:57.012240 (Thread-50): sending response (<Response 1219 bytes [200 OK]>) to 10.0.1.174
+2022-01-20 13:11:57.048011 (Thread-51): 13:11:57  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf00f2880>]}
+2022-01-20 13:11:57.048243 (Thread-51): 13:11:57  Found 31 models, 0 tests, 0 snapshots, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-20 13:11:57.017593 (Thread-51): handling list request
+2022-01-20 13:11:57.049893 (Thread-51): 13:11:57  The selection criterion '+1642684229002/__unsaved/Statement' does not match any nodes
+2022-01-20 13:11:57.050161 (Thread-51): 13:11:57  The selection criterion '1.sql+' does not match any nodes
+2022-01-20 13:11:57.017723 (Thread-51): 13:11:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf1948820>]}
+2022-01-20 13:11:57.050254 (Thread-51): 13:11:57  No nodes selected!
+2022-01-20 13:11:57.056580 (Thread-51): sending response (<Response 3363 bytes [200 OK]>) to 10.0.1.174
+2022-01-20 13:11:57.057348 (Thread-49): sending response (<Response 15902 bytes [200 OK]>) to 10.0.1.174
+2022-01-20 13:12:46.840681 (Thread-52): handling status request
+2022-01-20 13:12:46.841019 (Thread-52): 13:12:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf05e6ca0>]}
+2022-01-20 13:12:46.841520 (Thread-52): sending response (<Response 1219 bytes [200 OK]>) to 10.0.1.174
+2022-01-20 13:12:46.853891 (Thread-53): handling list request
+2022-01-20 13:12:46.854109 (Thread-53): 13:12:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf00afe80>]}
+2022-01-20 13:12:46.919076 (Thread-53): 13:12:46  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf00f2a30>]}
+2022-01-20 13:12:46.919492 (Thread-53): 13:12:46  Found 31 models, 0 tests, 0 snapshots, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-20 13:12:46.928888 (Thread-53): sending response (<Response 14698 bytes [200 OK]>) to 10.0.1.174
+2022-01-20 13:12:53.463447 (Thread-54): handling status request
+2022-01-20 13:12:53.463763 (Thread-54): 13:12:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf05e6ee0>]}
+2022-01-20 13:12:53.464224 (Thread-54): sending response (<Response 1241 bytes [200 OK]>) to 10.0.15.206
+2022-01-20 13:12:53.476844 (Thread-55): handling status request
+2022-01-20 13:12:53.477070 (Thread-55): 13:12:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bca3a4250>]}
+2022-01-20 13:12:53.477458 (Thread-55): sending response (<Response 1241 bytes [200 OK]>) to 10.0.2.197
+2022-01-20 13:12:58.261388 (Thread-56): handling status request
+2022-01-20 13:12:58.261750 (Thread-56): 13:12:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf00e1430>]}
+2022-01-20 13:12:58.262222 (Thread-56): sending response (<Response 1219 bytes [200 OK]>) to 10.0.1.174
+2022-01-20 13:12:58.268389 (Thread-57): handling list request
+2022-01-20 13:12:58.268621 (Thread-57): 13:12:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf00e1dc0>]}
+2022-01-20 13:12:58.305315 (Thread-57): 13:12:58  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf05e6100>]}
+2022-01-20 13:12:58.305669 (Thread-57): 13:12:58  Found 31 models, 0 tests, 0 snapshots, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-20 13:12:58.310190 (Thread-57): sending response (<Response 14698 bytes [200 OK]>) to 10.0.1.174
+2022-01-20 13:13:02.477457 (Thread-58): handling status request
+2022-01-20 13:13:02.477776 (Thread-58): 13:13:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf05fb550>]}
+2022-01-20 13:13:02.521894 (Thread-58): sending response (<Response 1241 bytes [200 OK]>) to 10.0.45.69
+2022-01-20 13:13:02.887425 (Thread-59): handling status request
+2022-01-20 13:13:02.887761 (Thread-59): 13:13:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf05fb9d0>]}
+2022-01-20 13:13:02.888236 (Thread-59): sending response (<Response 1241 bytes [200 OK]>) to 10.0.21.240
+2022-01-20 13:13:07.090469 (Thread-60): handling status request
+2022-01-20 13:13:07.090820 (Thread-60): 13:13:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bca3a1250>]}
+2022-01-20 13:13:07.091279 (Thread-60): sending response (<Response 1219 bytes [200 OK]>) to 10.0.1.174
+2022-01-20 13:13:07.096346 (Thread-61): handling list request
+2022-01-20 13:13:07.096557 (Thread-61): 13:13:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf0663760>]}
+2022-01-20 13:13:07.127098 (Thread-61): 13:13:07  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf05b6580>]}
+2022-01-20 13:13:07.127345 (Thread-61): 13:13:07  Found 31 models, 0 tests, 0 snapshots, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-20 13:13:07.131775 (Thread-61): sending response (<Response 14698 bytes [200 OK]>) to 10.0.1.174
+2022-01-20 13:13:26.961413 (Thread-62): handling status request
+2022-01-20 13:13:26.961786 (Thread-62): 13:13:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf05e1760>]}
+2022-01-20 13:13:26.962251 (Thread-62): sending response (<Response 1219 bytes [200 OK]>) to 10.0.1.174
+2022-01-20 13:13:26.973616 (Thread-63): handling list request
+2022-01-20 13:13:26.973828 (Thread-63): 13:13:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf067de50>]}
+2022-01-20 13:13:27.008302 (Thread-63): 13:13:27  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf06265b0>]}
+2022-01-20 13:13:27.008677 (Thread-63): 13:13:27  Found 31 models, 0 tests, 0 snapshots, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-20 13:13:27.012810 (Thread-63): sending response (<Response 14698 bytes [200 OK]>) to 10.0.1.174
+2022-01-20 13:14:41.400906 (Thread-64): 13:14:41  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-20 13:14:41.402166 (Thread-64): 13:14:41  Partial parsing enabled, no changes found, skipping parsing
+2022-01-20 13:14:41.409691 (Thread-64): 13:14:41  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bc8047580>]}
+2022-01-20 13:14:41.912593 (Thread-65): handling status request
+2022-01-20 13:14:41.912938 (Thread-65): 13:14:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bc92efbb0>]}
+2022-01-20 13:14:41.913461 (Thread-65): sending response (<Response 1241 bytes [200 OK]>) to 10.0.15.206
+2022-01-20 13:14:41.975187 (Thread-66): handling status request
+2022-01-20 13:14:41.975443 (Thread-66): 13:14:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf06e1af0>]}
+2022-01-20 13:14:41.975857 (Thread-66): sending response (<Response 1241 bytes [200 OK]>) to 10.0.31.151
+2022-01-20 13:14:51.637502 (Thread-67): 13:14:51  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-20 13:14:51.637707 (Thread-67): 13:14:51  Partial parsing enabled, no changes found, skipping parsing
+2022-01-20 13:14:51.644770 (Thread-67): 13:14:51  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b856959a0>]}
+2022-01-20 13:14:52.278855 (Thread-68): handling status request
+2022-01-20 13:14:52.279526 (Thread-68): 13:14:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bc8098f10>]}
+2022-01-20 13:14:52.280018 (Thread-68): sending response (<Response 1241 bytes [200 OK]>) to 10.0.45.69
+2022-01-20 13:14:52.769839 (Thread-69): handling status request
+2022-01-20 13:14:52.770181 (Thread-69): 13:14:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bc8170ee0>]}
+2022-01-20 13:14:52.770645 (Thread-69): sending response (<Response 1241 bytes [200 OK]>) to 10.0.3.189
+2022-01-20 13:15:08.162753 (Thread-70): handling status request
+2022-01-20 13:15:08.163089 (Thread-70): 13:15:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bc8049c40>]}
+2022-01-20 13:15:08.163542 (Thread-70): sending response (<Response 1241 bytes [200 OK]>) to 10.0.31.151
+2022-01-20 13:15:09.211310 (Thread-71): handling cli_args request
+2022-01-20 13:15:09.211633 (Thread-71): 13:15:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bc92eca60>]}
+2022-01-20 13:15:09.355272 (Thread-72): handling status request
+2022-01-20 13:15:09.356007 (Thread-72): 13:15:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bc80b6a30>]}
+2022-01-20 13:15:09.356868 (Thread-72): sending response (<Response 1241 bytes [200 OK]>) to 10.0.37.102
+2022-01-20 13:15:11.380581 (Thread-71): sending response (<Response 138 bytes [200 OK]>) to 10.0.17.208
+2022-01-20 13:15:11.726469 (MainThread): 13:15:11  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-20 13:15:11.726897 (MainThread): 13:15:11  Partial parsing enabled, no changes found, skipping parsing
+2022-01-20 13:15:11.734377 (MainThread): 13:15:11  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f510ee81-a24a-4486-a1b6-e2680498389b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f002a57ecd0>]}
+2022-01-20 13:15:11.765972 (MainThread): 13:15:11  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f510ee81-a24a-4486-a1b6-e2680498389b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f002a66bbb0>]}
+2022-01-20 13:15:11.766215 (MainThread): 13:15:11  Found 31 models, 0 tests, 0 snapshots, 0 analyses, 447 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-20 13:15:11.768256 (MainThread): 13:15:11  
+2022-01-20 13:15:11.768536 (MainThread): 13:15:11  Acquiring new snowflake connection "master"
+2022-01-20 13:15:11.770426 (ThreadPoolExecutor-0_0): 13:15:11  Acquiring new snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-01-20 13:15:11.782964 (ThreadPoolExecutor-0_0): 13:15:11  Using snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-01-20 13:15:11.783072 (ThreadPoolExecutor-0_0): 13:15:11  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"} */
+
+    show terse objects in PC_DBT_DB.dbt_abasak_CUST_DETAIL
+2022-01-20 13:15:11.783157 (ThreadPoolExecutor-0_0): 13:15:11  Opening a new connection, currently in state init
+2022-01-20 13:15:11.940607 (Thread-73): handling poll request
+2022-01-20 13:15:11.940937 (Thread-73): 13:15:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bc8219c10>]}
+2022-01-20 13:15:11.941700 (Thread-73): sending response (<Response 4223 bytes [200 OK]>) to 10.0.33.1
+2022-01-20 13:15:12.483514 (ThreadPoolExecutor-0_0): 13:15:12  Snowflake adapter: Snowflake query id: 01a1c19b-0a02-8754-0000-0001fe3a5575
+2022-01-20 13:15:12.483758 (ThreadPoolExecutor-0_0): 13:15:12  Snowflake adapter: Snowflake error: 002043 (02000): SQL compilation error:
+Object does not exist, or operation cannot be performed.
+2022-01-20 13:15:12.483986 (ThreadPoolExecutor-0_0): 13:15:12  Snowflake adapter: Error running SQL: macro list_relations_without_caching
+2022-01-20 13:15:12.484062 (ThreadPoolExecutor-0_0): 13:15:12  Snowflake adapter: Rolling back transaction.
+2022-01-20 13:15:12.484297 (ThreadPoolExecutor-0_0): 13:15:12  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: Close
+2022-01-20 13:15:12.781858 (MainThread): 13:15:12  Concurrency: 4 threads (target='default')
+2022-01-20 13:15:12.782058 (MainThread): 13:15:12  
+2022-01-20 13:15:12.784738 (Thread-1): 13:15:12  Began running node model.dbtvault_snowflake_demo.raw_orders
+2022-01-20 13:15:12.785146 (Thread-1): 13:15:12  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.raw_orders"
+2022-01-20 13:15:12.785266 (Thread-1): 13:15:12  Began compiling node model.dbtvault_snowflake_demo.raw_orders
+2022-01-20 13:15:12.786038 (Thread-2): 13:15:12  Began running node model.dbtvault_snowflake_demo.raw_transactions
+2022-01-20 13:15:12.786365 (Thread-2): 13:15:12  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.raw_transactions"
+2022-01-20 13:15:12.786462 (Thread-2): 13:15:12  Began compiling node model.dbtvault_snowflake_demo.raw_transactions
+2022-01-20 13:15:12.786543 (Thread-2): 13:15:12  Compiling model.dbtvault_snowflake_demo.raw_transactions
+2022-01-20 13:15:12.790793 (Thread-2): 13:15:12  Writing injected SQL for node "model.dbtvault_snowflake_demo.raw_transactions"
+2022-01-20 13:15:12.791636 (Thread-1): 13:15:12  Compiling model.dbtvault_snowflake_demo.raw_orders
+2022-01-20 13:15:12.796805 (Thread-1): 13:15:12  Writing injected SQL for node "model.dbtvault_snowflake_demo.raw_orders"
+2022-01-20 13:15:12.803219 (Thread-2): 13:15:12  finished collecting timing info
+2022-01-20 13:15:12.803375 (Thread-2): 13:15:12  Began executing node model.dbtvault_snowflake_demo.raw_transactions
+2022-01-20 13:15:12.803489 (Thread-2): 13:15:12  finished collecting timing info
+2022-01-20 13:15:12.803767 (Thread-2): 13:15:12  Finished running node model.dbtvault_snowflake_demo.raw_transactions
+2022-01-20 13:15:12.804488 (Thread-4): 13:15:12  Began running node model.dbtvault_snowflake_demo.v_stg_transactions
+2022-01-20 13:15:12.804789 (Thread-4): 13:15:12  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.v_stg_transactions"
+2022-01-20 13:15:12.804885 (Thread-4): 13:15:12  Began compiling node model.dbtvault_snowflake_demo.v_stg_transactions
+2022-01-20 13:15:12.804965 (Thread-4): 13:15:12  Compiling model.dbtvault_snowflake_demo.v_stg_transactions
+2022-01-20 13:15:12.809571 (Thread-1): 13:15:12  finished collecting timing info
+2022-01-20 13:15:12.809707 (Thread-1): 13:15:12  Began executing node model.dbtvault_snowflake_demo.raw_orders
+2022-01-20 13:15:12.809805 (Thread-1): 13:15:12  finished collecting timing info
+2022-01-20 13:15:12.810082 (Thread-1): 13:15:12  Finished running node model.dbtvault_snowflake_demo.raw_orders
+2022-01-20 13:15:12.831147 (Thread-2): 13:15:12  Began running node model.dbtvault_snowflake_demo.raw_inventory
+2022-01-20 13:15:12.831445 (Thread-2): 13:15:12  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.raw_inventory"
+2022-01-20 13:15:12.831542 (Thread-2): 13:15:12  Began compiling node model.dbtvault_snowflake_demo.raw_inventory
+2022-01-20 13:15:12.831624 (Thread-2): 13:15:12  Compiling model.dbtvault_snowflake_demo.raw_inventory
+2022-01-20 13:15:12.881781 (Thread-3): 13:15:12  Began running node model.dbtvault_snowflake_demo.v_stg_orders
+2022-01-20 13:15:12.882157 (Thread-3): 13:15:12  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.v_stg_orders"
+2022-01-20 13:15:12.882299 (Thread-3): 13:15:12  Began compiling node model.dbtvault_snowflake_demo.v_stg_orders
+2022-01-20 13:15:12.882391 (Thread-3): 13:15:12  Compiling model.dbtvault_snowflake_demo.v_stg_orders
+2022-01-20 13:15:12.890701 (Thread-2): 13:15:12  Writing injected SQL for node "model.dbtvault_snowflake_demo.raw_inventory"
+2022-01-20 13:15:12.900410 (Thread-4): 13:15:12  Using snowflake connection "model.dbtvault_snowflake_demo.v_stg_transactions"
+2022-01-20 13:15:12.900521 (Thread-4): 13:15:12  On model.dbtvault_snowflake_demo.v_stg_transactions: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.v_stg_transactions"} */
+
+    describe table PC_DBT_DB.dbt_abasak_CUST_DETAIL.raw_transactions
+2022-01-20 13:15:12.900613 (Thread-4): 13:15:12  Opening a new connection, currently in state init
+2022-01-20 13:15:12.910508 (Thread-3): 13:15:12  Using snowflake connection "model.dbtvault_snowflake_demo.v_stg_orders"
+2022-01-20 13:15:12.910616 (Thread-3): 13:15:12  On model.dbtvault_snowflake_demo.v_stg_orders: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.v_stg_orders"} */
+
+    describe table PC_DBT_DB.dbt_abasak_CUST_DETAIL.raw_orders
+2022-01-20 13:15:12.910700 (Thread-3): 13:15:12  Opening a new connection, currently in state init
+2022-01-20 13:15:12.917505 (Thread-2): 13:15:12  finished collecting timing info
+2022-01-20 13:15:12.917669 (Thread-2): 13:15:12  Began executing node model.dbtvault_snowflake_demo.raw_inventory
+2022-01-20 13:15:12.917793 (Thread-2): 13:15:12  finished collecting timing info
+2022-01-20 13:15:12.918094 (Thread-2): 13:15:12  Finished running node model.dbtvault_snowflake_demo.raw_inventory
+2022-01-20 13:15:12.918768 (Thread-1): 13:15:12  Began running node model.dbtvault_snowflake_demo.v_stg_inventory
+2022-01-20 13:15:12.919154 (Thread-1): 13:15:12  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.v_stg_inventory"
+2022-01-20 13:15:12.919262 (Thread-1): 13:15:12  Began compiling node model.dbtvault_snowflake_demo.v_stg_inventory
+2022-01-20 13:15:12.919348 (Thread-1): 13:15:12  Compiling model.dbtvault_snowflake_demo.v_stg_inventory
+2022-01-20 13:15:12.931668 (Thread-1): 13:15:12  Using snowflake connection "model.dbtvault_snowflake_demo.v_stg_inventory"
+2022-01-20 13:15:12.931782 (Thread-1): 13:15:12  On model.dbtvault_snowflake_demo.v_stg_inventory: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.v_stg_inventory"} */
+
+    describe table PC_DBT_DB.dbt_abasak_CUST_DETAIL.raw_inventory
+2022-01-20 13:15:12.931869 (Thread-1): 13:15:12  Opening a new connection, currently in state closed
+2022-01-20 13:15:13.518119 (Thread-1): 13:15:13  Snowflake adapter: Snowflake query id: 01a1c19b-0a02-8754-0000-0001fe3a5579
+2022-01-20 13:15:13.518329 (Thread-1): 13:15:13  Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'PC_DBT_DB.DBT_ABASAK_CUST_DETAIL' does not exist or not authorized.
+2022-01-20 13:15:13.518502 (Thread-1): 13:15:13  Snowflake adapter: Error running SQL: macro get_columns_in_relation
+2022-01-20 13:15:13.518580 (Thread-1): 13:15:13  Snowflake adapter: Rolling back transaction.
+2022-01-20 13:15:13.546472 (Thread-1): 13:15:13  Using snowflake connection "model.dbtvault_snowflake_demo.v_stg_inventory"
+2022-01-20 13:15:13.546611 (Thread-1): 13:15:13  On model.dbtvault_snowflake_demo.v_stg_inventory: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.v_stg_inventory"} */
+
+    describe table PC_DBT_DB.dbt_abasak_CUST_DETAIL.raw_inventory
+2022-01-20 13:15:13.549509 (Thread-3): 13:15:13  Snowflake adapter: Snowflake query id: 01a1c19b-0a02-8775-0000-0001fe3a65d1
+2022-01-20 13:15:13.549631 (Thread-3): 13:15:13  Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'PC_DBT_DB.DBT_ABASAK_CUST_DETAIL' does not exist or not authorized.
+2022-01-20 13:15:13.549787 (Thread-3): 13:15:13  Snowflake adapter: Error running SQL: macro get_columns_in_relation
+2022-01-20 13:15:13.549866 (Thread-3): 13:15:13  Snowflake adapter: Rolling back transaction.
+2022-01-20 13:15:13.552693 (Thread-3): 13:15:13  Using snowflake connection "model.dbtvault_snowflake_demo.v_stg_orders"
+2022-01-20 13:15:13.552800 (Thread-3): 13:15:13  On model.dbtvault_snowflake_demo.v_stg_orders: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.v_stg_orders"} */
+
+    describe table PC_DBT_DB.dbt_abasak_CUST_DETAIL.raw_orders
+2022-01-20 13:15:13.636845 (Thread-74): handling poll request
+2022-01-20 13:15:13.637159 (Thread-74): 13:15:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bf00c9a60>]}
+2022-01-20 13:15:13.638473 (Thread-74): sending response (<Response 29721 bytes [200 OK]>) to 10.0.3.189
+2022-01-20 13:15:13.693444 (Thread-4): 13:15:13  Snowflake adapter: Snowflake query id: 01a1c19b-0a02-8754-0000-0001fe3a557d
+2022-01-20 13:15:13.693595 (Thread-4): 13:15:13  Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'PC_DBT_DB.DBT_ABASAK_CUST_DETAIL' does not exist or not authorized.
+2022-01-20 13:15:13.693749 (Thread-4): 13:15:13  Snowflake adapter: Error running SQL: macro get_columns_in_relation
+2022-01-20 13:15:13.693824 (Thread-4): 13:15:13  Snowflake adapter: Rolling back transaction.
+2022-01-20 13:15:13.696996 (Thread-4): 13:15:13  Using snowflake connection "model.dbtvault_snowflake_demo.v_stg_transactions"
+2022-01-20 13:15:13.697151 (Thread-4): 13:15:13  On model.dbtvault_snowflake_demo.v_stg_transactions: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "model.dbtvault_snowflake_demo.v_stg_transactions"} */
+
+    describe table PC_DBT_DB.dbt_abasak_CUST_DETAIL.raw_transactions
+2022-01-20 13:15:13.733479 (Thread-3): 13:15:13  Snowflake adapter: Snowflake query id: 01a1c19b-0a02-8754-0000-0001fe3a5581
+2022-01-20 13:15:13.733595 (Thread-3): 13:15:13  Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'PC_DBT_DB.DBT_ABASAK_CUST_DETAIL' does not exist or not authorized.
+2022-01-20 13:15:13.733734 (Thread-3): 13:15:13  Snowflake adapter: Error running SQL: macro get_columns_in_relation
+2022-01-20 13:15:13.733806 (Thread-3): 13:15:13  Snowflake adapter: Rolling back transaction.
+2022-01-20 13:15:13.781046 (Thread-3): 13:15:13  Writing injected SQL for node "model.dbtvault_snowflake_demo.v_stg_orders"
+2022-01-20 13:15:13.797793 (Thread-4): 13:15:13  Snowflake adapter: Snowflake query id: 01a1c19b-0a02-8754-0000-0001fe3a5585
+2022-01-20 13:15:13.797912 (Thread-4): 13:15:13  Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'PC_DBT_DB.DBT_ABASAK_CUST_DETAIL' does not exist or not authorized.
+2022-01-20 13:15:13.798041 (Thread-4): 13:15:13  Snowflake adapter: Error running SQL: macro get_columns_in_relation
+2022-01-20 13:15:13.798114 (Thread-4): 13:15:13  Snowflake adapter: Rolling back transaction.
+2022-01-20 13:15:13.801022 (Thread-4): 13:15:13  Writing injected SQL for node "model.dbtvault_snowflake_demo.v_stg_transactions"
+2022-01-20 13:15:13.806387 (Thread-3): 13:15:13  finished collecting timing info
+2022-01-20 13:15:13.806548 (Thread-3): 13:15:13  Began executing node model.dbtvault_snowflake_demo.v_stg_orders
+2022-01-20 13:15:13.806653 (Thread-3): 13:15:13  finished collecting timing info
+2022-01-20 13:15:13.806767 (Thread-3): 13:15:13  On model.dbtvault_snowflake_demo.v_stg_orders: Close
+2022-01-20 13:15:13.813274 (Thread-4): 13:15:13  finished collecting timing info
+2022-01-20 13:15:13.813418 (Thread-4): 13:15:13  Began executing node model.dbtvault_snowflake_demo.v_stg_transactions
+2022-01-20 13:15:13.813516 (Thread-4): 13:15:13  finished collecting timing info
+2022-01-20 13:15:13.813620 (Thread-4): 13:15:13  On model.dbtvault_snowflake_demo.v_stg_transactions: Close
+2022-01-20 13:15:13.833415 (Thread-1): 13:15:13  Snowflake adapter: Snowflake query id: 01a1c19b-0a02-8775-0000-0001fe3a65d5
+2022-01-20 13:15:13.833594 (Thread-1): 13:15:13  Snowflake adapter: Snowflake error: 002003 (02000): SQL compilation error:
+Schema 'PC_DBT_DB.DBT_ABASAK_CUST_DETAIL' does not exist or not authorized.
+2022-01-20 13:15:13.833761 (Thread-1): 13:15:13  Snowflake adapter: Error running SQL: macro get_columns_in_relation
+2022-01-20 13:15:13.833842 (Thread-1): 13:15:13  Snowflake adapter: Rolling back transaction.
+2022-01-20 13:15:13.847315 (Thread-1): 13:15:13  Writing injected SQL for node "model.dbtvault_snowflake_demo.v_stg_inventory"
+2022-01-20 13:15:13.871169 (Thread-1): 13:15:13  finished collecting timing info
+2022-01-20 13:15:13.871331 (Thread-1): 13:15:13  Began executing node model.dbtvault_snowflake_demo.v_stg_inventory
+2022-01-20 13:15:13.871451 (Thread-1): 13:15:13  finished collecting timing info
+2022-01-20 13:15:13.871565 (Thread-1): 13:15:13  On model.dbtvault_snowflake_demo.v_stg_inventory: Close
+2022-01-20 13:15:13.918677 (Thread-4): 13:15:13  Finished running node model.dbtvault_snowflake_demo.v_stg_transactions
+2022-01-20 13:15:13.919317 (Thread-2): 13:15:13  Began running node model.dbtvault_snowflake_demo.t_link_transactions
+2022-01-20 13:15:13.919654 (Thread-2): 13:15:13  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.t_link_transactions"
+2022-01-20 13:15:13.919771 (Thread-2): 13:15:13  Began compiling node model.dbtvault_snowflake_demo.t_link_transactions
+2022-01-20 13:15:13.919864 (Thread-2): 13:15:13  Compiling model.dbtvault_snowflake_demo.t_link_transactions
+2022-01-20 13:15:13.952004 (Thread-3): 13:15:13  Finished running node model.dbtvault_snowflake_demo.v_stg_orders
+2022-01-20 13:15:13.980979 (Thread-2): 13:15:13  Writing injected SQL for node "model.dbtvault_snowflake_demo.t_link_transactions"
+2022-01-20 13:15:13.981293 (Thread-4): 13:15:13  Began running node model.dbtvault_snowflake_demo.hub_customer
+2022-01-20 13:15:13.981599 (Thread-4): 13:15:13  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.hub_customer"
+2022-01-20 13:15:13.981700 (Thread-4): 13:15:13  Began compiling node model.dbtvault_snowflake_demo.hub_customer
+2022-01-20 13:15:13.981793 (Thread-4): 13:15:13  Compiling model.dbtvault_snowflake_demo.hub_customer
+2022-01-20 13:15:13.986499 (Thread-3): 13:15:13  Began running node model.dbtvault_snowflake_demo.hub_lineitem
+2022-01-20 13:15:13.986778 (Thread-3): 13:15:13  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.hub_lineitem"
+2022-01-20 13:15:13.986872 (Thread-3): 13:15:13  Began compiling node model.dbtvault_snowflake_demo.hub_lineitem
+2022-01-20 13:15:13.986955 (Thread-3): 13:15:13  Compiling model.dbtvault_snowflake_demo.hub_lineitem
+2022-01-20 13:15:14.021220 (Thread-4): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.hub_customer"
+2022-01-20 13:15:14.028954 (Thread-3): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.hub_lineitem"
+2022-01-20 13:15:14.030185 (Thread-1): 13:15:14  Finished running node model.dbtvault_snowflake_demo.v_stg_inventory
+2022-01-20 13:15:14.030351 (Thread-1): 13:15:14  Began running node model.dbtvault_snowflake_demo.hub_order
+2022-01-20 13:15:14.030592 (Thread-1): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.hub_order"
+2022-01-20 13:15:14.030687 (Thread-1): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.hub_order
+2022-01-20 13:15:14.030773 (Thread-1): 13:15:14  Compiling model.dbtvault_snowflake_demo.hub_order
+2022-01-20 13:15:14.035555 (Thread-2): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.035696 (Thread-2): 13:15:14  Began executing node model.dbtvault_snowflake_demo.t_link_transactions
+2022-01-20 13:15:14.035800 (Thread-2): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.036075 (Thread-2): 13:15:14  Finished running node model.dbtvault_snowflake_demo.t_link_transactions
+2022-01-20 13:15:14.036202 (Thread-2): 13:15:14  Began running node model.dbtvault_snowflake_demo.link_customer_nation
+2022-01-20 13:15:14.036421 (Thread-2): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.link_customer_nation"
+2022-01-20 13:15:14.036509 (Thread-2): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.link_customer_nation
+2022-01-20 13:15:14.036589 (Thread-2): 13:15:14  Compiling model.dbtvault_snowflake_demo.link_customer_nation
+2022-01-20 13:15:14.041830 (Thread-1): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.hub_order"
+2022-01-20 13:15:14.061841 (Thread-3): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.061980 (Thread-3): 13:15:14  Began executing node model.dbtvault_snowflake_demo.hub_lineitem
+2022-01-20 13:15:14.062078 (Thread-3): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.062359 (Thread-3): 13:15:14  Finished running node model.dbtvault_snowflake_demo.hub_lineitem
+2022-01-20 13:15:14.062512 (Thread-3): 13:15:14  Began running node model.dbtvault_snowflake_demo.link_customer_order
+2022-01-20 13:15:14.062737 (Thread-3): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.link_customer_order"
+2022-01-20 13:15:14.062827 (Thread-3): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.link_customer_order
+2022-01-20 13:15:14.062908 (Thread-3): 13:15:14  Compiling model.dbtvault_snowflake_demo.link_customer_order
+2022-01-20 13:15:14.067721 (Thread-2): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.link_customer_nation"
+2022-01-20 13:15:14.069958 (Thread-3): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.link_customer_order"
+2022-01-20 13:15:14.071190 (Thread-4): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.071335 (Thread-4): 13:15:14  Began executing node model.dbtvault_snowflake_demo.hub_customer
+2022-01-20 13:15:14.071435 (Thread-4): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.071699 (Thread-4): 13:15:14  Finished running node model.dbtvault_snowflake_demo.hub_customer
+2022-01-20 13:15:14.071833 (Thread-4): 13:15:14  Began running node model.dbtvault_snowflake_demo.link_inventory_allocation
+2022-01-20 13:15:14.072054 (Thread-4): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.link_inventory_allocation"
+2022-01-20 13:15:14.072144 (Thread-4): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.link_inventory_allocation
+2022-01-20 13:15:14.072223 (Thread-4): 13:15:14  Compiling model.dbtvault_snowflake_demo.link_inventory_allocation
+2022-01-20 13:15:14.076672 (Thread-1): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.076801 (Thread-1): 13:15:14  Began executing node model.dbtvault_snowflake_demo.hub_order
+2022-01-20 13:15:14.076897 (Thread-1): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.077205 (Thread-1): 13:15:14  Finished running node model.dbtvault_snowflake_demo.hub_order
+2022-01-20 13:15:14.077334 (Thread-1): 13:15:14  Began running node model.dbtvault_snowflake_demo.link_order_lineitem
+2022-01-20 13:15:14.077582 (Thread-1): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.link_order_lineitem"
+2022-01-20 13:15:14.077692 (Thread-1): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.link_order_lineitem
+2022-01-20 13:15:14.077774 (Thread-1): 13:15:14  Compiling model.dbtvault_snowflake_demo.link_order_lineitem
+2022-01-20 13:15:14.083701 (Thread-4): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.link_inventory_allocation"
+2022-01-20 13:15:14.086383 (Thread-1): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.link_order_lineitem"
+2022-01-20 13:15:14.090554 (Thread-3): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.090698 (Thread-3): 13:15:14  Began executing node model.dbtvault_snowflake_demo.link_customer_order
+2022-01-20 13:15:14.090795 (Thread-3): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.091071 (Thread-3): 13:15:14  Finished running node model.dbtvault_snowflake_demo.link_customer_order
+2022-01-20 13:15:14.091209 (Thread-3): 13:15:14  Began running node model.dbtvault_snowflake_demo.sat_order_cust_nation_details
+2022-01-20 13:15:14.091433 (Thread-3): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_order_cust_nation_details"
+2022-01-20 13:15:14.091524 (Thread-3): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.sat_order_cust_nation_details
+2022-01-20 13:15:14.091605 (Thread-3): 13:15:14  Compiling model.dbtvault_snowflake_demo.sat_order_cust_nation_details
+2022-01-20 13:15:14.095892 (Thread-2): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.096017 (Thread-2): 13:15:14  Began executing node model.dbtvault_snowflake_demo.link_customer_nation
+2022-01-20 13:15:14.096110 (Thread-2): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.096361 (Thread-2): 13:15:14  Finished running node model.dbtvault_snowflake_demo.link_customer_nation
+2022-01-20 13:15:14.096484 (Thread-2): 13:15:14  Began running node model.dbtvault_snowflake_demo.sat_order_cust_region_details
+2022-01-20 13:15:14.096694 (Thread-2): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_order_cust_region_details"
+2022-01-20 13:15:14.096781 (Thread-2): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.sat_order_cust_region_details
+2022-01-20 13:15:14.096859 (Thread-2): 13:15:14  Compiling model.dbtvault_snowflake_demo.sat_order_cust_region_details
+2022-01-20 13:15:14.132335 (Thread-4): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.132523 (Thread-4): 13:15:14  Began executing node model.dbtvault_snowflake_demo.link_inventory_allocation
+2022-01-20 13:15:14.132630 (Thread-4): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.132933 (Thread-4): 13:15:14  Finished running node model.dbtvault_snowflake_demo.link_inventory_allocation
+2022-01-20 13:15:14.133077 (Thread-4): 13:15:14  Began running node model.dbtvault_snowflake_demo.sat_order_customer_details
+2022-01-20 13:15:14.133356 (Thread-4): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_order_customer_details"
+2022-01-20 13:15:14.133451 (Thread-4): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.sat_order_customer_details
+2022-01-20 13:15:14.133533 (Thread-4): 13:15:14  Compiling model.dbtvault_snowflake_demo.sat_order_customer_details
+2022-01-20 13:15:14.137826 (Thread-1): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.137971 (Thread-1): 13:15:14  Began executing node model.dbtvault_snowflake_demo.link_order_lineitem
+2022-01-20 13:15:14.138068 (Thread-1): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.138322 (Thread-1): 13:15:14  Finished running node model.dbtvault_snowflake_demo.link_order_lineitem
+2022-01-20 13:15:14.138455 (Thread-1): 13:15:14  Began running node model.dbtvault_snowflake_demo.sat_order_lineitem_details
+2022-01-20 13:15:14.138675 (Thread-1): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_order_lineitem_details"
+2022-01-20 13:15:14.138787 (Thread-1): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.sat_order_lineitem_details
+2022-01-20 13:15:14.138873 (Thread-1): 13:15:14  Compiling model.dbtvault_snowflake_demo.sat_order_lineitem_details
+2022-01-20 13:15:14.186136 (Thread-2): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_order_cust_region_details"
+2022-01-20 13:15:14.192766 (Thread-3): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_order_cust_nation_details"
+2022-01-20 13:15:14.197046 (Thread-1): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_order_lineitem_details"
+2022-01-20 13:15:14.201033 (Thread-4): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_order_customer_details"
+2022-01-20 13:15:14.206090 (Thread-2): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.206271 (Thread-2): 13:15:14  Began executing node model.dbtvault_snowflake_demo.sat_order_cust_region_details
+2022-01-20 13:15:14.206383 (Thread-2): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.206696 (Thread-2): 13:15:14  Finished running node model.dbtvault_snowflake_demo.sat_order_cust_region_details
+2022-01-20 13:15:14.206843 (Thread-2): 13:15:14  Began running node model.dbtvault_snowflake_demo.sat_order_order_details
+2022-01-20 13:15:14.207079 (Thread-2): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_order_order_details"
+2022-01-20 13:15:14.207174 (Thread-2): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.sat_order_order_details
+2022-01-20 13:15:14.207259 (Thread-2): 13:15:14  Compiling model.dbtvault_snowflake_demo.sat_order_order_details
+2022-01-20 13:15:14.211960 (Thread-3): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.212118 (Thread-3): 13:15:14  Began executing node model.dbtvault_snowflake_demo.sat_order_cust_nation_details
+2022-01-20 13:15:14.212220 (Thread-3): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.212504 (Thread-3): 13:15:14  Finished running node model.dbtvault_snowflake_demo.sat_order_cust_nation_details
+2022-01-20 13:15:14.212646 (Thread-3): 13:15:14  Began running node model.dbtvault_snowflake_demo.hub_nation
+2022-01-20 13:15:14.212876 (Thread-3): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.hub_nation"
+2022-01-20 13:15:14.212969 (Thread-3): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.hub_nation
+2022-01-20 13:15:14.213054 (Thread-3): 13:15:14  Compiling model.dbtvault_snowflake_demo.hub_nation
+2022-01-20 13:15:14.226378 (Thread-3): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.hub_nation"
+2022-01-20 13:15:14.227667 (Thread-2): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_order_order_details"
+2022-01-20 13:15:14.232713 (Thread-4): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.232857 (Thread-4): 13:15:14  Began executing node model.dbtvault_snowflake_demo.sat_order_customer_details
+2022-01-20 13:15:14.232957 (Thread-4): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.233270 (Thread-4): 13:15:14  Finished running node model.dbtvault_snowflake_demo.sat_order_customer_details
+2022-01-20 13:15:14.233411 (Thread-4): 13:15:14  Began running node model.dbtvault_snowflake_demo.hub_part
+2022-01-20 13:15:14.233637 (Thread-4): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.hub_part"
+2022-01-20 13:15:14.233731 (Thread-4): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.hub_part
+2022-01-20 13:15:14.233813 (Thread-4): 13:15:14  Compiling model.dbtvault_snowflake_demo.hub_part
+2022-01-20 13:15:14.238265 (Thread-1): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.238415 (Thread-1): 13:15:14  Began executing node model.dbtvault_snowflake_demo.sat_order_lineitem_details
+2022-01-20 13:15:14.238523 (Thread-1): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.238792 (Thread-1): 13:15:14  Finished running node model.dbtvault_snowflake_demo.sat_order_lineitem_details
+2022-01-20 13:15:14.238956 (Thread-1): 13:15:14  Began running node model.dbtvault_snowflake_demo.hub_region
+2022-01-20 13:15:14.239195 (Thread-1): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.hub_region"
+2022-01-20 13:15:14.239293 (Thread-1): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.hub_region
+2022-01-20 13:15:14.239380 (Thread-1): 13:15:14  Compiling model.dbtvault_snowflake_demo.hub_region
+2022-01-20 13:15:14.247393 (Thread-4): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.hub_part"
+2022-01-20 13:15:14.252678 (Thread-3): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.252806 (Thread-3): 13:15:14  Began executing node model.dbtvault_snowflake_demo.hub_nation
+2022-01-20 13:15:14.252903 (Thread-3): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.253224 (Thread-3): 13:15:14  Finished running node model.dbtvault_snowflake_demo.hub_nation
+2022-01-20 13:15:14.253352 (Thread-3): 13:15:14  Began running node model.dbtvault_snowflake_demo.hub_supplier
+2022-01-20 13:15:14.253573 (Thread-3): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.hub_supplier"
+2022-01-20 13:15:14.253662 (Thread-3): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.hub_supplier
+2022-01-20 13:15:14.253743 (Thread-3): 13:15:14  Compiling model.dbtvault_snowflake_demo.hub_supplier
+2022-01-20 13:15:14.257813 (Thread-1): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.hub_region"
+2022-01-20 13:15:14.261407 (Thread-3): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.hub_supplier"
+2022-01-20 13:15:14.265964 (Thread-2): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.266102 (Thread-2): 13:15:14  Began executing node model.dbtvault_snowflake_demo.sat_order_order_details
+2022-01-20 13:15:14.266200 (Thread-2): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.266450 (Thread-2): 13:15:14  Finished running node model.dbtvault_snowflake_demo.sat_order_order_details
+2022-01-20 13:15:14.266581 (Thread-2): 13:15:14  Began running node model.dbtvault_snowflake_demo.link_inventory
+2022-01-20 13:15:14.266797 (Thread-2): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.link_inventory"
+2022-01-20 13:15:14.266887 (Thread-2): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.link_inventory
+2022-01-20 13:15:14.266966 (Thread-2): 13:15:14  Compiling model.dbtvault_snowflake_demo.link_inventory
+2022-01-20 13:15:14.271302 (Thread-4): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.271431 (Thread-4): 13:15:14  Began executing node model.dbtvault_snowflake_demo.hub_part
+2022-01-20 13:15:14.271525 (Thread-4): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.271781 (Thread-4): 13:15:14  Finished running node model.dbtvault_snowflake_demo.hub_part
+2022-01-20 13:15:14.271912 (Thread-4): 13:15:14  Began running node model.dbtvault_snowflake_demo.link_nation_region
+2022-01-20 13:15:14.272126 (Thread-4): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.link_nation_region"
+2022-01-20 13:15:14.272211 (Thread-4): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.link_nation_region
+2022-01-20 13:15:14.272286 (Thread-4): 13:15:14  Compiling model.dbtvault_snowflake_demo.link_nation_region
+2022-01-20 13:15:14.278088 (Thread-2): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.link_inventory"
+2022-01-20 13:15:14.281365 (Thread-4): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.link_nation_region"
+2022-01-20 13:15:14.287293 (Thread-1): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.287431 (Thread-1): 13:15:14  Began executing node model.dbtvault_snowflake_demo.hub_region
+2022-01-20 13:15:14.287556 (Thread-1): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.287826 (Thread-1): 13:15:14  Finished running node model.dbtvault_snowflake_demo.hub_region
+2022-01-20 13:15:14.287961 (Thread-1): 13:15:14  Began running node model.dbtvault_snowflake_demo.link_supplier_nation
+2022-01-20 13:15:14.288178 (Thread-1): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.link_supplier_nation"
+2022-01-20 13:15:14.288268 (Thread-1): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.link_supplier_nation
+2022-01-20 13:15:14.288347 (Thread-1): 13:15:14  Compiling model.dbtvault_snowflake_demo.link_supplier_nation
+2022-01-20 13:15:14.292800 (Thread-3): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.292922 (Thread-3): 13:15:14  Began executing node model.dbtvault_snowflake_demo.hub_supplier
+2022-01-20 13:15:14.293016 (Thread-3): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.293298 (Thread-3): 13:15:14  Finished running node model.dbtvault_snowflake_demo.hub_supplier
+2022-01-20 13:15:14.293436 (Thread-3): 13:15:14  Began running node model.dbtvault_snowflake_demo.sat_inv_inventory_details
+2022-01-20 13:15:14.293654 (Thread-3): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_inv_inventory_details"
+2022-01-20 13:15:14.293742 (Thread-3): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.sat_inv_inventory_details
+2022-01-20 13:15:14.293914 (Thread-3): 13:15:14  Compiling model.dbtvault_snowflake_demo.sat_inv_inventory_details
+2022-01-20 13:15:14.300398 (Thread-1): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.link_supplier_nation"
+2022-01-20 13:15:14.304601 (Thread-3): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_inv_inventory_details"
+2022-01-20 13:15:14.308582 (Thread-2): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.308723 (Thread-2): 13:15:14  Began executing node model.dbtvault_snowflake_demo.link_inventory
+2022-01-20 13:15:14.308821 (Thread-2): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.309079 (Thread-2): 13:15:14  Finished running node model.dbtvault_snowflake_demo.link_inventory
+2022-01-20 13:15:14.309239 (Thread-2): 13:15:14  Began running node model.dbtvault_snowflake_demo.sat_inv_part_details
+2022-01-20 13:15:14.309481 (Thread-2): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_inv_part_details"
+2022-01-20 13:15:14.309574 (Thread-2): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.sat_inv_part_details
+2022-01-20 13:15:14.309653 (Thread-2): 13:15:14  Compiling model.dbtvault_snowflake_demo.sat_inv_part_details
+2022-01-20 13:15:14.313843 (Thread-4): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.313970 (Thread-4): 13:15:14  Began executing node model.dbtvault_snowflake_demo.link_nation_region
+2022-01-20 13:15:14.314065 (Thread-4): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.314320 (Thread-4): 13:15:14  Finished running node model.dbtvault_snowflake_demo.link_nation_region
+2022-01-20 13:15:14.314439 (Thread-4): 13:15:14  Began running node model.dbtvault_snowflake_demo.sat_inv_supp_nation_details
+2022-01-20 13:15:14.314647 (Thread-4): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_inv_supp_nation_details"
+2022-01-20 13:15:14.314734 (Thread-4): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.sat_inv_supp_nation_details
+2022-01-20 13:15:14.314811 (Thread-4): 13:15:14  Compiling model.dbtvault_snowflake_demo.sat_inv_supp_nation_details
+2022-01-20 13:15:14.327798 (Thread-4): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_inv_supp_nation_details"
+2022-01-20 13:15:14.329361 (Thread-2): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_inv_part_details"
+2022-01-20 13:15:14.329674 (Thread-1): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.329826 (Thread-1): 13:15:14  Began executing node model.dbtvault_snowflake_demo.link_supplier_nation
+2022-01-20 13:15:14.329933 (Thread-1): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.330219 (Thread-1): 13:15:14  Finished running node model.dbtvault_snowflake_demo.link_supplier_nation
+2022-01-20 13:15:14.330374 (Thread-1): 13:15:14  Began running node model.dbtvault_snowflake_demo.sat_inv_supp_region_details
+2022-01-20 13:15:14.330622 (Thread-1): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_inv_supp_region_details"
+2022-01-20 13:15:14.330726 (Thread-1): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.sat_inv_supp_region_details
+2022-01-20 13:15:14.330823 (Thread-1): 13:15:14  Compiling model.dbtvault_snowflake_demo.sat_inv_supp_region_details
+2022-01-20 13:15:14.340199 (Thread-1): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_inv_supp_region_details"
+2022-01-20 13:15:14.344836 (Thread-3): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.344981 (Thread-3): 13:15:14  Began executing node model.dbtvault_snowflake_demo.sat_inv_inventory_details
+2022-01-20 13:15:14.345098 (Thread-3): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.345401 (Thread-3): 13:15:14  Finished running node model.dbtvault_snowflake_demo.sat_inv_inventory_details
+2022-01-20 13:15:14.345541 (Thread-3): 13:15:14  Began running node model.dbtvault_snowflake_demo.sat_inv_supplier_details
+2022-01-20 13:15:14.345763 (Thread-3): 13:15:14  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.sat_inv_supplier_details"
+2022-01-20 13:15:14.345853 (Thread-3): 13:15:14  Began compiling node model.dbtvault_snowflake_demo.sat_inv_supplier_details
+2022-01-20 13:15:14.345931 (Thread-3): 13:15:14  Compiling model.dbtvault_snowflake_demo.sat_inv_supplier_details
+2022-01-20 13:15:14.350254 (Thread-2): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.350385 (Thread-2): 13:15:14  Began executing node model.dbtvault_snowflake_demo.sat_inv_part_details
+2022-01-20 13:15:14.350480 (Thread-2): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.350724 (Thread-2): 13:15:14  Finished running node model.dbtvault_snowflake_demo.sat_inv_part_details
+2022-01-20 13:15:14.350963 (Thread-4): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.351096 (Thread-4): 13:15:14  Began executing node model.dbtvault_snowflake_demo.sat_inv_supp_nation_details
+2022-01-20 13:15:14.351194 (Thread-4): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.351604 (Thread-4): 13:15:14  Finished running node model.dbtvault_snowflake_demo.sat_inv_supp_nation_details
+2022-01-20 13:15:14.357164 (Thread-3): 13:15:14  Writing injected SQL for node "model.dbtvault_snowflake_demo.sat_inv_supplier_details"
+2022-01-20 13:15:14.362204 (Thread-1): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.362356 (Thread-1): 13:15:14  Began executing node model.dbtvault_snowflake_demo.sat_inv_supp_region_details
+2022-01-20 13:15:14.362456 (Thread-1): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.362732 (Thread-1): 13:15:14  Finished running node model.dbtvault_snowflake_demo.sat_inv_supp_region_details
+2022-01-20 13:15:14.370267 (Thread-3): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.370412 (Thread-3): 13:15:14  Began executing node model.dbtvault_snowflake_demo.sat_inv_supplier_details
+2022-01-20 13:15:14.370510 (Thread-3): 13:15:14  finished collecting timing info
+2022-01-20 13:15:14.370775 (Thread-3): 13:15:14  Finished running node model.dbtvault_snowflake_demo.sat_inv_supplier_details
+2022-01-20 13:15:14.372143 (MainThread): 13:15:14  Connection 'master' was properly closed.
+2022-01-20 13:15:14.372261 (MainThread): 13:15:14  Connection 'model.dbtvault_snowflake_demo.sat_inv_supp_region_details' was properly closed.
+2022-01-20 13:15:14.372337 (MainThread): 13:15:14  Connection 'model.dbtvault_snowflake_demo.sat_inv_part_details' was properly closed.
+2022-01-20 13:15:14.372406 (MainThread): 13:15:14  Connection 'model.dbtvault_snowflake_demo.sat_inv_supp_nation_details' was properly closed.
+2022-01-20 13:15:14.372474 (MainThread): 13:15:14  Connection 'model.dbtvault_snowflake_demo.sat_inv_supplier_details' was properly closed.
+2022-01-20 13:15:14.467659 (MainThread): 13:15:14  Done.
+2022-01-20 13:15:15.685078 (Thread-75): handling poll request
+2022-01-20 13:15:15.685443 (Thread-75): 13:15:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b85755bb0>]}
+2022-01-20 13:15:15.691326 (Thread-75): sending response (<Response 245599 bytes [200 OK]>) to 10.0.33.1
+2022-01-20 13:15:18.305330 (Thread-76): handling status request
+2022-01-20 13:15:18.305659 (Thread-76): 13:15:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b85762370>]}
+2022-01-20 13:15:18.306104 (Thread-76): sending response (<Response 1241 bytes [200 OK]>) to 10.0.22.61
+2022-01-20 13:15:18.318046 (Thread-77): handling status request
+2022-01-20 13:15:18.318307 (Thread-77): 13:15:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bc815df10>]}
+2022-01-20 13:15:18.318721 (Thread-77): sending response (<Response 1241 bytes [200 OK]>) to 10.0.34.73
+2022-01-20 13:16:59.931898 (Thread-78): handling status request
+2022-01-20 13:16:59.933276 (Thread-78): 13:16:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '127359f9-d461-402e-82d9-61bca1da8e10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7bc815c670>]}
+2022-01-20 13:16:59.933774 (Thread-78): sending response (<Response 1241 bytes [200 OK]>) to 10.0.31.49
