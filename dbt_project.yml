@@ -27,18 +27,18 @@ models:
       tags:
         - 'raw'
       materialized: view
-      +schema: DBT_POC
+      +schema: "{{env_var('DBT_TGT_SCHEMA') }}"
     stage:
       tags:
         - 'stage'
       enabled: true
       materialized: view
-      +schema: DBT_POC
+      +schema: "{{env_var('DBT_TGT_SCHEMA') }}"
     raw_vault:
       tags:
         - 'raw_vault'
       materialized: incremental
-      +schema: DBT_POC
+      +schema: "{{env_var('DBT_TGT_SCHEMA') }}"
       hubs:
         tags:
           - 'hub'
