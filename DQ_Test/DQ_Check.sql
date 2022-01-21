@@ -17,18 +17,16 @@
     {%- endcall -%}
 {% endfor %}
 
+{%- call statement('DQ_RESULT_VALIDATE', fetch_result=True) -%}
+    SELECT count(*) from "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" WHERE OUTPUT_RESULT <> EXPECTED_RESULT
+{%- endcall -%}
 
+ {%- set DQ_Issue = load_result('DQ_RESULT_VALIDATE')['data'][0][0] -%}
 
+    {% if DQ_Issue==0  %} 
 
-
-
-
-{%- set Query_statement = load_result('DQ_CONFIG') -%}
-
-
-
-
-
-
-
-select 1 as temp where 1=2
+            select 1 as temp where 1=2
+    {% else %}
+            select 1 as temp 
+     {% endif %}
+    

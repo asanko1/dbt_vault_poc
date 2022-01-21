@@ -40194,3 +40194,1048 @@ select
 2022-01-21 20:24:29.840925 (Thread-532): handling status request
 2022-01-21 20:24:29.841265 (Thread-532): 20:24:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473ef9190>]}
 2022-01-21 20:24:29.841739 (Thread-532): sending response (<Response 1262 bytes [200 OK]>) to 10.0.6.71
+2022-01-21 20:24:33.335857 (Thread-533): 20:24:33  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-21 20:24:33.336085 (Thread-533): 20:24:33  Partial parsing enabled, no changes found, skipping parsing
+2022-01-21 20:24:33.343485 (Thread-533): 20:24:33  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473ad0ac0>]}
+2022-01-21 20:24:33.806928 (Thread-534): handling status request
+2022-01-21 20:24:33.807279 (Thread-534): 20:24:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473f00a90>]}
+2022-01-21 20:24:33.807776 (Thread-534): sending response (<Response 1244 bytes [200 OK]>) to 10.0.45.208
+2022-01-21 20:24:34.613992 (Thread-535): handling status request
+2022-01-21 20:24:34.614348 (Thread-535): 20:24:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473b0e580>]}
+2022-01-21 20:24:34.614813 (Thread-535): sending response (<Response 1244 bytes [200 OK]>) to 10.0.0.242
+2022-01-21 20:34:36.254400 (Thread-536): 20:34:36  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-21 20:34:36.256835 (Thread-536): 20:34:36  Partial parsing: updated file: dbtvault_snowflake_demo://DQ_Test/DQ_Check.sql
+2022-01-21 20:34:36.325614 (Thread-536): 20:34:36  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473976e80>]}
+2022-01-21 20:34:38.303449 (Thread-537): handling status request
+2022-01-21 20:34:38.303784 (Thread-537): 20:34:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473b640d0>]}
+2022-01-21 20:34:38.304262 (Thread-537): sending response (<Response 1262 bytes [200 OK]>) to 10.0.38.208
+2022-01-21 20:34:38.348058 (Thread-538): handling status request
+2022-01-21 20:34:38.348344 (Thread-538): 20:34:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473b64610>]}
+2022-01-21 20:34:38.348823 (Thread-538): sending response (<Response 1262 bytes [200 OK]>) to 10.0.32.79
+2022-01-21 20:56:21.586644 (Thread-539): 20:56:21  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-21 20:56:21.588985 (Thread-539): 20:56:21  Partial parsing: updated file: dbtvault_snowflake_demo://DQ_Test/DQ_Check.sql
+2022-01-21 20:56:21.834139 (Thread-539): 20:56:21  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473d59580>]}
+2022-01-21 20:56:21.898134 (Thread-540): handling status request
+2022-01-21 20:56:21.898425 (Thread-540): 20:56:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04739b1280>]}
+2022-01-21 20:56:21.898879 (Thread-540): sending response (<Response 1262 bytes [200 OK]>) to 10.0.32.79
+2022-01-21 20:56:21.934666 (Thread-541): handling status request
+2022-01-21 20:56:21.934887 (Thread-541): 20:56:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04738c4d90>]}
+2022-01-21 20:56:21.935264 (Thread-541): sending response (<Response 1262 bytes [200 OK]>) to 10.0.22.149
+2022-01-21 20:59:45.427388 (Thread-542): 20:59:45  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-21 20:59:45.429392 (Thread-542): 20:59:45  Partial parsing: updated file: dbtvault_snowflake_demo://DQ_Test/DQ_Check.sql
+2022-01-21 20:59:45.793878 (Thread-543): handling status request
+2022-01-21 20:59:45.794213 (Thread-543): 20:59:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0488aaf940>]}
+2022-01-21 20:59:45.794684 (Thread-543): sending response (<Response 973 bytes [200 OK]>) to 10.0.38.208
+2022-01-21 20:59:45.858142 (Thread-544): handling status request
+2022-01-21 20:59:45.858446 (Thread-544): 20:59:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473f19760>]}
+2022-01-21 20:59:45.858891 (Thread-544): sending response (<Response 973 bytes [200 OK]>) to 10.0.14.136
+2022-01-21 21:00:32.410040 (Thread-545): 21:00:32  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-21 21:00:32.410689 (Thread-545): 21:00:32  Partial parsing: updated file: dbtvault_snowflake_demo://DQ_Test/DQ_Check.sql
+2022-01-21 21:00:33.123620 (Thread-546): handling status request
+2022-01-21 21:00:33.124016 (Thread-546): 21:00:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0488a4b520>]}
+2022-01-21 21:00:33.124539 (Thread-546): sending response (<Response 956 bytes [200 OK]>) to 10.0.47.57
+2022-01-21 21:00:33.726628 (Thread-547): handling status request
+2022-01-21 21:00:33.726962 (Thread-547): 21:00:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0488a4bc10>]}
+2022-01-21 21:00:33.727419 (Thread-547): sending response (<Response 956 bytes [200 OK]>) to 10.0.17.61
+2022-01-21 21:03:20.522966 (Thread-548): 21:03:20  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-21 21:03:20.525031 (Thread-548): 21:03:20  Partial parsing: updated file: dbtvault_snowflake_demo://DQ_Test/DQ_Check.sql
+2022-01-21 21:03:20.989677 (Thread-549): handling status request
+2022-01-21 21:03:20.990016 (Thread-549): 21:03:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f047395a280>]}
+2022-01-21 21:03:21.014323 (Thread-549): sending response (<Response 956 bytes [200 OK]>) to 10.0.32.79
+2022-01-21 21:03:21.117368 (Thread-550): handling status request
+2022-01-21 21:03:21.117649 (Thread-550): 21:03:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473ae78e0>]}
+2022-01-21 21:03:21.118055 (Thread-550): sending response (<Response 956 bytes [200 OK]>) to 10.0.32.79
+2022-01-21 21:11:01.472204 (Thread-551): 21:11:01  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-21 21:11:01.474361 (Thread-551): 21:11:01  Partial parsing: updated file: dbtvault_snowflake_demo://DQ_Test/DQ_Check.sql
+2022-01-21 21:11:01.761986 (Thread-552): handling status request
+2022-01-21 21:11:01.762323 (Thread-552): 21:11:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473d73760>]}
+2022-01-21 21:11:01.762783 (Thread-552): sending response (<Response 957 bytes [200 OK]>) to 10.0.14.136
+2022-01-21 21:11:01.870580 (Thread-553): handling status request
+2022-01-21 21:11:01.870995 (Thread-553): 21:11:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473d73340>]}
+2022-01-21 21:11:01.871616 (Thread-553): sending response (<Response 957 bytes [200 OK]>) to 10.0.17.190
+2022-01-21 21:11:21.956925 (Thread-554): 21:11:21  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-21 21:11:21.957435 (Thread-554): 21:11:21  Partial parsing: updated file: dbtvault_snowflake_demo://DQ_Test/DQ_Check.sql
+2022-01-21 21:11:22.449390 (Thread-555): handling status request
+2022-01-21 21:11:22.449724 (Thread-555): 21:11:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473948d60>]}
+2022-01-21 21:11:22.450174 (Thread-555): sending response (<Response 960 bytes [200 OK]>) to 10.0.47.57
+2022-01-21 21:11:22.484499 (Thread-556): handling status request
+2022-01-21 21:11:22.484742 (Thread-556): 21:11:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f047395afa0>]}
+2022-01-21 21:11:22.485137 (Thread-556): sending response (<Response 960 bytes [200 OK]>) to 10.0.32.79
+2022-01-21 21:11:53.079711 (Thread-557): 21:11:53  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-21 21:11:53.080211 (Thread-557): 21:11:53  Partial parsing: updated file: dbtvault_snowflake_demo://DQ_Test/DQ_Check.sql
+2022-01-21 21:11:53.150932 (Thread-557): 21:11:53  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04736f2610>]}
+2022-01-21 21:11:53.648525 (Thread-558): handling status request
+2022-01-21 21:11:53.648860 (Thread-558): 21:11:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473948fa0>]}
+2022-01-21 21:11:53.649328 (Thread-558): sending response (<Response 1262 bytes [200 OK]>) to 10.0.6.71
+2022-01-21 21:11:53.722130 (Thread-559): handling status request
+2022-01-21 21:11:53.722431 (Thread-559): 21:11:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473cded60>]}
+2022-01-21 21:11:53.722883 (Thread-559): sending response (<Response 1262 bytes [200 OK]>) to 10.0.34.146
+2022-01-21 21:12:02.765219 (Thread-560): handling status request
+2022-01-21 21:12:02.765555 (Thread-560): 21:12:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473866be0>]}
+2022-01-21 21:12:02.766010 (Thread-560): sending response (<Response 1262 bytes [200 OK]>) to 10.0.30.147
+2022-01-21 21:12:03.174751 (Thread-561): handling status request
+2022-01-21 21:12:03.175163 (Thread-561): 21:12:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473ac05e0>]}
+2022-01-21 21:12:03.175635 (Thread-561): sending response (<Response 1262 bytes [200 OK]>) to 10.0.30.147
+2022-01-21 21:12:03.307583 (Thread-562): handling cli_args request
+2022-01-21 21:12:03.307909 (Thread-562): 21:12:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473d73ca0>]}
+2022-01-21 21:12:05.526409 (Thread-562): sending response (<Response 138 bytes [200 OK]>) to 10.0.47.57
+2022-01-21 21:12:06.050085 (MainThread): 21:12:06  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-21 21:12:06.050498 (MainThread): 21:12:06  Partial parsing enabled, no changes found, skipping parsing
+2022-01-21 21:12:06.056878 (Thread-563): handling poll request
+2022-01-21 21:12:06.057259 (Thread-563): 21:12:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04736f2580>]}
+2022-01-21 21:12:06.058028 (Thread-563): sending response (<Response 905 bytes [200 OK]>) to 10.0.22.149
+2022-01-21 21:12:06.060526 (MainThread): 21:12:06  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8f2faf37-f556-4f7d-8542-168f3f012c23', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd30697550>]}
+2022-01-21 21:12:06.102148 (MainThread): 21:12:06  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8f2faf37-f556-4f7d-8542-168f3f012c23', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd307c3af0>]}
+2022-01-21 21:12:06.102479 (MainThread): 21:12:06  Found 31 models, 1 test, 1 snapshot, 0 analyses, 448 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-21 21:12:06.104310 (MainThread): 21:12:06  
+2022-01-21 21:12:06.104661 (MainThread): 21:12:06  Acquiring new snowflake connection "master"
+2022-01-21 21:12:06.107718 (ThreadPoolExecutor-1_0): 21:12:06  Acquiring new snowflake connection "list_PC_DBT_DB_snapshots"
+2022-01-21 21:12:06.118084 (ThreadPoolExecutor-1_1): 21:12:06  Acquiring new snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-01-21 21:12:06.125903 (ThreadPoolExecutor-1_0): 21:12:06  Using snowflake connection "list_PC_DBT_DB_snapshots"
+2022-01-21 21:12:06.126005 (ThreadPoolExecutor-1_0): 21:12:06  On list_PC_DBT_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_snapshots"} */
+
+    show terse objects in PC_DBT_DB.snapshots
+2022-01-21 21:12:06.126090 (ThreadPoolExecutor-1_0): 21:12:06  Opening a new connection, currently in state init
+2022-01-21 21:12:06.128338 (ThreadPoolExecutor-1_1): 21:12:06  Using snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-01-21 21:12:06.128466 (ThreadPoolExecutor-1_1): 21:12:06  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"} */
+
+    show terse objects in PC_DBT_DB.dbt_abasak_CUST_DETAIL
+2022-01-21 21:12:06.128550 (ThreadPoolExecutor-1_1): 21:12:06  Opening a new connection, currently in state init
+2022-01-21 21:12:07.139335 (ThreadPoolExecutor-1_1): 21:12:07  SQL status: SUCCESS 32 in 1.01 seconds
+2022-01-21 21:12:07.142118 (ThreadPoolExecutor-1_1): 21:12:07  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: Close
+2022-01-21 21:12:07.405857 (ThreadPoolExecutor-1_0): 21:12:07  SQL status: SUCCESS 1 in 1.28 seconds
+2022-01-21 21:12:07.407192 (ThreadPoolExecutor-1_0): 21:12:07  On list_PC_DBT_DB_snapshots: Close
+2022-01-21 21:12:07.703699 (Thread-564): handling poll request
+2022-01-21 21:12:07.704042 (Thread-564): 21:12:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473acb280>]}
+2022-01-21 21:12:07.704787 (Thread-564): sending response (<Response 6227 bytes [200 OK]>) to 10.0.17.190
+2022-01-21 21:12:07.759505 (MainThread): 21:12:07  Concurrency: 4 threads (target='default')
+2022-01-21 21:12:07.759706 (MainThread): 21:12:07  
+2022-01-21 21:12:07.762410 (Thread-1): 21:12:07  Began running node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:12:07.762628 (Thread-1): 21:12:07  1 of 1 START test DQ_Check...................................................... [RUN]
+2022-01-21 21:12:07.763646 (Thread-1): 21:12:07  Acquiring new snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:12:07.763775 (Thread-1): 21:12:07  Began compiling node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:12:07.763919 (Thread-1): 21:12:07  Compiling test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:12:07.773234 (Thread-1): 21:12:07  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:12:07.773344 (Thread-1): 21:12:07  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = -1
+2022-01-21 21:12:07.773445 (Thread-1): 21:12:07  Opening a new connection, currently in state closed
+2022-01-21 21:12:09.186383 (Thread-1): 21:12:09  SQL status: SUCCESS 2 in 1.41 seconds
+2022-01-21 21:12:09.190317 (Thread-1): 21:12:09  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:12:09.190439 (Thread-1): 21:12:09  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT count(Query) FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-01-21 21:12:09.234351 (Thread-565): handling poll request
+2022-01-21 21:12:09.234654 (Thread-565): 21:12:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f047387b8b0>]}
+2022-01-21 21:12:09.235291 (Thread-565): sending response (<Response 5535 bytes [200 OK]>) to 10.0.45.160
+2022-01-21 21:12:09.304063 (Thread-1): 21:12:09  SQL status: SUCCESS 1 in 0.11 seconds
+2022-01-21 21:12:09.305726 (Thread-1): 21:12:09  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:12:09.305829 (Thread-1): 21:12:09  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT  Query,ID FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-01-21 21:12:09.895421 (Thread-1): 21:12:09  SQL status: SUCCESS 2 in 0.59 seconds
+2022-01-21 21:12:09.897169 (Thread-1): 21:12:09  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:12:09.897285 (Thread-1): 21:12:09  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_ORDER_DETAILS"
+where TOTALPRICE=0 or TOTALPRICE<0 ))
+    WHERE ID=1
+2022-01-21 21:12:10.763899 (Thread-566): handling poll request
+2022-01-21 21:12:10.764228 (Thread-566): 21:12:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473d50220>]}
+2022-01-21 21:12:10.764832 (Thread-566): sending response (<Response 3007 bytes [200 OK]>) to 10.0.6.71
+2022-01-21 21:12:10.842103 (Thread-1): 21:12:10  SQL status: SUCCESS 2 in 0.94 seconds
+2022-01-21 21:12:10.843615 (Thread-1): 21:12:10  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:12:10.843727 (Thread-1): 21:12:10  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_CUSTOMER_DETAILS"
+where CUSTOMER_PHONE IS NULL ))
+    WHERE ID=1
+2022-01-21 21:12:11.541748 (Thread-1): 21:12:11  SQL status: SUCCESS 2 in 0.7 seconds
+2022-01-21 21:12:11.543189 (Thread-1): 21:12:11  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:12:11.543306 (Thread-1): 21:12:11  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT count(*) from "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" WHERE OUTPUT_RESULT <> EXPECTED_RESULT
+2022-01-21 21:12:11.911967 (Thread-1): 21:12:11  SQL status: SUCCESS 1 in 0.37 seconds
+2022-01-21 21:12:11.913338 (Thread-1): 21:12:11  Writing injected SQL for node "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:12:11.930007 (Thread-1): 21:12:11  finished collecting timing info
+2022-01-21 21:12:11.930177 (Thread-1): 21:12:11  Began executing node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:12:11.946690 (Thread-1): 21:12:11  Writing runtime SQL for node "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:12:11.962667 (Thread-1): 21:12:11  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:12:11.962783 (Thread-1): 21:12:11  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+       
+
+            select 1 as temp where 1=2
+     
+    select 1 as temp
+      
+    ) dbt_internal_test
+2022-01-21 21:12:12.327406 (Thread-567): handling poll request
+2022-01-21 21:12:12.327789 (Thread-567): 21:12:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04737ef6d0>]}
+2022-01-21 21:12:12.328481 (Thread-567): sending response (<Response 6018 bytes [200 OK]>) to 10.0.28.132
+2022-01-21 21:12:12.512330 (Thread-1): 21:12:12  Snowflake adapter: Snowflake query id: 01a1c918-0a02-8eb7-0001-fe3a000340ae
+2022-01-21 21:12:12.512523 (Thread-1): 21:12:12  Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 10 at position 4 unexpected 'select'.
+syntax error line 12 at position 4 unexpected ')'.
+2022-01-21 21:12:12.512700 (Thread-1): 21:12:12  finished collecting timing info
+2022-01-21 21:12:12.512843 (Thread-1): 21:12:12  On test.dbtvault_snowflake_demo.DQ_Check: Close
+2022-01-21 21:12:12.877343 (Thread-1): 21:12:12  Database Error in test DQ_Check (DQ_Test/DQ_Check.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 10 at position 4 unexpected 'select'.
+  syntax error line 12 at position 4 unexpected ')'.
+  compiled SQL at target/run/dbtvault_snowflake_demo/DQ_Test/DQ_Check.sql
+2022-01-21 21:12:12.877600 (Thread-1): 21:12:12  1 of 1 ERROR DQ_Check........................................................... [ERROR in 5.11s]
+2022-01-21 21:12:12.877722 (Thread-1): 21:12:12  Finished running node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:12:12.879560 (MainThread): 21:12:12  Acquiring new snowflake connection "master"
+2022-01-21 21:12:12.880024 (MainThread): 21:12:12  
+2022-01-21 21:12:12.880182 (MainThread): 21:12:12  Finished running 1 test in 6.78s.
+2022-01-21 21:12:12.880318 (MainThread): 21:12:12  Connection 'master' was properly closed.
+2022-01-21 21:12:12.880471 (MainThread): 21:12:12  Connection 'list_PC_DBT_DB_snapshots' was properly closed.
+2022-01-21 21:12:12.880588 (MainThread): 21:12:12  Connection 'test.dbtvault_snowflake_demo.DQ_Check' was properly closed.
+2022-01-21 21:12:12.953152 (MainThread): 21:12:12  
+2022-01-21 21:12:12.953371 (MainThread): 21:12:12  Completed with 1 error and 0 warnings:
+2022-01-21 21:12:12.953463 (MainThread): 21:12:12  
+2022-01-21 21:12:12.953557 (MainThread): 21:12:12  Database Error in test DQ_Check (DQ_Test/DQ_Check.sql)
+2022-01-21 21:12:12.953640 (MainThread): 21:12:12    001003 (42000): SQL compilation error:
+2022-01-21 21:12:12.953723 (MainThread): 21:12:12    syntax error line 10 at position 4 unexpected 'select'.
+2022-01-21 21:12:12.953797 (MainThread): 21:12:12    syntax error line 12 at position 4 unexpected ')'.
+2022-01-21 21:12:12.953867 (MainThread): 21:12:12    compiled SQL at target/run/dbtvault_snowflake_demo/DQ_Test/DQ_Check.sql
+2022-01-21 21:12:12.953944 (MainThread): 21:12:12  
+2022-01-21 21:12:12.954032 (MainThread): 21:12:12  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+2022-01-21 21:12:13.886979 (Thread-568): handling poll request
+2022-01-21 21:12:13.887329 (Thread-568): 21:12:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04736f1340>]}
+2022-01-21 21:12:13.888551 (Thread-568): sending response (<Response 13023 bytes [200 OK]>) to 10.0.17.61
+2022-01-21 21:12:14.971169 (Thread-569): handling status request
+2022-01-21 21:12:14.971511 (Thread-569): 21:12:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04736f14f0>]}
+2022-01-21 21:12:14.972016 (Thread-569): sending response (<Response 1262 bytes [200 OK]>) to 10.0.8.0
+2022-01-21 21:12:14.989569 (Thread-570): handling status request
+2022-01-21 21:12:14.989869 (Thread-570): 21:12:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04736f18b0>]}
+2022-01-21 21:12:14.990310 (Thread-570): sending response (<Response 1262 bytes [200 OK]>) to 10.0.32.79
+2022-01-21 21:12:58.274333 (Thread-571): 21:12:58  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-21 21:12:58.274904 (Thread-571): 21:12:58  Partial parsing: updated file: dbtvault_snowflake_demo://DQ_Test/DQ_Check.sql
+2022-01-21 21:12:58.346404 (Thread-571): 21:12:58  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473536fd0>]}
+2022-01-21 21:12:58.778417 (Thread-572): handling status request
+2022-01-21 21:12:58.778772 (Thread-572): 21:12:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473577c40>]}
+2022-01-21 21:12:58.779253 (Thread-572): sending response (<Response 1262 bytes [200 OK]>) to 10.0.32.79
+2022-01-21 21:12:59.056433 (Thread-573): handling status request
+2022-01-21 21:12:59.056781 (Thread-573): 21:12:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473577940>]}
+2022-01-21 21:12:59.057236 (Thread-573): sending response (<Response 1262 bytes [200 OK]>) to 10.0.11.151
+2022-01-21 21:13:01.981987 (Thread-574): handling status request
+2022-01-21 21:13:01.982391 (Thread-574): 21:13:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04736c2220>]}
+2022-01-21 21:13:01.982882 (Thread-574): sending response (<Response 1262 bytes [200 OK]>) to 10.0.34.146
+2022-01-21 21:13:02.446140 (Thread-575): handling status request
+2022-01-21 21:13:02.446463 (Thread-575): 21:13:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04738423d0>]}
+2022-01-21 21:13:02.446953 (Thread-575): sending response (<Response 1262 bytes [200 OK]>) to 10.0.17.190
+2022-01-21 21:13:02.995555 (Thread-576): handling cli_args request
+2022-01-21 21:13:02.995898 (Thread-576): 21:13:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473609640>]}
+2022-01-21 21:13:05.221833 (Thread-576): sending response (<Response 138 bytes [200 OK]>) to 10.0.6.71
+2022-01-21 21:13:05.738718 (MainThread): 21:13:05  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-21 21:13:05.741013 (Thread-577): handling poll request
+2022-01-21 21:13:05.741401 (Thread-577): 21:13:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473536fa0>]}
+2022-01-21 21:13:05.742169 (Thread-577): sending response (<Response 602 bytes [200 OK]>) to 10.0.28.132
+2022-01-21 21:13:05.739153 (MainThread): 21:13:05  Partial parsing enabled, no changes found, skipping parsing
+2022-01-21 21:13:05.746888 (MainThread): 21:13:05  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6ca11872-37ce-4a6c-b65a-dc5f1c4711e4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60241d75e0>]}
+2022-01-21 21:13:05.781913 (MainThread): 21:13:05  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6ca11872-37ce-4a6c-b65a-dc5f1c4711e4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60242f5b80>]}
+2022-01-21 21:13:05.782146 (MainThread): 21:13:05  Found 31 models, 1 test, 1 snapshot, 0 analyses, 448 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-21 21:13:05.783888 (MainThread): 21:13:05  
+2022-01-21 21:13:05.784159 (MainThread): 21:13:05  Acquiring new snowflake connection "master"
+2022-01-21 21:13:05.786223 (ThreadPoolExecutor-1_0): 21:13:05  Acquiring new snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-01-21 21:13:05.796700 (ThreadPoolExecutor-1_1): 21:13:05  Acquiring new snowflake connection "list_PC_DBT_DB_snapshots"
+2022-01-21 21:13:05.804257 (ThreadPoolExecutor-1_0): 21:13:05  Using snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-01-21 21:13:05.804361 (ThreadPoolExecutor-1_0): 21:13:05  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"} */
+
+    show terse objects in PC_DBT_DB.dbt_abasak_CUST_DETAIL
+2022-01-21 21:13:05.804478 (ThreadPoolExecutor-1_0): 21:13:05  Opening a new connection, currently in state init
+2022-01-21 21:13:05.806523 (ThreadPoolExecutor-1_1): 21:13:05  Using snowflake connection "list_PC_DBT_DB_snapshots"
+2022-01-21 21:13:05.806624 (ThreadPoolExecutor-1_1): 21:13:05  On list_PC_DBT_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_snapshots"} */
+
+    show terse objects in PC_DBT_DB.snapshots
+2022-01-21 21:13:05.806706 (ThreadPoolExecutor-1_1): 21:13:05  Opening a new connection, currently in state init
+2022-01-21 21:13:06.561001 (ThreadPoolExecutor-1_0): 21:13:06  SQL status: SUCCESS 32 in 0.76 seconds
+2022-01-21 21:13:06.563837 (ThreadPoolExecutor-1_0): 21:13:06  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: Close
+2022-01-21 21:13:06.631661 (ThreadPoolExecutor-1_1): 21:13:06  SQL status: SUCCESS 1 in 0.82 seconds
+2022-01-21 21:13:06.633026 (ThreadPoolExecutor-1_1): 21:13:06  On list_PC_DBT_DB_snapshots: Close
+2022-01-21 21:13:06.753425 (MainThread): 21:13:06  Concurrency: 4 threads (target='default')
+2022-01-21 21:13:06.753586 (MainThread): 21:13:06  
+2022-01-21 21:13:06.756162 (Thread-1): 21:13:06  Began running node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:13:06.756351 (Thread-1): 21:13:06  1 of 1 START test DQ_Check...................................................... [RUN]
+2022-01-21 21:13:06.757995 (Thread-1): 21:13:06  Acquiring new snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:13:06.758132 (Thread-1): 21:13:06  Began compiling node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:13:06.758266 (Thread-1): 21:13:06  Compiling test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:13:06.813604 (Thread-1): 21:13:06  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:13:06.813723 (Thread-1): 21:13:06  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = -1
+2022-01-21 21:13:06.813819 (Thread-1): 21:13:06  Opening a new connection, currently in state closed
+2022-01-21 21:13:07.259828 (Thread-578): handling poll request
+2022-01-21 21:13:07.260195 (Thread-578): 21:13:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473538070>]}
+2022-01-21 21:13:07.261128 (Thread-578): sending response (<Response 10488 bytes [200 OK]>) to 10.0.6.71
+2022-01-21 21:13:07.633991 (Thread-1): 21:13:07  SQL status: SUCCESS 2 in 0.82 seconds
+2022-01-21 21:13:07.637948 (Thread-1): 21:13:07  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:13:07.638064 (Thread-1): 21:13:07  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT count(Query) FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-01-21 21:13:07.764450 (Thread-1): 21:13:07  SQL status: SUCCESS 1 in 0.13 seconds
+2022-01-21 21:13:07.767129 (Thread-1): 21:13:07  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:13:07.767317 (Thread-1): 21:13:07  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT  Query,ID FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-01-21 21:13:07.989758 (Thread-1): 21:13:07  SQL status: SUCCESS 2 in 0.22 seconds
+2022-01-21 21:13:07.992462 (Thread-1): 21:13:07  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:13:07.992651 (Thread-1): 21:13:07  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_ORDER_DETAILS"
+where TOTALPRICE=0 or TOTALPRICE<0 ))
+    WHERE ID=1
+2022-01-21 21:13:08.816778 (Thread-579): handling poll request
+2022-01-21 21:13:08.817116 (Thread-579): 21:13:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04734f8460>]}
+2022-01-21 21:13:08.817739 (Thread-579): sending response (<Response 4300 bytes [200 OK]>) to 10.0.21.5
+2022-01-21 21:13:09.055164 (Thread-1): 21:13:09  SQL status: SUCCESS 2 in 1.06 seconds
+2022-01-21 21:13:09.056750 (Thread-1): 21:13:09  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:13:09.056868 (Thread-1): 21:13:09  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_CUSTOMER_DETAILS"
+where CUSTOMER_PHONE IS NULL ))
+    WHERE ID=1
+2022-01-21 21:13:10.203454 (Thread-1): 21:13:10  SQL status: SUCCESS 2 in 1.15 seconds
+2022-01-21 21:13:10.204929 (Thread-1): 21:13:10  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:13:10.205046 (Thread-1): 21:13:10  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT count(*) from "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" WHERE OUTPUT_RESULT <> EXPECTED_RESULT
+2022-01-21 21:13:10.312730 (Thread-1): 21:13:10  SQL status: SUCCESS 1 in 0.11 seconds
+2022-01-21 21:13:10.314025 (Thread-1): 21:13:10  Writing injected SQL for node "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:13:10.330753 (Thread-1): 21:13:10  finished collecting timing info
+2022-01-21 21:13:10.330929 (Thread-1): 21:13:10  Began executing node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:13:10.346812 (Thread-1): 21:13:10  Writing runtime SQL for node "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:13:10.364040 (Thread-1): 21:13:10  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:13:10.364175 (Thread-1): 21:13:10  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+       
+
+            select 1 as temp where 1=2
+            exit
+     
+    select 1 as temp
+      
+    ) dbt_internal_test
+2022-01-21 21:13:10.390650 (Thread-580): handling poll request
+2022-01-21 21:13:10.390931 (Thread-580): 21:13:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04736692b0>]}
+2022-01-21 21:13:10.391579 (Thread-580): sending response (<Response 6038 bytes [200 OK]>) to 10.0.47.57
+2022-01-21 21:13:10.481837 (Thread-1): 21:13:10  Snowflake adapter: Snowflake query id: 01a1c919-0a02-8eab-0001-fe3a0002e456
+2022-01-21 21:13:10.481973 (Thread-1): 21:13:10  Snowflake adapter: Snowflake error: 001003 (42000): SQL compilation error:
+syntax error line 9 at position 12 unexpected 'exit'.
+2022-01-21 21:13:10.482142 (Thread-1): 21:13:10  finished collecting timing info
+2022-01-21 21:13:10.482282 (Thread-1): 21:13:10  On test.dbtvault_snowflake_demo.DQ_Check: Close
+2022-01-21 21:13:10.597894 (Thread-1): 21:13:10  Database Error in test DQ_Check (DQ_Test/DQ_Check.sql)
+  001003 (42000): SQL compilation error:
+  syntax error line 9 at position 12 unexpected 'exit'.
+  compiled SQL at target/run/dbtvault_snowflake_demo/DQ_Test/DQ_Check.sql
+2022-01-21 21:13:10.598129 (Thread-1): 21:13:10  1 of 1 ERROR DQ_Check........................................................... [ERROR in 3.84s]
+2022-01-21 21:13:10.598255 (Thread-1): 21:13:10  Finished running node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:13:10.599858 (MainThread): 21:13:10  Acquiring new snowflake connection "master"
+2022-01-21 21:13:10.600172 (MainThread): 21:13:10  
+2022-01-21 21:13:10.600280 (MainThread): 21:13:10  Finished running 1 test in 4.82s.
+2022-01-21 21:13:10.600369 (MainThread): 21:13:10  Connection 'master' was properly closed.
+2022-01-21 21:13:10.600487 (MainThread): 21:13:10  Connection 'list_PC_DBT_DB_dbt_abasak_CUST_DETAIL' was properly closed.
+2022-01-21 21:13:10.600562 (MainThread): 21:13:10  Connection 'test.dbtvault_snowflake_demo.DQ_Check' was properly closed.
+2022-01-21 21:13:10.671476 (MainThread): 21:13:10  
+2022-01-21 21:13:10.671645 (MainThread): 21:13:10  Completed with 1 error and 0 warnings:
+2022-01-21 21:13:10.671742 (MainThread): 21:13:10  
+2022-01-21 21:13:10.671835 (MainThread): 21:13:10  Database Error in test DQ_Check (DQ_Test/DQ_Check.sql)
+2022-01-21 21:13:10.671915 (MainThread): 21:13:10    001003 (42000): SQL compilation error:
+2022-01-21 21:13:10.672015 (MainThread): 21:13:10    syntax error line 9 at position 12 unexpected 'exit'.
+2022-01-21 21:13:10.672096 (MainThread): 21:13:10    compiled SQL at target/run/dbtvault_snowflake_demo/DQ_Test/DQ_Check.sql
+2022-01-21 21:13:10.672176 (MainThread): 21:13:10  
+2022-01-21 21:13:10.672265 (MainThread): 21:13:10  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+2022-01-21 21:13:12.078060 (Thread-581): handling poll request
+2022-01-21 21:13:12.078386 (Thread-581): 21:13:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473669df0>]}
+2022-01-21 21:13:12.105565 (Thread-581): sending response (<Response 12413 bytes [200 OK]>) to 10.0.6.71
+2022-01-21 21:13:13.189356 (Thread-582): handling status request
+2022-01-21 21:13:13.189695 (Thread-582): 21:13:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04735cc970>]}
+2022-01-21 21:13:13.190230 (Thread-582): sending response (<Response 1262 bytes [200 OK]>) to 10.0.38.208
+2022-01-21 21:13:13.258083 (Thread-583): handling status request
+2022-01-21 21:13:13.263638 (Thread-583): 21:13:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04735ccf70>]}
+2022-01-21 21:13:13.264228 (Thread-583): sending response (<Response 1262 bytes [200 OK]>) to 10.0.8.0
+2022-01-21 21:13:29.792167 (Thread-584): handling status request
+2022-01-21 21:13:29.792548 (Thread-584): 21:13:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473669af0>]}
+2022-01-21 21:13:29.793024 (Thread-584): sending response (<Response 1262 bytes [200 OK]>) to 10.0.38.208
+2022-01-21 21:13:30.314183 (Thread-585): handling compile_sql request
+2022-01-21 21:13:30.314610 (Thread-585): 21:13:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473669f40>]}
+2022-01-21 21:13:32.796429 (Thread-585): sending response (<Response 138 bytes [200 OK]>) to 10.0.45.160
+2022-01-21 21:13:32.837854 (MainThread): 21:13:32  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '36c80199-e2fb-4cb1-9878-6a2b674dcd34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdec8f5fee0>]}
+2022-01-21 21:13:32.838389 (MainThread): 21:13:32  Found 31 models, 1 test, 1 snapshot, 0 analyses, 448 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-21 21:13:32.838999 (Thread-1): 21:13:32  Acquiring new snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-21 21:13:32.839134 (Thread-1): 21:13:32  Began compiling node rpc.dbtvault_snowflake_demo.request
+2022-01-21 21:13:32.839229 (Thread-1): 21:13:32  Compiling rpc.dbtvault_snowflake_demo.request
+2022-01-21 21:13:32.846603 (Thread-1): 21:13:32  Using snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-21 21:13:32.846709 (Thread-1): 21:13:32  On rpc.dbtvault_snowflake_demo.request: UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = -1
+2022-01-21 21:13:32.846797 (Thread-1): 21:13:32  Opening a new connection, currently in state init
+2022-01-21 21:13:33.317874 (Thread-586): handling poll request
+2022-01-21 21:13:33.318287 (Thread-586): 21:13:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04734f8250>]}
+2022-01-21 21:13:33.319165 (Thread-586): sending response (<Response 3066 bytes [200 OK]>) to 10.0.47.57
+2022-01-21 21:13:34.131035 (Thread-1): 21:13:34  SQL status: SUCCESS 2 in 1.28 seconds
+2022-01-21 21:13:34.133234 (Thread-1): 21:13:34  Using snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-21 21:13:34.133352 (Thread-1): 21:13:34  On rpc.dbtvault_snowflake_demo.request: SELECT count(Query) FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-01-21 21:13:34.282852 (Thread-1): 21:13:34  SQL status: SUCCESS 1 in 0.15 seconds
+2022-01-21 21:13:34.284626 (Thread-1): 21:13:34  Using snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-21 21:13:34.284746 (Thread-1): 21:13:34  On rpc.dbtvault_snowflake_demo.request: SELECT  Query,ID FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-01-21 21:13:34.889039 (Thread-587): handling poll request
+2022-01-21 21:13:34.889377 (Thread-587): 21:13:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04734f8550>]}
+2022-01-21 21:13:34.889947 (Thread-587): sending response (<Response 2303 bytes [200 OK]>) to 10.0.30.147
+2022-01-21 21:13:34.989731 (Thread-1): 21:13:34  SQL status: SUCCESS 2 in 0.7 seconds
+2022-01-21 21:13:34.992129 (Thread-1): 21:13:34  Using snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-21 21:13:34.992262 (Thread-1): 21:13:34  On rpc.dbtvault_snowflake_demo.request: UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_ORDER_DETAILS"
+where TOTALPRICE=0 or TOTALPRICE<0 ))
+    WHERE ID=1
+2022-01-21 21:13:35.903185 (Thread-1): 21:13:35  SQL status: SUCCESS 2 in 0.91 seconds
+2022-01-21 21:13:35.904711 (Thread-1): 21:13:35  Using snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-21 21:13:35.904827 (Thread-1): 21:13:35  On rpc.dbtvault_snowflake_demo.request: UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_CUSTOMER_DETAILS"
+where CUSTOMER_PHONE IS NULL ))
+    WHERE ID=1
+2022-01-21 21:13:36.425690 (Thread-588): handling poll request
+2022-01-21 21:13:36.426024 (Thread-588): 21:13:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473538700>]}
+2022-01-21 21:13:36.426580 (Thread-588): sending response (<Response 2586 bytes [200 OK]>) to 10.0.22.149
+2022-01-21 21:13:36.817176 (Thread-1): 21:13:36  SQL status: SUCCESS 2 in 0.91 seconds
+2022-01-21 21:13:36.818537 (Thread-1): 21:13:36  Using snowflake connection "rpc.dbtvault_snowflake_demo.request"
+2022-01-21 21:13:36.818643 (Thread-1): 21:13:36  On rpc.dbtvault_snowflake_demo.request: SELECT count(*) from "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" WHERE OUTPUT_RESULT <> EXPECTED_RESULT
+2022-01-21 21:13:36.928030 (Thread-1): 21:13:36  SQL status: SUCCESS 1 in 0.11 seconds
+2022-01-21 21:13:36.929321 (Thread-1): 21:13:36  finished collecting timing info
+2022-01-21 21:13:36.929493 (Thread-1): 21:13:36  Began executing node rpc.dbtvault_snowflake_demo.request
+2022-01-21 21:13:36.929624 (Thread-1): 21:13:36  finished collecting timing info
+2022-01-21 21:13:36.929754 (Thread-1): 21:13:36  On rpc.dbtvault_snowflake_demo.request: Close
+2022-01-21 21:13:37.965699 (Thread-589): handling poll request
+2022-01-21 21:13:37.966040 (Thread-589): 21:13:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473538820>]}
+2022-01-21 21:13:37.967036 (Thread-589): sending response (<Response 7699 bytes [200 OK]>) to 10.0.21.5
+2022-01-21 21:14:35.186035 (Thread-590): 21:14:35  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-01-21 21:14:35.186558 (Thread-590): 21:14:35  Partial parsing: updated file: dbtvault_snowflake_demo://DQ_Test/DQ_Check.sql
+2022-01-21 21:14:35.260883 (Thread-590): 21:14:35  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0488787400>]}
+2022-01-21 21:14:35.310099 (Thread-591): handling status request
+2022-01-21 21:14:35.310808 (Thread-592): handling status request
+2022-01-21 21:14:35.311164 (Thread-591): 21:14:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04736f1f70>]}
+2022-01-21 21:14:35.311453 (Thread-592): 21:14:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473639220>]}
+2022-01-21 21:14:35.311936 (Thread-591): sending response (<Response 1262 bytes [200 OK]>) to 10.0.21.5
+2022-01-21 21:14:35.312375 (Thread-592): sending response (<Response 1262 bytes [200 OK]>) to 10.0.21.5
+2022-01-21 21:14:37.720878 (Thread-593): handling status request
+2022-01-21 21:14:37.721233 (Thread-593): 21:14:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473627fa0>]}
+2022-01-21 21:14:37.721724 (Thread-593): sending response (<Response 1262 bytes [200 OK]>) to 10.0.0.242
+2022-01-21 21:14:38.038190 (Thread-594): handling status request
+2022-01-21 21:14:38.038524 (Thread-594): 21:14:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473627c10>]}
+2022-01-21 21:14:38.038984 (Thread-594): sending response (<Response 1262 bytes [200 OK]>) to 10.0.30.147
+2022-01-21 21:14:38.246861 (Thread-595): handling cli_args request
+2022-01-21 21:14:38.247166 (Thread-595): 21:14:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473627580>]}
+2022-01-21 21:14:40.544901 (Thread-595): sending response (<Response 138 bytes [200 OK]>) to 10.0.38.208
+2022-01-21 21:14:41.099356 (MainThread): 21:14:41  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-21 21:14:41.099778 (MainThread): 21:14:41  Partial parsing enabled, no changes found, skipping parsing
+2022-01-21 21:14:41.111478 (MainThread): 21:14:41  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ff5a7bbc-9c77-4c04-8a10-3077705de24a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c6d894220>]}
+2022-01-21 21:14:41.147985 (MainThread): 21:14:41  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ff5a7bbc-9c77-4c04-8a10-3077705de24a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c6d8b59d0>]}
+2022-01-21 21:14:41.148246 (MainThread): 21:14:41  Found 31 models, 1 test, 1 snapshot, 0 analyses, 448 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-21 21:14:41.150111 (MainThread): 21:14:41  
+2022-01-21 21:14:41.150400 (MainThread): 21:14:41  Acquiring new snowflake connection "master"
+2022-01-21 21:14:41.152530 (ThreadPoolExecutor-1_0): 21:14:41  Acquiring new snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-01-21 21:14:41.165220 (ThreadPoolExecutor-1_0): 21:14:41  Using snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-01-21 21:14:41.165324 (ThreadPoolExecutor-1_0): 21:14:41  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"} */
+
+    show terse objects in PC_DBT_DB.dbt_abasak_CUST_DETAIL
+2022-01-21 21:14:41.165410 (ThreadPoolExecutor-1_0): 21:14:41  Opening a new connection, currently in state init
+2022-01-21 21:14:41.166590 (ThreadPoolExecutor-1_1): 21:14:41  Acquiring new snowflake connection "list_PC_DBT_DB_snapshots"
+2022-01-21 21:14:41.168915 (ThreadPoolExecutor-1_1): 21:14:41  Using snowflake connection "list_PC_DBT_DB_snapshots"
+2022-01-21 21:14:41.169015 (ThreadPoolExecutor-1_1): 21:14:41  On list_PC_DBT_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_snapshots"} */
+
+    show terse objects in PC_DBT_DB.snapshots
+2022-01-21 21:14:41.169096 (ThreadPoolExecutor-1_1): 21:14:41  Opening a new connection, currently in state init
+2022-01-21 21:14:41.196506 (Thread-596): handling poll request
+2022-01-21 21:14:41.196980 (Thread-596): 21:14:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473627100>]}
+2022-01-21 21:14:41.198308 (Thread-596): sending response (<Response 5663 bytes [200 OK]>) to 10.0.30.147
+2022-01-21 21:14:42.305853 (ThreadPoolExecutor-1_1): 21:14:42  SQL status: SUCCESS 1 in 1.14 seconds
+2022-01-21 21:14:42.307888 (ThreadPoolExecutor-1_1): 21:14:42  On list_PC_DBT_DB_snapshots: Close
+2022-01-21 21:14:42.384288 (ThreadPoolExecutor-1_0): 21:14:42  SQL status: SUCCESS 32 in 1.22 seconds
+2022-01-21 21:14:42.386493 (ThreadPoolExecutor-1_0): 21:14:42  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: Close
+2022-01-21 21:14:42.704394 (MainThread): 21:14:42  Concurrency: 4 threads (target='default')
+2022-01-21 21:14:42.704613 (MainThread): 21:14:42  
+2022-01-21 21:14:42.707301 (Thread-1): 21:14:42  Began running node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:14:42.707528 (Thread-1): 21:14:42  1 of 1 START test DQ_Check...................................................... [RUN]
+2022-01-21 21:14:42.747088 (Thread-597): handling poll request
+2022-01-21 21:14:42.747393 (Thread-597): 21:14:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04735c62e0>]}
+2022-01-21 21:14:42.747987 (Thread-597): sending response (<Response 3068 bytes [200 OK]>) to 10.0.47.57
+2022-01-21 21:14:42.709357 (Thread-1): 21:14:42  Acquiring new snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:14:42.709506 (Thread-1): 21:14:42  Began compiling node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:14:42.709636 (Thread-1): 21:14:42  Compiling test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:14:42.768282 (Thread-1): 21:14:42  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:14:42.768442 (Thread-1): 21:14:42  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = -1
+2022-01-21 21:14:42.768549 (Thread-1): 21:14:42  Opening a new connection, currently in state closed
+2022-01-21 21:14:44.237114 (Thread-598): handling poll request
+2022-01-21 21:14:44.237474 (Thread-598): 21:14:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04736b6be0>]}
+2022-01-21 21:14:44.238067 (Thread-598): sending response (<Response 2644 bytes [200 OK]>) to 10.0.0.242
+2022-01-21 21:14:44.322090 (Thread-1): 21:14:44  SQL status: SUCCESS 2 in 1.55 seconds
+2022-01-21 21:14:44.326108 (Thread-1): 21:14:44  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:14:44.326225 (Thread-1): 21:14:44  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT count(Query) FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-01-21 21:14:44.407895 (Thread-1): 21:14:44  SQL status: SUCCESS 1 in 0.08 seconds
+2022-01-21 21:14:44.409657 (Thread-1): 21:14:44  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:14:44.409770 (Thread-1): 21:14:44  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT  Query,ID FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-01-21 21:14:44.697011 (Thread-1): 21:14:44  SQL status: SUCCESS 2 in 0.29 seconds
+2022-01-21 21:14:44.698779 (Thread-1): 21:14:44  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:14:44.698901 (Thread-1): 21:14:44  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_ORDER_DETAILS"
+where TOTALPRICE=0 or TOTALPRICE<0 ))
+    WHERE ID=1
+2022-01-21 21:14:45.744821 (Thread-599): handling poll request
+2022-01-21 21:14:45.745158 (Thread-599): 21:14:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f047396eb80>]}
+2022-01-21 21:14:45.745776 (Thread-599): sending response (<Response 4300 bytes [200 OK]>) to 10.0.30.147
+2022-01-21 21:14:45.832284 (Thread-1): 21:14:45  SQL status: SUCCESS 2 in 1.13 seconds
+2022-01-21 21:14:45.833849 (Thread-1): 21:14:45  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:14:45.833962 (Thread-1): 21:14:45  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_CUSTOMER_DETAILS"
+where CUSTOMER_PHONE IS NULL ))
+    WHERE ID=1
+2022-01-21 21:14:46.922475 (Thread-1): 21:14:46  SQL status: SUCCESS 2 in 1.09 seconds
+2022-01-21 21:14:46.923945 (Thread-1): 21:14:46  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:14:46.924058 (Thread-1): 21:14:46  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT count(*) from "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" WHERE OUTPUT_RESULT <> EXPECTED_RESULT
+2022-01-21 21:14:47.286843 (Thread-600): handling poll request
+2022-01-21 21:14:47.287221 (Thread-600): 21:14:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f047396e490>]}
+2022-01-21 21:14:47.287831 (Thread-600): sending response (<Response 3021 bytes [200 OK]>) to 10.0.45.208
+2022-01-21 21:14:47.387526 (Thread-1): 21:14:47  SQL status: SUCCESS 1 in 0.46 seconds
+2022-01-21 21:14:47.388932 (Thread-1): 21:14:47  Writing injected SQL for node "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:14:47.404205 (Thread-1): 21:14:47  finished collecting timing info
+2022-01-21 21:14:47.404441 (Thread-1): 21:14:47  Began executing node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:14:47.421366 (Thread-1): 21:14:47  Writing runtime SQL for node "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:14:47.437439 (Thread-1): 21:14:47  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:14:47.437611 (Thread-1): 21:14:47  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+       
+
+            select 1 as temp where 1=2
+    
+      
+    ) dbt_internal_test
+2022-01-21 21:14:47.722472 (Thread-1): 21:14:47  SQL status: SUCCESS 1 in 0.28 seconds
+2022-01-21 21:14:47.724749 (Thread-1): 21:14:47  finished collecting timing info
+2022-01-21 21:14:47.724963 (Thread-1): 21:14:47  On test.dbtvault_snowflake_demo.DQ_Check: Close
+2022-01-21 21:14:47.924103 (Thread-1): 21:14:47  1 of 1 PASS DQ_Check............................................................ [PASS in 5.22s]
+2022-01-21 21:14:47.924304 (Thread-1): 21:14:47  Finished running node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:14:47.925913 (MainThread): 21:14:47  Acquiring new snowflake connection "master"
+2022-01-21 21:14:47.926251 (MainThread): 21:14:47  
+2022-01-21 21:14:47.926359 (MainThread): 21:14:47  Finished running 1 test in 6.78s.
+2022-01-21 21:14:47.926449 (MainThread): 21:14:47  Connection 'master' was properly closed.
+2022-01-21 21:14:47.926526 (MainThread): 21:14:47  Connection 'list_PC_DBT_DB_dbt_abasak_CUST_DETAIL' was properly closed.
+2022-01-21 21:14:47.926594 (MainThread): 21:14:47  Connection 'test.dbtvault_snowflake_demo.DQ_Check' was properly closed.
+2022-01-21 21:14:47.996799 (MainThread): 21:14:47  
+2022-01-21 21:14:47.997047 (MainThread): 21:14:47  Completed successfully
+2022-01-21 21:14:47.997154 (MainThread): 21:14:47  
+2022-01-21 21:14:47.997251 (MainThread): 21:14:47  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+2022-01-21 21:14:48.999437 (Thread-601): handling poll request
+2022-01-21 21:14:48.999777 (Thread-601): 21:14:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473ae74c0>]}
+2022-01-21 21:14:49.001052 (Thread-601): sending response (<Response 11925 bytes [200 OK]>) to 10.0.17.190
+2022-01-21 21:14:50.065609 (Thread-602): handling status request
+2022-01-21 21:14:50.065947 (Thread-602): 21:14:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473ae7070>]}
+2022-01-21 21:14:50.066438 (Thread-602): sending response (<Response 1262 bytes [200 OK]>) to 10.0.8.0
+2022-01-21 21:14:50.139652 (Thread-603): handling status request
+2022-01-21 21:14:50.139933 (Thread-603): 21:14:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473af5dc0>]}
+2022-01-21 21:14:50.140362 (Thread-603): sending response (<Response 1262 bytes [200 OK]>) to 10.0.30.147
+2022-01-21 21:16:02.202222 (Thread-604): handling status request
+2022-01-21 21:16:02.204700 (Thread-604): 21:16:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473af5460>]}
+2022-01-21 21:16:02.205236 (Thread-604): sending response (<Response 1262 bytes [200 OK]>) to 10.0.30.147
+2022-01-21 21:16:02.639402 (Thread-605): handling status request
+2022-01-21 21:16:02.639753 (Thread-605): 21:16:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473af5a30>]}
+2022-01-21 21:16:02.640218 (Thread-605): sending response (<Response 1262 bytes [200 OK]>) to 10.0.22.149
+2022-01-21 21:16:02.782120 (Thread-606): handling cli_args request
+2022-01-21 21:16:02.782453 (Thread-606): 21:16:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f047396e4c0>]}
+2022-01-21 21:16:05.066528 (Thread-606): sending response (<Response 138 bytes [200 OK]>) to 10.0.17.190
+2022-01-21 21:16:05.722722 (Thread-607): handling poll request
+2022-01-21 21:16:05.723149 (Thread-607): 21:16:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0488aaf310>]}
+2022-01-21 21:16:05.723938 (Thread-607): sending response (<Response 287 bytes [200 OK]>) to 10.0.8.0
+2022-01-21 21:16:05.860929 (MainThread): 21:16:05  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-21 21:16:05.861386 (MainThread): 21:16:05  Partial parsing enabled, no changes found, skipping parsing
+2022-01-21 21:16:05.871189 (MainThread): 21:16:05  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a38f2ca0-98d8-4fc7-8dea-42623b6298a7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7110596610>]}
+2022-01-21 21:16:05.911921 (MainThread): 21:16:05  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a38f2ca0-98d8-4fc7-8dea-42623b6298a7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71105fda60>]}
+2022-01-21 21:16:05.912266 (MainThread): 21:16:05  Found 31 models, 1 test, 1 snapshot, 0 analyses, 448 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-21 21:16:05.914754 (MainThread): 21:16:05  
+2022-01-21 21:16:05.915072 (MainThread): 21:16:05  Acquiring new snowflake connection "master"
+2022-01-21 21:16:05.917758 (ThreadPoolExecutor-1_0): 21:16:05  Acquiring new snowflake connection "list_PC_DBT_DB_snapshots"
+2022-01-21 21:16:05.928089 (ThreadPoolExecutor-1_1): 21:16:05  Acquiring new snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-01-21 21:16:05.935423 (ThreadPoolExecutor-1_0): 21:16:05  Using snowflake connection "list_PC_DBT_DB_snapshots"
+2022-01-21 21:16:05.935527 (ThreadPoolExecutor-1_0): 21:16:05  On list_PC_DBT_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_snapshots"} */
+
+    show terse objects in PC_DBT_DB.snapshots
+2022-01-21 21:16:05.935613 (ThreadPoolExecutor-1_0): 21:16:05  Opening a new connection, currently in state init
+2022-01-21 21:16:05.937850 (ThreadPoolExecutor-1_1): 21:16:05  Using snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-01-21 21:16:05.937951 (ThreadPoolExecutor-1_1): 21:16:05  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"} */
+
+    show terse objects in PC_DBT_DB.dbt_abasak_CUST_DETAIL
+2022-01-21 21:16:05.938031 (ThreadPoolExecutor-1_1): 21:16:05  Opening a new connection, currently in state init
+2022-01-21 21:16:06.843522 (ThreadPoolExecutor-1_1): 21:16:06  SQL status: SUCCESS 32 in 0.91 seconds
+2022-01-21 21:16:06.846395 (ThreadPoolExecutor-1_1): 21:16:06  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: Close
+2022-01-21 21:16:06.998381 (ThreadPoolExecutor-1_0): 21:16:06  SQL status: SUCCESS 1 in 1.06 seconds
+2022-01-21 21:16:06.999739 (ThreadPoolExecutor-1_0): 21:16:06  On list_PC_DBT_DB_snapshots: Close
+2022-01-21 21:16:07.241597 (Thread-608): handling poll request
+2022-01-21 21:16:07.241940 (Thread-608): 21:16:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473ae7e50>]}
+2022-01-21 21:16:07.242686 (Thread-608): sending response (<Response 6847 bytes [200 OK]>) to 10.0.17.61
+2022-01-21 21:16:07.273808 (MainThread): 21:16:07  Concurrency: 4 threads (target='default')
+2022-01-21 21:16:07.273983 (MainThread): 21:16:07  
+2022-01-21 21:16:07.276712 (Thread-1): 21:16:07  Began running node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:16:07.276930 (Thread-1): 21:16:07  1 of 1 START test DQ_Check...................................................... [RUN]
+2022-01-21 21:16:07.278586 (Thread-1): 21:16:07  Acquiring new snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:16:07.278723 (Thread-1): 21:16:07  Began compiling node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:16:07.278853 (Thread-1): 21:16:07  Compiling test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:16:07.335627 (Thread-1): 21:16:07  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:16:07.335771 (Thread-1): 21:16:07  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = -1
+2022-01-21 21:16:07.335866 (Thread-1): 21:16:07  Opening a new connection, currently in state closed
+2022-01-21 21:16:08.331625 (Thread-1): 21:16:08  SQL status: SUCCESS 2 in 1.0 seconds
+2022-01-21 21:16:08.335732 (Thread-1): 21:16:08  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:16:08.335859 (Thread-1): 21:16:08  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT count(Query) FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-01-21 21:16:08.690700 (Thread-1): 21:16:08  SQL status: SUCCESS 1 in 0.35 seconds
+2022-01-21 21:16:08.692510 (Thread-1): 21:16:08  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:16:08.692634 (Thread-1): 21:16:08  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT  Query,ID FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-01-21 21:16:08.750843 (Thread-609): handling poll request
+2022-01-21 21:16:08.751152 (Thread-609): 21:16:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473af5820>]}
+2022-01-21 21:16:08.751818 (Thread-609): sending response (<Response 6823 bytes [200 OK]>) to 10.0.22.149
+2022-01-21 21:16:08.868723 (Thread-1): 21:16:08  SQL status: SUCCESS 2 in 0.18 seconds
+2022-01-21 21:16:08.870375 (Thread-1): 21:16:08  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:16:08.870501 (Thread-1): 21:16:08  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_ORDER_DETAILS"
+where TOTALPRICE=0 or TOTALPRICE<0 ))
+    WHERE ID=1
+2022-01-21 21:16:09.757047 (Thread-1): 21:16:09  SQL status: SUCCESS 2 in 0.89 seconds
+2022-01-21 21:16:09.759305 (Thread-1): 21:16:09  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:16:09.759472 (Thread-1): 21:16:09  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_CUSTOMER_DETAILS"
+where CUSTOMER_PHONE IS NULL ))
+    WHERE ID=1
+2022-01-21 21:16:10.283335 (Thread-610): handling poll request
+2022-01-21 21:16:10.283668 (Thread-610): 21:16:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473f59280>]}
+2022-01-21 21:16:10.284232 (Thread-610): sending response (<Response 3150 bytes [200 OK]>) to 10.0.45.208
+2022-01-21 21:16:10.449754 (Thread-1): 21:16:10  SQL status: SUCCESS 2 in 0.69 seconds
+2022-01-21 21:16:10.451241 (Thread-1): 21:16:10  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:16:10.451358 (Thread-1): 21:16:10  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT count(*) from "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" WHERE OUTPUT_RESULT <> EXPECTED_RESULT
+2022-01-21 21:16:10.553683 (Thread-1): 21:16:10  SQL status: SUCCESS 1 in 0.1 seconds
+2022-01-21 21:16:10.554932 (Thread-1): 21:16:10  Writing injected SQL for node "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:16:10.575202 (Thread-1): 21:16:10  finished collecting timing info
+2022-01-21 21:16:10.575367 (Thread-1): 21:16:10  Began executing node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:16:10.591379 (Thread-1): 21:16:10  Writing runtime SQL for node "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:16:10.612459 (Thread-1): 21:16:10  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:16:10.612573 (Thread-1): 21:16:10  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+       
+
+            select 1 as temp where 1=2
+    
+      
+    ) dbt_internal_test
+2022-01-21 21:16:10.856127 (Thread-1): 21:16:10  SQL status: SUCCESS 1 in 0.24 seconds
+2022-01-21 21:16:10.858453 (Thread-1): 21:16:10  finished collecting timing info
+2022-01-21 21:16:10.858635 (Thread-1): 21:16:10  On test.dbtvault_snowflake_demo.DQ_Check: Close
+2022-01-21 21:16:10.938678 (Thread-1): 21:16:10  1 of 1 PASS DQ_Check............................................................ [PASS in 3.66s]
+2022-01-21 21:16:10.938856 (Thread-1): 21:16:10  Finished running node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:16:10.940452 (MainThread): 21:16:10  Acquiring new snowflake connection "master"
+2022-01-21 21:16:10.940794 (MainThread): 21:16:10  
+2022-01-21 21:16:10.940902 (MainThread): 21:16:10  Finished running 1 test in 5.03s.
+2022-01-21 21:16:10.940992 (MainThread): 21:16:10  Connection 'master' was properly closed.
+2022-01-21 21:16:10.941063 (MainThread): 21:16:10  Connection 'test.dbtvault_snowflake_demo.DQ_Check' was properly closed.
+2022-01-21 21:16:10.941132 (MainThread): 21:16:10  Connection 'list_PC_DBT_DB_dbt_abasak_CUST_DETAIL' was properly closed.
+2022-01-21 21:16:11.009639 (MainThread): 21:16:11  
+2022-01-21 21:16:11.009806 (MainThread): 21:16:11  Completed successfully
+2022-01-21 21:16:11.009904 (MainThread): 21:16:11  
+2022-01-21 21:16:11.009998 (MainThread): 21:16:11  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+2022-01-21 21:16:11.781789 (Thread-611): handling poll request
+2022-01-21 21:16:11.782194 (Thread-611): 21:16:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04739575e0>]}
+2022-01-21 21:16:11.807323 (Thread-611): sending response (<Response 13233 bytes [200 OK]>) to 10.0.0.242
+2022-01-21 21:16:12.967924 (Thread-612): handling status request
+2022-01-21 21:16:12.968284 (Thread-612): 21:16:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473957370>]}
+2022-01-21 21:16:12.968835 (Thread-612): sending response (<Response 1262 bytes [200 OK]>) to 10.0.14.136
+2022-01-21 21:16:13.034976 (Thread-613): handling status request
+2022-01-21 21:16:13.041056 (Thread-613): 21:16:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473ac0f70>]}
+2022-01-21 21:16:13.041495 (Thread-613): sending response (<Response 1262 bytes [200 OK]>) to 10.0.21.5
+2022-01-21 21:17:02.691705 (Thread-614): handling status request
+2022-01-21 21:17:02.692045 (Thread-614): 21:17:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473ac0e50>]}
+2022-01-21 21:17:02.692542 (Thread-614): sending response (<Response 1262 bytes [200 OK]>) to 10.0.32.79
+2022-01-21 21:17:02.960692 (Thread-615): handling status request
+2022-01-21 21:17:02.961054 (Thread-615): 21:17:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473ac09d0>]}
+2022-01-21 21:17:02.961533 (Thread-615): sending response (<Response 1262 bytes [200 OK]>) to 10.0.21.5
+2022-01-21 21:17:03.294769 (Thread-616): handling cli_args request
+2022-01-21 21:17:03.295163 (Thread-616): 21:17:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473368790>]}
+2022-01-21 21:17:05.564227 (Thread-616): sending response (<Response 138 bytes [200 OK]>) to 10.0.17.61
+2022-01-21 21:17:06.077822 (MainThread): 21:17:06  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-21 21:17:06.078244 (MainThread): 21:17:06  Partial parsing enabled, no changes found, skipping parsing
+2022-01-21 21:17:06.085966 (MainThread): 21:17:06  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '53d3a6f0-bed7-411d-949d-f9fa680402d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe2040551c0>]}
+2022-01-21 21:17:06.126824 (MainThread): 21:17:06  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '53d3a6f0-bed7-411d-949d-f9fa680402d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe2048bc9a0>]}
+2022-01-21 21:17:06.127122 (MainThread): 21:17:06  Found 31 models, 1 test, 1 snapshot, 0 analyses, 448 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-21 21:17:06.129578 (MainThread): 21:17:06  
+2022-01-21 21:17:06.129907 (MainThread): 21:17:06  Acquiring new snowflake connection "master"
+2022-01-21 21:17:06.132093 (ThreadPoolExecutor-1_0): 21:17:06  Acquiring new snowflake connection "list_PC_DBT_DB_snapshots"
+2022-01-21 21:17:06.145039 (ThreadPoolExecutor-1_0): 21:17:06  Using snowflake connection "list_PC_DBT_DB_snapshots"
+2022-01-21 21:17:06.145148 (ThreadPoolExecutor-1_0): 21:17:06  On list_PC_DBT_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_snapshots"} */
+
+    show terse objects in PC_DBT_DB.snapshots
+2022-01-21 21:17:06.145234 (ThreadPoolExecutor-1_0): 21:17:06  Opening a new connection, currently in state init
+2022-01-21 21:17:06.146366 (ThreadPoolExecutor-1_1): 21:17:06  Acquiring new snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-01-21 21:17:06.148725 (ThreadPoolExecutor-1_1): 21:17:06  Using snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-01-21 21:17:06.148829 (ThreadPoolExecutor-1_1): 21:17:06  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"} */
+
+    show terse objects in PC_DBT_DB.dbt_abasak_CUST_DETAIL
+2022-01-21 21:17:06.148913 (ThreadPoolExecutor-1_1): 21:17:06  Opening a new connection, currently in state init
+2022-01-21 21:17:06.184836 (Thread-617): handling poll request
+2022-01-21 21:17:06.185221 (Thread-617): 21:17:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f047388a6d0>]}
+2022-01-21 21:17:06.186182 (Thread-617): sending response (<Response 5663 bytes [200 OK]>) to 10.0.30.147
+2022-01-21 21:17:06.985665 (ThreadPoolExecutor-1_1): 21:17:06  SQL status: SUCCESS 32 in 0.84 seconds
+2022-01-21 21:17:06.988665 (ThreadPoolExecutor-1_1): 21:17:06  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: Close
+2022-01-21 21:17:07.168154 (ThreadPoolExecutor-1_0): 21:17:07  SQL status: SUCCESS 1 in 1.02 seconds
+2022-01-21 21:17:07.170315 (ThreadPoolExecutor-1_0): 21:17:07  On list_PC_DBT_DB_snapshots: Close
+2022-01-21 21:17:07.289089 (MainThread): 21:17:07  Concurrency: 4 threads (target='default')
+2022-01-21 21:17:07.289299 (MainThread): 21:17:07  
+2022-01-21 21:17:07.292319 (Thread-1): 21:17:07  Began running node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:17:07.292585 (Thread-1): 21:17:07  1 of 1 START test DQ_Check...................................................... [RUN]
+2022-01-21 21:17:07.294519 (Thread-1): 21:17:07  Acquiring new snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:17:07.294683 (Thread-1): 21:17:07  Began compiling node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:17:07.294819 (Thread-1): 21:17:07  Compiling test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:17:07.356009 (Thread-1): 21:17:07  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:17:07.356140 (Thread-1): 21:17:07  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = -1
+2022-01-21 21:17:07.356238 (Thread-1): 21:17:07  Opening a new connection, currently in state closed
+2022-01-21 21:17:07.743980 (Thread-618): handling poll request
+2022-01-21 21:17:07.744312 (Thread-618): 21:17:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f047388af10>]}
+2022-01-21 21:17:07.747266 (Thread-618): sending response (<Response 5427 bytes [200 OK]>) to 10.0.8.0
+2022-01-21 21:17:08.570794 (Thread-1): 21:17:08  SQL status: SUCCESS 2 in 1.21 seconds
+2022-01-21 21:17:08.574834 (Thread-1): 21:17:08  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:17:08.574951 (Thread-1): 21:17:08  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT count(Query) FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-01-21 21:17:08.675576 (Thread-1): 21:17:08  SQL status: SUCCESS 1 in 0.1 seconds
+2022-01-21 21:17:08.677394 (Thread-1): 21:17:08  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:17:08.677515 (Thread-1): 21:17:08  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT  Query,ID FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-01-21 21:17:09.370420 (Thread-619): handling poll request
+2022-01-21 21:17:09.370760 (Thread-619): 21:17:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473ac0b50>]}
+2022-01-21 21:17:09.371342 (Thread-619): sending response (<Response 2865 bytes [200 OK]>) to 10.0.45.160
+2022-01-21 21:17:09.372572 (Thread-1): 21:17:09  SQL status: SUCCESS 2 in 0.69 seconds
+2022-01-21 21:17:09.375140 (Thread-1): 21:17:09  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:17:09.375314 (Thread-1): 21:17:09  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_ORDER_DETAILS"
+where TOTALPRICE=0 or TOTALPRICE<0 ))
+    WHERE ID=1
+2022-01-21 21:17:10.070392 (Thread-1): 21:17:10  SQL status: SUCCESS 2 in 0.69 seconds
+2022-01-21 21:17:10.071925 (Thread-1): 21:17:10  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:17:10.072044 (Thread-1): 21:17:10  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_CUSTOMER_DETAILS"
+where CUSTOMER_PHONE IS NULL ))
+    WHERE ID=1
+2022-01-21 21:17:10.937984 (Thread-1): 21:17:10  SQL status: SUCCESS 2 in 0.87 seconds
+2022-01-21 21:17:10.940252 (Thread-1): 21:17:10  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:17:10.940453 (Thread-1): 21:17:10  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT count(*) from "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" WHERE OUTPUT_RESULT <> EXPECTED_RESULT
+2022-01-21 21:17:10.965294 (Thread-620): handling poll request
+2022-01-21 21:17:10.965591 (Thread-620): 21:17:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473ca0fa0>]}
+2022-01-21 21:17:10.966184 (Thread-620): sending response (<Response 4456 bytes [200 OK]>) to 10.0.17.190
+2022-01-21 21:17:11.318695 (Thread-1): 21:17:11  SQL status: SUCCESS 1 in 0.38 seconds
+2022-01-21 21:17:11.320034 (Thread-1): 21:17:11  Writing injected SQL for node "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:17:11.336464 (Thread-1): 21:17:11  finished collecting timing info
+2022-01-21 21:17:11.336644 (Thread-1): 21:17:11  Began executing node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:17:11.352669 (Thread-1): 21:17:11  Writing runtime SQL for node "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:17:11.369588 (Thread-1): 21:17:11  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:17:11.369716 (Thread-1): 21:17:11  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+            select 1 as temp 
+     
+      
+    ) dbt_internal_test
+2022-01-21 21:17:11.457518 (Thread-1): 21:17:11  SQL status: SUCCESS 1 in 0.09 seconds
+2022-01-21 21:17:11.459742 (Thread-1): 21:17:11  finished collecting timing info
+2022-01-21 21:17:11.459909 (Thread-1): 21:17:11  On test.dbtvault_snowflake_demo.DQ_Check: Close
+2022-01-21 21:17:11.750255 (Thread-1): 21:17:11  1 of 1 FAIL 1 DQ_Check.......................................................... [FAIL 1 in 4.46s]
+2022-01-21 21:17:11.750468 (Thread-1): 21:17:11  Finished running node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:17:11.751969 (MainThread): 21:17:11  Acquiring new snowflake connection "master"
+2022-01-21 21:17:11.752306 (MainThread): 21:17:11  
+2022-01-21 21:17:11.752443 (MainThread): 21:17:11  Finished running 1 test in 5.62s.
+2022-01-21 21:17:11.752544 (MainThread): 21:17:11  Connection 'master' was properly closed.
+2022-01-21 21:17:11.752617 (MainThread): 21:17:11  Connection 'list_PC_DBT_DB_snapshots' was properly closed.
+2022-01-21 21:17:11.752687 (MainThread): 21:17:11  Connection 'test.dbtvault_snowflake_demo.DQ_Check' was properly closed.
+2022-01-21 21:17:11.827501 (MainThread): 21:17:11  
+2022-01-21 21:17:11.827724 (MainThread): 21:17:11  Completed with 1 error and 0 warnings:
+2022-01-21 21:17:11.827819 (MainThread): 21:17:11  
+2022-01-21 21:17:11.827932 (MainThread): 21:17:11  Failure in test DQ_Check (DQ_Test/DQ_Check.sql)
+2022-01-21 21:17:11.828015 (MainThread): 21:17:11    Got 1 result, configured to fail if != 0
+2022-01-21 21:17:11.828090 (MainThread): 21:17:11  
+2022-01-21 21:17:11.828172 (MainThread): 21:17:11    compiled SQL at target/compiled/dbtvault_snowflake_demo/DQ_Test/DQ_Check.sql
+2022-01-21 21:17:11.828259 (MainThread): 21:17:11  
+2022-01-21 21:17:11.828343 (MainThread): 21:17:11  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+2022-01-21 21:17:12.859379 (Thread-621): handling poll request
+2022-01-21 21:17:12.859714 (Thread-621): 21:17:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473aeb760>]}
+2022-01-21 21:17:12.861013 (Thread-621): sending response (<Response 14083 bytes [200 OK]>) to 10.0.17.190
+2022-01-21 21:17:13.972953 (Thread-622): handling status request
+2022-01-21 21:17:13.973360 (Thread-622): 21:17:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473aeb790>]}
+2022-01-21 21:17:13.973885 (Thread-622): sending response (<Response 1262 bytes [200 OK]>) to 10.0.22.149
+2022-01-21 21:17:14.017721 (Thread-623): handling status request
+2022-01-21 21:17:14.017985 (Thread-623): 21:17:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473aebd00>]}
+2022-01-21 21:17:14.018415 (Thread-623): sending response (<Response 1262 bytes [200 OK]>) to 10.0.22.149
+2022-01-21 21:22:02.899645 (Thread-624): handling status request
+2022-01-21 21:22:02.902071 (Thread-624): 21:22:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473d6deb0>]}
+2022-01-21 21:22:02.902589 (Thread-624): sending response (<Response 1262 bytes [200 OK]>) to 10.0.0.242
+2022-01-21 21:22:03.280404 (Thread-625): handling status request
+2022-01-21 21:22:03.280773 (Thread-625): 21:22:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473d6d940>]}
+2022-01-21 21:22:03.281237 (Thread-625): sending response (<Response 1262 bytes [200 OK]>) to 10.0.34.146
+2022-01-21 21:22:03.460641 (Thread-626): handling cli_args request
+2022-01-21 21:22:03.460990 (Thread-626): 21:22:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473d6d5e0>]}
+2022-01-21 21:22:05.706393 (Thread-626): sending response (<Response 138 bytes [200 OK]>) to 10.0.47.57
+2022-01-21 21:22:06.208628 (Thread-627): handling poll request
+2022-01-21 21:22:06.209064 (Thread-627): 21:22:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473f597f0>]}
+2022-01-21 21:22:06.209818 (Thread-627): sending response (<Response 287 bytes [200 OK]>) to 10.0.14.136
+2022-01-21 21:22:06.605518 (MainThread): 21:22:06  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-21 21:22:06.605988 (MainThread): 21:22:06  Partial parsing enabled, no changes found, skipping parsing
+2022-01-21 21:22:06.613910 (MainThread): 21:22:06  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0b9a8d63-3852-4b06-9433-a473721158a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2dc7216580>]}
+2022-01-21 21:22:06.649235 (MainThread): 21:22:06  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0b9a8d63-3852-4b06-9433-a473721158a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2dc7b42b20>]}
+2022-01-21 21:22:06.649644 (MainThread): 21:22:06  Found 31 models, 1 test, 1 snapshot, 0 analyses, 448 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-21 21:22:06.651682 (MainThread): 21:22:06  
+2022-01-21 21:22:06.652001 (MainThread): 21:22:06  Acquiring new snowflake connection "master"
+2022-01-21 21:22:06.656985 (ThreadPoolExecutor-1_0): 21:22:06  Acquiring new snowflake connection "list_PC_DBT_DB_snapshots"
+2022-01-21 21:22:06.667855 (ThreadPoolExecutor-1_1): 21:22:06  Acquiring new snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-01-21 21:22:06.677598 (ThreadPoolExecutor-1_0): 21:22:06  Using snowflake connection "list_PC_DBT_DB_snapshots"
+2022-01-21 21:22:06.677718 (ThreadPoolExecutor-1_0): 21:22:06  On list_PC_DBT_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_snapshots"} */
+
+    show terse objects in PC_DBT_DB.snapshots
+2022-01-21 21:22:06.677806 (ThreadPoolExecutor-1_0): 21:22:06  Opening a new connection, currently in state init
+2022-01-21 21:22:06.678481 (ThreadPoolExecutor-1_1): 21:22:06  Using snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-01-21 21:22:06.678600 (ThreadPoolExecutor-1_1): 21:22:06  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"} */
+
+    show terse objects in PC_DBT_DB.dbt_abasak_CUST_DETAIL
+2022-01-21 21:22:06.678726 (ThreadPoolExecutor-1_1): 21:22:06  Opening a new connection, currently in state init
+2022-01-21 21:22:07.644769 (ThreadPoolExecutor-1_0): 21:22:07  SQL status: SUCCESS 1 in 0.97 seconds
+2022-01-21 21:22:07.646765 (ThreadPoolExecutor-1_0): 21:22:07  On list_PC_DBT_DB_snapshots: Close
+2022-01-21 21:22:07.648914 (ThreadPoolExecutor-1_1): 21:22:07  SQL status: SUCCESS 32 in 0.97 seconds
+2022-01-21 21:22:07.650846 (ThreadPoolExecutor-1_1): 21:22:07  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: Close
+2022-01-21 21:22:07.780656 (MainThread): 21:22:07  Concurrency: 4 threads (target='default')
+2022-01-21 21:22:07.780840 (MainThread): 21:22:07  
+2022-01-21 21:22:07.783678 (Thread-1): 21:22:07  Began running node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:22:07.824333 (Thread-628): handling poll request
+2022-01-21 21:22:07.824723 (Thread-628): 21:22:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473ae7e80>]}
+2022-01-21 21:22:07.825636 (Thread-628): sending response (<Response 8065 bytes [200 OK]>) to 10.0.34.146
+2022-01-21 21:22:07.785361 (Thread-1): 21:22:07  1 of 1 START test DQ_Check...................................................... [RUN]
+2022-01-21 21:22:07.785811 (Thread-1): 21:22:07  Acquiring new snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:07.785980 (Thread-1): 21:22:07  Began compiling node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:22:07.786173 (Thread-1): 21:22:07  Compiling test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:22:07.853151 (Thread-1): 21:22:07  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:07.853281 (Thread-1): 21:22:07  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = -1
+2022-01-21 21:22:07.853376 (Thread-1): 21:22:07  Opening a new connection, currently in state closed
+2022-01-21 21:22:08.879752 (Thread-1): 21:22:08  SQL status: SUCCESS 2 in 1.03 seconds
+2022-01-21 21:22:08.885868 (Thread-1): 21:22:08  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:08.886043 (Thread-1): 21:22:08  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT count(Query) FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-01-21 21:22:09.097355 (Thread-1): 21:22:09  SQL status: SUCCESS 1 in 0.21 seconds
+2022-01-21 21:22:09.099160 (Thread-1): 21:22:09  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:09.099291 (Thread-1): 21:22:09  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT  Query,ID FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-01-21 21:22:09.287507 (Thread-1): 21:22:09  SQL status: SUCCESS 2 in 0.19 seconds
+2022-01-21 21:22:09.289269 (Thread-1): 21:22:09  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:09.289391 (Thread-1): 21:22:09  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_ORDER_DETAILS"
+where TOTALPRICE=0 or TOTALPRICE<0 ))
+    WHERE ID=2
+2022-01-21 21:22:09.386586 (Thread-629): handling poll request
+2022-01-21 21:22:09.386905 (Thread-629): 21:22:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f047396e9a0>]}
+2022-01-21 21:22:09.387550 (Thread-629): sending response (<Response 7040 bytes [200 OK]>) to 10.0.28.132
+2022-01-21 21:22:10.123698 (Thread-1): 21:22:10  SQL status: SUCCESS 1 in 0.83 seconds
+2022-01-21 21:22:10.125249 (Thread-1): 21:22:10  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:10.125367 (Thread-1): 21:22:10  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_CUSTOMER_DETAILS"
+where CUSTOMER_PHONE IS NULL ))
+    WHERE ID=1
+2022-01-21 21:22:10.791503 (Thread-1): 21:22:10  SQL status: SUCCESS 1 in 0.67 seconds
+2022-01-21 21:22:10.792984 (Thread-1): 21:22:10  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:10.793101 (Thread-1): 21:22:10  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT count(*) from "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" WHERE OUTPUT_RESULT <> EXPECTED_RESULT
+2022-01-21 21:22:10.918825 (Thread-630): handling poll request
+2022-01-21 21:22:10.919171 (Thread-630): 21:22:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0488787970>]}
+2022-01-21 21:22:10.919741 (Thread-630): sending response (<Response 3022 bytes [200 OK]>) to 10.0.32.79
+2022-01-21 21:22:10.932740 (Thread-1): 21:22:10  SQL status: SUCCESS 1 in 0.14 seconds
+2022-01-21 21:22:10.934083 (Thread-1): 21:22:10  Writing injected SQL for node "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:10.955235 (Thread-1): 21:22:10  finished collecting timing info
+2022-01-21 21:22:10.955410 (Thread-1): 21:22:10  Began executing node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:22:10.971531 (Thread-1): 21:22:10  Writing runtime SQL for node "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:10.992847 (Thread-1): 21:22:10  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:10.992985 (Thread-1): 21:22:10  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+       
+
+            select 1 as temp where 1=2
+    
+      
+    ) dbt_internal_test
+2022-01-21 21:22:11.063252 (Thread-1): 21:22:11  SQL status: SUCCESS 1 in 0.07 seconds
+2022-01-21 21:22:11.065497 (Thread-1): 21:22:11  finished collecting timing info
+2022-01-21 21:22:11.065662 (Thread-1): 21:22:11  On test.dbtvault_snowflake_demo.DQ_Check: Close
+2022-01-21 21:22:11.162834 (Thread-1): 21:22:11  1 of 1 PASS DQ_Check............................................................ [PASS in 3.38s]
+2022-01-21 21:22:11.163037 (Thread-1): 21:22:11  Finished running node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:22:11.164729 (MainThread): 21:22:11  Acquiring new snowflake connection "master"
+2022-01-21 21:22:11.165072 (MainThread): 21:22:11  
+2022-01-21 21:22:11.165179 (MainThread): 21:22:11  Finished running 1 test in 4.51s.
+2022-01-21 21:22:11.165269 (MainThread): 21:22:11  Connection 'master' was properly closed.
+2022-01-21 21:22:11.165341 (MainThread): 21:22:11  Connection 'test.dbtvault_snowflake_demo.DQ_Check' was properly closed.
+2022-01-21 21:22:11.165410 (MainThread): 21:22:11  Connection 'list_PC_DBT_DB_dbt_abasak_CUST_DETAIL' was properly closed.
+2022-01-21 21:22:11.237776 (MainThread): 21:22:11  
+2022-01-21 21:22:11.237963 (MainThread): 21:22:11  Completed successfully
+2022-01-21 21:22:11.238060 (MainThread): 21:22:11  
+2022-01-21 21:22:11.238154 (MainThread): 21:22:11  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+2022-01-21 21:22:12.526027 (Thread-631): handling poll request
+2022-01-21 21:22:12.526376 (Thread-631): 21:22:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04736b6a60>]}
+2022-01-21 21:22:12.527819 (Thread-631): sending response (<Response 11924 bytes [200 OK]>) to 10.0.30.147
+2022-01-21 21:22:13.531534 (Thread-632): handling status request
+2022-01-21 21:22:13.531868 (Thread-632): 21:22:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473957730>]}
+2022-01-21 21:22:13.532398 (Thread-632): sending response (<Response 1262 bytes [200 OK]>) to 10.0.8.0
+2022-01-21 21:22:13.584235 (Thread-633): handling status request
+2022-01-21 21:22:13.584562 (Thread-633): 21:22:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473f590d0>]}
+2022-01-21 21:22:13.585059 (Thread-633): sending response (<Response 1262 bytes [200 OK]>) to 10.0.14.136
+2022-01-21 21:22:44.362503 (Thread-634): handling status request
+2022-01-21 21:22:44.362863 (Thread-634): 21:22:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473ae2640>]}
+2022-01-21 21:22:44.363335 (Thread-634): sending response (<Response 1262 bytes [200 OK]>) to 10.0.21.5
+2022-01-21 21:22:44.769456 (Thread-635): handling status request
+2022-01-21 21:22:44.769808 (Thread-635): 21:22:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473ae2490>]}
+2022-01-21 21:22:44.770304 (Thread-635): sending response (<Response 1262 bytes [200 OK]>) to 10.0.30.147
+2022-01-21 21:22:44.901908 (Thread-636): handling cli_args request
+2022-01-21 21:22:44.902207 (Thread-636): 21:22:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473aeb340>]}
+2022-01-21 21:22:47.147900 (Thread-636): sending response (<Response 138 bytes [200 OK]>) to 10.0.32.79
+2022-01-21 21:22:47.659622 (MainThread): 21:22:47  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-01-21 21:22:47.660060 (MainThread): 21:22:47  Partial parsing enabled, no changes found, skipping parsing
+2022-01-21 21:22:47.667905 (MainThread): 21:22:47  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd4173e71-7a80-429b-b686-6baddf6a83ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd361155b0>]}
+2022-01-21 21:22:47.689852 (Thread-637): handling poll request
+2022-01-21 21:22:47.690250 (Thread-637): 21:22:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f047361d760>]}
+2022-01-21 21:22:47.691060 (Thread-637): sending response (<Response 1356 bytes [200 OK]>) to 10.0.45.208
+2022-01-21 21:22:47.707967 (MainThread): 21:22:47  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd4173e71-7a80-429b-b686-6baddf6a83ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcd36a43b50>]}
+2022-01-21 21:22:47.708293 (MainThread): 21:22:47  Found 31 models, 1 test, 1 snapshot, 0 analyses, 448 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-01-21 21:22:47.710352 (MainThread): 21:22:47  
+2022-01-21 21:22:47.710719 (MainThread): 21:22:47  Acquiring new snowflake connection "master"
+2022-01-21 21:22:47.712901 (ThreadPoolExecutor-1_0): 21:22:47  Acquiring new snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-01-21 21:22:47.723291 (ThreadPoolExecutor-1_1): 21:22:47  Acquiring new snowflake connection "list_PC_DBT_DB_snapshots"
+2022-01-21 21:22:47.730925 (ThreadPoolExecutor-1_0): 21:22:47  Using snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-01-21 21:22:47.731036 (ThreadPoolExecutor-1_0): 21:22:47  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"} */
+
+    show terse objects in PC_DBT_DB.dbt_abasak_CUST_DETAIL
+2022-01-21 21:22:47.731125 (ThreadPoolExecutor-1_0): 21:22:47  Opening a new connection, currently in state init
+2022-01-21 21:22:47.733088 (ThreadPoolExecutor-1_1): 21:22:47  Using snowflake connection "list_PC_DBT_DB_snapshots"
+2022-01-21 21:22:47.733197 (ThreadPoolExecutor-1_1): 21:22:47  On list_PC_DBT_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_snapshots"} */
+
+    show terse objects in PC_DBT_DB.snapshots
+2022-01-21 21:22:47.733282 (ThreadPoolExecutor-1_1): 21:22:47  Opening a new connection, currently in state init
+2022-01-21 21:22:48.557098 (ThreadPoolExecutor-1_0): 21:22:48  SQL status: SUCCESS 32 in 0.83 seconds
+2022-01-21 21:22:48.559962 (ThreadPoolExecutor-1_0): 21:22:48  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: Close
+2022-01-21 21:22:49.109376 (ThreadPoolExecutor-1_1): 21:22:49  SQL status: SUCCESS 1 in 1.38 seconds
+2022-01-21 21:22:49.111098 (ThreadPoolExecutor-1_1): 21:22:49  On list_PC_DBT_DB_snapshots: Close
+2022-01-21 21:22:49.236342 (MainThread): 21:22:49  Concurrency: 4 threads (target='default')
+2022-01-21 21:22:49.236718 (MainThread): 21:22:49  
+2022-01-21 21:22:49.239487 (Thread-1): 21:22:49  Began running node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:22:49.239796 (Thread-1): 21:22:49  1 of 1 START test DQ_Check...................................................... [RUN]
+2022-01-21 21:22:49.291052 (Thread-638): handling poll request
+2022-01-21 21:22:49.291519 (Thread-638): 21:22:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04894d5d00>]}
+2022-01-21 21:22:49.292710 (Thread-638): sending response (<Response 7375 bytes [200 OK]>) to 10.0.45.208
+2022-01-21 21:22:49.242004 (Thread-1): 21:22:49  Acquiring new snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:49.242157 (Thread-1): 21:22:49  Began compiling node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:22:49.242299 (Thread-1): 21:22:49  Compiling test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:22:49.316163 (Thread-1): 21:22:49  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:49.316315 (Thread-1): 21:22:49  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = -1
+2022-01-21 21:22:49.316448 (Thread-1): 21:22:49  Opening a new connection, currently in state closed
+2022-01-21 21:22:50.507916 (Thread-1): 21:22:50  SQL status: SUCCESS 2 in 1.19 seconds
+2022-01-21 21:22:50.511892 (Thread-1): 21:22:50  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:50.512015 (Thread-1): 21:22:50  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT count(Query) FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-01-21 21:22:50.854098 (Thread-639): handling poll request
+2022-01-21 21:22:50.854451 (Thread-639): 21:22:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473f7b730>]}
+2022-01-21 21:22:50.855050 (Thread-639): sending response (<Response 3936 bytes [200 OK]>) to 10.0.47.57
+2022-01-21 21:22:51.097404 (Thread-1): 21:22:51  SQL status: SUCCESS 1 in 0.59 seconds
+2022-01-21 21:22:51.099208 (Thread-1): 21:22:51  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:51.099390 (Thread-1): 21:22:51  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT  Query,ID FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-01-21 21:22:51.724551 (Thread-1): 21:22:51  SQL status: SUCCESS 2 in 0.62 seconds
+2022-01-21 21:22:51.726289 (Thread-1): 21:22:51  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:51.726411 (Thread-1): 21:22:51  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_ORDER_DETAILS"
+where TOTALPRICE=0 or TOTALPRICE<0 ))
+    WHERE ID=2
+2022-01-21 21:22:52.409521 (Thread-640): handling poll request
+2022-01-21 21:22:52.409854 (Thread-640): 21:22:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473d737f0>]}
+2022-01-21 21:22:52.410414 (Thread-640): sending response (<Response 3008 bytes [200 OK]>) to 10.0.21.5
+2022-01-21 21:22:53.935347 (Thread-641): handling poll request
+2022-01-21 21:22:53.935680 (Thread-641): 21:22:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473d734f0>]}
+2022-01-21 21:22:53.961615 (Thread-641): sending response (<Response 287 bytes [200 OK]>) to 10.0.8.0
+2022-01-21 21:22:55.010295 (Thread-1): 21:22:55  SQL status: SUCCESS 1 in 3.28 seconds
+2022-01-21 21:22:55.011844 (Thread-1): 21:22:55  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:55.011960 (Thread-1): 21:22:55  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_CUSTOMER_DETAILS"
+where CUSTOMER_PHONE IS NULL ))
+    WHERE ID=1
+2022-01-21 21:22:56.100377 (Thread-642): handling poll request
+2022-01-21 21:22:56.100744 (Thread-642): 21:22:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473d734f0>]}
+2022-01-21 21:22:56.101265 (Thread-642): sending response (<Response 1717 bytes [200 OK]>) to 10.0.8.138
+2022-01-21 21:22:57.002990 (Thread-1): 21:22:57  SQL status: SUCCESS 1 in 1.99 seconds
+2022-01-21 21:22:57.004460 (Thread-1): 21:22:57  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:57.004583 (Thread-1): 21:22:57  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT count(*) from "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" WHERE OUTPUT_RESULT <> EXPECTED_RESULT
+2022-01-21 21:22:57.192932 (Thread-1): 21:22:57  SQL status: SUCCESS 1 in 0.19 seconds
+2022-01-21 21:22:57.194280 (Thread-1): 21:22:57  Writing injected SQL for node "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:57.213520 (Thread-1): 21:22:57  finished collecting timing info
+2022-01-21 21:22:57.213696 (Thread-1): 21:22:57  Began executing node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:22:57.229630 (Thread-1): 21:22:57  Writing runtime SQL for node "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:57.247654 (Thread-1): 21:22:57  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-01-21 21:22:57.247775 (Thread-1): 21:22:57  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+            select 1 as temp 
+     
+      
+    ) dbt_internal_test
+2022-01-21 21:22:57.305397 (Thread-1): 21:22:57  SQL status: SUCCESS 1 in 0.06 seconds
+2022-01-21 21:22:57.308699 (Thread-1): 21:22:57  finished collecting timing info
+2022-01-21 21:22:57.308946 (Thread-1): 21:22:57  On test.dbtvault_snowflake_demo.DQ_Check: Close
+2022-01-21 21:22:57.571754 (Thread-1): 21:22:57  1 of 1 FAIL 1 DQ_Check.......................................................... [FAIL 1 in 8.33s]
+2022-01-21 21:22:57.571963 (Thread-1): 21:22:57  Finished running node test.dbtvault_snowflake_demo.DQ_Check
+2022-01-21 21:22:57.573819 (MainThread): 21:22:57  Acquiring new snowflake connection "master"
+2022-01-21 21:22:57.574282 (MainThread): 21:22:57  
+2022-01-21 21:22:57.574439 (MainThread): 21:22:57  Finished running 1 test in 9.86s.
+2022-01-21 21:22:57.574579 (MainThread): 21:22:57  Connection 'master' was properly closed.
+2022-01-21 21:22:57.574694 (MainThread): 21:22:57  Connection 'test.dbtvault_snowflake_demo.DQ_Check' was properly closed.
+2022-01-21 21:22:57.574802 (MainThread): 21:22:57  Connection 'list_PC_DBT_DB_snapshots' was properly closed.
+2022-01-21 21:22:57.648684 (MainThread): 21:22:57  
+2022-01-21 21:22:57.648901 (MainThread): 21:22:57  Completed with 1 error and 0 warnings:
+2022-01-21 21:22:57.648997 (MainThread): 21:22:57  
+2022-01-21 21:22:57.649109 (MainThread): 21:22:57  Failure in test DQ_Check (DQ_Test/DQ_Check.sql)
+2022-01-21 21:22:57.649195 (MainThread): 21:22:57    Got 1 result, configured to fail if != 0
+2022-01-21 21:22:57.649273 (MainThread): 21:22:57  
+2022-01-21 21:22:57.649355 (MainThread): 21:22:57    compiled SQL at target/compiled/dbtvault_snowflake_demo/DQ_Test/DQ_Check.sql
+2022-01-21 21:22:57.649443 (MainThread): 21:22:57  
+2022-01-21 21:22:57.649530 (MainThread): 21:22:57  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+2022-01-21 21:22:57.699511 (Thread-643): handling poll request
+2022-01-21 21:22:57.699898 (Thread-643): 21:22:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473859070>]}
+2022-01-21 21:22:57.700844 (Thread-643): sending response (<Response 12079 bytes [200 OK]>) to 10.0.45.160
+2022-01-21 21:22:59.225018 (Thread-644): handling poll request
+2022-01-21 21:22:59.225359 (Thread-644): 21:22:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473841520>]}
+2022-01-21 21:22:59.226506 (Thread-644): sending response (<Response 3599 bytes [200 OK]>) to 10.0.14.136
+2022-01-21 21:23:00.296920 (Thread-645): handling status request
+2022-01-21 21:23:00.297328 (Thread-645): 21:23:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f04894d5580>]}
+2022-01-21 21:23:00.297862 (Thread-645): sending response (<Response 1262 bytes [200 OK]>) to 10.0.30.147
+2022-01-21 21:23:00.349461 (Thread-646): handling status request
+2022-01-21 21:23:00.349875 (Thread-646): 21:23:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473ae28b0>]}
+2022-01-21 21:23:00.350472 (Thread-646): sending response (<Response 1262 bytes [200 OK]>) to 10.0.47.57
+2022-01-21 21:25:46.246241 (Thread-647): handling status request
+2022-01-21 21:25:46.248549 (Thread-647): 21:25:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'dfc7a3c8-50a0-4f5d-9c2a-cc2172c76c71', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0473a71f70>]}
+2022-01-21 21:25:46.249048 (Thread-647): sending response (<Response 1262 bytes [200 OK]>) to 10.0.0.242
