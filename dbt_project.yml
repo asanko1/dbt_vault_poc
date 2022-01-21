@@ -3,6 +3,9 @@ profile: snowflake_demo
 version: '5.2.0'
 config-version: 2
 
+
+snapshot-paths: 
+  - snapshots
 analysis-paths:
   - analysis
 clean-targets:
@@ -15,6 +18,7 @@ source-paths:
   - models
 test-paths:
   - tests
+  - DQ_Test
 target-path: target
 
 vars:
@@ -51,3 +55,5 @@ models:
       t_links:
         tags:
           - 't_link'
+
+
