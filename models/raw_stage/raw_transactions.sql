@@ -9,7 +9,9 @@ SELECT
     CASE ABS(MOD(RANDOM(1), 2)) + 1
         WHEN 1 THEN 'DR'
         WHEN 2 THEN 'CR'
-    END AS VARCHAR(2)) AS TYPE
+    END AS VARCHAR(2)) AS TYPE,
+    to_varchar('{{var('batch_id')}}') as BATCH_ID,
+    to_varchar('{{var('job_id')}}') as ADF_JOBID
 FROM {{ source('tpch_sample', 'ORDERS') }}  AS b
 LEFT JOIN {{ source('tpch_sample', 'CUSTOMER') }} AS c
     ON b.O_CUSTKEY = c.C_CUSTKEY

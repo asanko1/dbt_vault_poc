@@ -34,7 +34,9 @@ SELECT
     d.N_REGIONKEY AS CUSTOMER_REGION_KEY,
     d.N_COMMENT AS CUSTOMER_NATION_COMMENT,
     e.R_NAME AS CUSTOMER_REGION_NAME,
-    e.R_COMMENT AS CUSTOMER_REGION_COMMENT
+    e.R_COMMENT AS CUSTOMER_REGION_COMMENT,
+    to_varchar('{{var('batch_id')}}') as BATCH_ID,
+    to_varchar('{{var('job_id')}}') as ADF_JOBID
 FROM {{ source('tpch_sample', 'ORDERS') }} AS b
 LEFT JOIN {{ source('tpch_sample', 'LINEITEM') }} AS a
     ON a.L_ORDERKEY = b.O_ORDERKEY

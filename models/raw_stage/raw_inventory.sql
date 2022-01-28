@@ -22,13 +22,15 @@ SELECT
     d.N_COMMENT AS SUPPLIER_NATION_COMMENT,
     d.N_REGIONKEY AS SUPPLIER_REGION_KEY,
     e.R_NAME AS SUPPLIER_REGION_NAME,
-    e.R_COMMENT AS SUPPLIER_REGION_COMMENT
+    e.R_COMMENT AS SUPPLIER_REGION_COMMENT,
+    to_varchar('{{var('batch_id')}}') as BATCH_ID,
+    to_varchar('{{var('job_id')}}') as ADF_JOBID
 FROM {{ source('tpch_sample', 'PARTSUPP') }} AS a
 LEFT JOIN {{ source('tpch_sample', 'SUPPLIER') }} AS b
     ON a.PS_SUPPKEY = b.S_SUPPKEY
 LEFT JOIN {{ source('tpch_sample', 'PART') }} AS c
     ON a.PS_PARTKEY = c.P_PARTKEY
-LEFT JOIN {{ source('tpch_sample', 'NATION') }} AS d
+LEFT JOIN {{ source('tpch_sample', 'NATION') }} AS d    
     ON b.S_NATIONKEY = d.N_NATIONKEY
 LEFT JOIN {{ source('tpch_sample', 'REGION') }} AS e
     ON d.N_REGIONKEY = e.R_REGIONKEY
