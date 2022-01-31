@@ -13,3 +13,25 @@ sources:
       - name: PART
       - name: NATION
       - name: REGION
+  - name: Homesite
+    database: PC_DBT_DB
+    schema: DBT_ABASAK
+    tables:
+      - name: HOMESITEMASTER
+
+
+
+models:
+  - name: SAT_HomeSite
+    columns:
+        - name: HOMESITEID
+          tests:
+            - unique:
+                config:            
+                  severity: warn
+        - name: ADDRESSLINE1
+          tests:
+            - not_null:
+                config:            
+                  severity: warn
+    
