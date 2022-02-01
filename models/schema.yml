@@ -34,4 +34,23 @@ models:
             - not_null:
                 config:            
                   severity: warn
+        - name: HOMESTATUS
+          tests:
+            - accepted_values:
+                values: ['S', 'H', 'M', 'C','Z']
+                config:            
+                  severity: warn
+        - name: PLANCODE
+          tests:
+            - string_length_check:
+                desired_len: '4'
+                config:            
+                  severity: warn
+    tests:
+            - dbt_utils.expression_is_true:
+                expression: "TEMPLATENUMBER>0 and TEMPLATENUMBER<200"
+                condition: "TEMPLATENUMBER <> NULL"
+                config:            
+                  severity: warn
+                      
     
