@@ -1,3 +1,7 @@
+{{ config(
+    tags=["Customer"]
+) }}
+
 {%- set yaml_metadata -%}
 source_model: 'raw_orders'
 derived_columns:
