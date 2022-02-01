@@ -1,5 +1,5 @@
 {{ config(
-    tags=["Customer"]
+    tags=["Source_system_1"]
 ) }}
 
 

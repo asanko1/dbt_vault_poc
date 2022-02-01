@@ -1,14 +1,14 @@
-{% macro Batch_insert_update(batch_status) %}
+{% macro Batch_insert_update(b_status,b_id) %}
 
-    {% if ''== 'INSERT' %}
+    {%- if b_status == 'INSERT' -%}
         {% set query -%}
             Insert into ABC.PUBLIC.ABC_Batch_Details (Batch_ID,Batch_Name,Start_Timestamp,SourceSystem_Name,Batch_Status) 
-            VALUES ('{{invocation_id}}','JDE',sysdate(),'JDE','In_Progress')
+            VALUES (b_id,'JDE',sysdate(),'JDE','In_Progress')
         {%- endset %}
 
         {% do run_query(query) %}
 
-    {% elif '' == 'FAIL' %}
+    {% elif b_status == 'FAIL' %}
 
         {% set query -%}
             Update ABC.PUBLIC.ABC_Batch_Details set END_TIMESTAMP = sysdate(), Batch_Status= 'Fail' where SourceSystem_Name = 'JDE' and 
@@ -18,7 +18,7 @@
         {% do run_query(query) %}
         
 
-    {% elif '' == 'SUCCESS' %}
+    {% elif b_status == 'SUCCESS' %}
 
         {% set query -%}
             Update ABC.PUBLIC.ABC_Batch_Details set END_TIMESTAMP = sysdate(), Batch_Status= 'Success' where SourceSystem_Name = 'JDE' and 

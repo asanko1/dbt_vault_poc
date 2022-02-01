@@ -1,14 +1,14 @@
-{% macro Job_insert_update(running_job_status,running_job_name) %}
+{% macro Job_insert_update(running_job_status,running_job_name,running_job_id) %}
 
-    {% if ('{{job_status}}'.upper()) == 'INSERT' %}
+    {% if running_job_status == 'INSERT' %}
         {% set query -%}
             Insert into ABC.PUBLIC.ABC_Job_Details(Job_ID,JobName,Start_Timestamp,Job_Status) 
-            VALUES ('{{invocation_id}}',running_job_name,sysdate(),'In_Progress')
+            VALUES (running_job_id,running_job_name,sysdate(),'In_Progress')
         {%- endset %}
 
         {% do run_query(query) %}
 
-    {% elif ('{{job_status}}'.upper()) == 'FAIL' %}
+    {% elif running_job_status== 'FAIL' %}
 
         {% set query -%}
             Update ABC.PUBLIC.ABC_Job_Details
@@ -17,7 +17,7 @@
 
         {% do run_query(query) %}
         
-    {% elif ('{{job_status}}'.upper()) == 'SUCCESS' %}
+    {% elif running_job_status == 'SUCCESS' %}
 
         {% set query -%}
             Update ABC.PUBLIC.ABC_Job_Details

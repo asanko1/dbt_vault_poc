@@ -1,6 +1,7 @@
 {{ config(
-    tags=["Customer"]
+    tags=["Source_system_1"]
 ) }}
+
 
 {%- set yaml_metadata -%}
 source_model: 'raw_orders'
