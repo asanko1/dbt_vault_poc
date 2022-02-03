@@ -37,7 +37,7 @@ models:
         - name: HOMESTATUS
           tests:
             - accepted_values:
-                values: ['S', 'H', 'M', 'C','Z']
+                values: ['S', 'H', 'M','C','Z']
                 config:            
                   severity: warn
         - name: PLANCODE
@@ -48,7 +48,7 @@ models:
                   severity: warn
     tests:
             - dbt_utils.expression_is_true:
-                expression: "TEMPLATENUMBER>0 and TEMPLATENUMBER<200"
+                expression: "TEMPLATENUMBER>100 and TEMPLATENUMBER<200"
                 condition: "TEMPLATENUMBER <> NULL"
                 config:            
                   severity: warn
