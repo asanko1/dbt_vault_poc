@@ -29,7 +29,7 @@ models:
             - unique:
                 config:            
                   severity: warn
-                  store_failures: true
+                  
         - name: ADDRESSLINE1
           tests:
             - not_null:
@@ -53,6 +53,6 @@ models:
                 condition: "TEMPLATENUMBER <> NULL OR TEMPLATENUMBER <> 'NULL'"
                 config:            
                   severity: warn
-                  store_failures: true
+                  
                       
     
