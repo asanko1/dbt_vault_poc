@@ -1,3 +1,7 @@
+{{ config(materialized='table') }}
+
+{{ Job_insert_update('INSERT',this,'pipeline_id','batch_id',this) }}
+
 SELECT
     a.PS_PARTKEY AS PARTKEY,
     a.PS_SUPPKEY AS SUPPLIERKEY,
@@ -24,7 +28,7 @@ SELECT
     e.R_NAME AS SUPPLIER_REGION_NAME,
     e.R_COMMENT AS SUPPLIER_REGION_COMMENT,
     to_varchar('{{var('batch_id')}}') as BATCH_ID,
-    to_varchar('{{var('job_id')}}') as ADF_JOBID
+    concat(to_varchar('{{var('job_id')}}'),'-','{{this}}') as JOBID
 FROM {{ source('tpch_sample', 'PARTSUPP') }} AS a
 LEFT JOIN {{ source('tpch_sample', 'SUPPLIER') }} AS b
     ON a.PS_SUPPKEY = b.S_SUPPKEY
@@ -37,3 +41,17 @@ LEFT JOIN {{ source('tpch_sample', 'REGION') }} AS e
 JOIN {{ ref('raw_orders') }} AS f
     ON a.PS_PARTKEY = f.PARTKEY AND a.PS_SUPPKEY=f.SUPPLIERKEY
 ORDER BY a.PS_PARTKEY, a.PS_SUPPKEY
+
+{%- call statement('delta_count', fetch_result=True) -%}
+    SELECT count(*) FROM {{this}} where JOBID = concat(to_varchar('{{var('job_id')}}'),'-','{{this}}')
+{%- endcall -%}
+
+{%- set Query_count = load_result('delta_count')  -%}
+{%- set out_result = Query_count['data'][0][0] -%}
+
+{% if out_result>0 %}
+    {{ Job_insert_update('SUCCESS',this,'pipeline_id','batch_id',this) }}
+{% else %}
+    {{ Job_insert_update('FAIL',this,'pipeline_id','batch_id',this) }}
+{% endif %}
+
