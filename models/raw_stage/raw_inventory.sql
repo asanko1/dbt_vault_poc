@@ -1,4 +1,9 @@
-{{ config(materialized='table') }}
+{{ 
+    config(
+        materialized='table',
+        post_hook = "{{run_end_hook('x','PC_DBT_DB.DBT_ABASAK_CUST_DETAIL.RAW_INVENTORY')}}"
+        )
+}}
 
 {{ Job_insert_update('INSERT','inventory','pipeline_id','batch_id','inventory') }}
 
@@ -41,20 +46,3 @@ LEFT JOIN {{ source('tpch_sample', 'REGION') }} AS e
 JOIN {{ ref('raw_orders') }} AS f
     ON a.PS_PARTKEY = f.PARTKEY AND a.PS_SUPPKEY=f.SUPPLIERKEY
 ORDER BY a.PS_PARTKEY, a.PS_SUPPKEY
-
-{% if execute %}
-
-    {%- call statement('delta_count', fetch_result=True) -%}
-        SELECT count(*) FROM {{this}} where JOBID = concat(to_varchar('{{var('job_id')}}'),'-','inventory')
-    {%- endcall -%}
-
-    {%- set Query_count = load_result('delta_count')  -%}
-    {%- set out_result = Query_count['data'][0][0] -%}
-
-    {% if out_result > 0 %}
-        {{ Job_insert_update('SUCCESS',this,'pipeline_id','batch_id','inventory') }}
-    {% else %}
-        {{ Job_insert_update('FAIL',this,'pipeline_id','batch_id','inventory') }}
-    {% endif %}
-
-{% endif %}
