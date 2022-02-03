@@ -1,7 +1,7 @@
 {{ 
     config(
         materialized='table',
-        post_hook = "{{run_end_hook('x','PC_DBT_DB.DBT_ABASAK_CUST_DETAIL.RAW_INVENTORY')}}"
+        post_hook = after_commit("{{run_end_hook('x','PC_DBT_DB.DBT_ABASAK_CUST_DETAIL.RAW_INVENTORY')}}")
         )
 }}
 
