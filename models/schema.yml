@@ -29,6 +29,7 @@ models:
             - unique:
                 config:            
                   severity: warn
+                  store_failures: true
         - name: ADDRESSLINE1
           tests:
             - not_null:
@@ -37,7 +38,7 @@ models:
         - name: HOMESTATUS
           tests:
             - accepted_values:
-                values: ['S', 'H', 'M','C','Z']
+                values: ['S', 'M','C','Z']
                 config:            
                   severity: warn
         - name: PLANCODE
@@ -48,9 +49,10 @@ models:
                   severity: warn
     tests:
             - dbt_utils.expression_is_true:
-                expression: "TEMPLATENUMBER>100 and TEMPLATENUMBER<200"
-                condition: "TEMPLATENUMBER <> NULL"
+                expression: "TEMPLATENUMBER>160 and TEMPLATENUMBER<200"
+                condition: "TEMPLATENUMBER <> NULL OR TEMPLATENUMBER <> 'NULL'"
                 config:            
                   severity: warn
+                  store_failures: true
                       
     
