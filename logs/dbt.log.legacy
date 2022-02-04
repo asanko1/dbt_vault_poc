@@ -29812,3 +29812,637 @@ select
 2022-02-04 01:10:09.793267 (Thread-2281): handling status request
 2022-02-04 01:10:09.793618 (Thread-2281): 01:10:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c5c9a30>]}
 2022-02-04 01:10:09.794087 (Thread-2281): sending response (<Response 1897 bytes [200 OK]>) to 10.0.0.16
+2022-02-04 01:10:12.831984 (Thread-2282): 01:10:12  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-02-04 01:10:12.832248 (Thread-2282): 01:10:12  Partial parsing enabled, no changes found, skipping parsing
+2022-02-04 01:10:12.839857 (Thread-2282): 01:10:12  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c150eb0>]}
+2022-02-04 01:10:13.263936 (Thread-2283): handling status request
+2022-02-04 01:10:13.264307 (Thread-2283): 01:10:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c2cf5e0>]}
+2022-02-04 01:10:13.264810 (Thread-2283): sending response (<Response 1247 bytes [200 OK]>) to 10.0.44.149
+2022-02-04 01:10:13.442775 (Thread-2284): handling status request
+2022-02-04 01:10:13.443117 (Thread-2284): 01:10:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c46e8e0>]}
+2022-02-04 01:10:13.443565 (Thread-2284): sending response (<Response 1247 bytes [200 OK]>) to 10.0.30.233
+2022-02-04 01:10:19.368359 (Thread-2285): handling status request
+2022-02-04 01:10:19.368704 (Thread-2285): 01:10:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c46ec40>]}
+2022-02-04 01:10:19.369152 (Thread-2285): sending response (<Response 1247 bytes [200 OK]>) to 10.0.18.122
+2022-02-04 01:10:19.501187 (Thread-2286): handling status request
+2022-02-04 01:10:19.501502 (Thread-2286): 01:10:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c2cf2b0>]}
+2022-02-04 01:10:19.501933 (Thread-2286): sending response (<Response 1247 bytes [200 OK]>) to 10.0.14.76
+2022-02-04 01:10:19.696663 (Thread-2287): handling cli_args request
+2022-02-04 01:10:19.697009 (Thread-2287): 01:10:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c2cf9d0>]}
+2022-02-04 01:10:21.937472 (Thread-2287): sending response (<Response 138 bytes [200 OK]>) to 10.0.41.151
+2022-02-04 01:10:22.232440 (Thread-2288): handling poll request
+2022-02-04 01:10:22.232913 (Thread-2288): 01:10:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c501640>]}
+2022-02-04 01:10:22.233808 (Thread-2288): sending response (<Response 288 bytes [200 OK]>) to 10.0.12.143
+2022-02-04 01:10:22.430879 (MainThread): 01:10:22  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-02-04 01:10:22.431320 (MainThread): 01:10:22  Partial parsing enabled, no changes found, skipping parsing
+2022-02-04 01:10:22.439275 (MainThread): 01:10:22  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '47d4b023-a38c-448b-a709-b16c877ab114', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fab4dbe3160>]}
+2022-02-04 01:10:22.472161 (MainThread): 01:10:22  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '47d4b023-a38c-448b-a709-b16c877ab114', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fab4dce1e80>]}
+2022-02-04 01:10:22.472405 (MainThread): 01:10:22  Found 32 models, 7 tests, 1 snapshot, 0 analyses, 457 macros, 0 operations, 0 seed files, 9 sources, 0 exposures, 0 metrics
+2022-02-04 01:10:22.474955 (MainThread): 01:10:22  
+2022-02-04 01:10:22.475249 (MainThread): 01:10:22  Acquiring new snowflake connection "master"
+2022-02-04 01:10:22.477350 (ThreadPoolExecutor-0_0): 01:10:22  Acquiring new snowflake connection "list_PC_DBT_DB"
+2022-02-04 01:10:22.487817 (ThreadPoolExecutor-0_1): 01:10:22  Acquiring new snowflake connection "list_PC_DBT_DB"
+2022-02-04 01:10:22.495538 (ThreadPoolExecutor-0_0): 01:10:22  Using snowflake connection "list_PC_DBT_DB"
+2022-02-04 01:10:22.495645 (ThreadPoolExecutor-0_0): 01:10:22  On list_PC_DBT_DB: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB"} */
+
+    show terse schemas in database PC_DBT_DB
+    limit 10000
+2022-02-04 01:10:22.495734 (ThreadPoolExecutor-0_0): 01:10:22  Opening a new connection, currently in state init
+2022-02-04 01:10:22.497140 (ThreadPoolExecutor-0_1): 01:10:22  Using snowflake connection "list_PC_DBT_DB"
+2022-02-04 01:10:22.497253 (ThreadPoolExecutor-0_1): 01:10:22  On list_PC_DBT_DB: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB"} */
+
+    show terse schemas in database PC_DBT_DB
+    limit 10000
+2022-02-04 01:10:22.497352 (ThreadPoolExecutor-0_1): 01:10:22  Opening a new connection, currently in state init
+2022-02-04 01:10:23.338008 (ThreadPoolExecutor-0_1): 01:10:23  SQL status: SUCCESS 10 in 0.84 seconds
+2022-02-04 01:10:23.340056 (ThreadPoolExecutor-0_1): 01:10:23  On list_PC_DBT_DB: Close
+2022-02-04 01:10:23.452496 (ThreadPoolExecutor-0_0): 01:10:23  SQL status: SUCCESS 10 in 0.96 seconds
+2022-02-04 01:10:23.454005 (ThreadPoolExecutor-0_0): 01:10:23  On list_PC_DBT_DB: Close
+2022-02-04 01:10:23.537989 (Thread-2289): handling poll request
+2022-02-04 01:10:23.538335 (Thread-2289): 01:10:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c2cf130>]}
+2022-02-04 01:10:23.539042 (Thread-2289): sending response (<Response 6704 bytes [200 OK]>) to 10.0.11.213
+2022-02-04 01:10:23.655902 (ThreadPoolExecutor-3_0): 01:10:23  Acquiring new snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-02-04 01:10:23.657665 (ThreadPoolExecutor-3_1): 01:10:23  Acquiring new snowflake connection "list_PC_DBT_DB_snapshots"
+2022-02-04 01:10:23.664644 (ThreadPoolExecutor-3_1): 01:10:23  Using snowflake connection "list_PC_DBT_DB_snapshots"
+2022-02-04 01:10:23.664758 (ThreadPoolExecutor-3_1): 01:10:23  On list_PC_DBT_DB_snapshots: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_snapshots"} */
+
+    show terse objects in PC_DBT_DB.snapshots
+2022-02-04 01:10:23.664852 (ThreadPoolExecutor-3_1): 01:10:23  Opening a new connection, currently in state closed
+2022-02-04 01:10:23.667389 (ThreadPoolExecutor-3_0): 01:10:23  Using snowflake connection "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"
+2022-02-04 01:10:23.667513 (ThreadPoolExecutor-3_0): 01:10:23  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "connection_name": "list_PC_DBT_DB_dbt_abasak_CUST_DETAIL"} */
+
+    show terse objects in PC_DBT_DB.dbt_abasak_CUST_DETAIL
+2022-02-04 01:10:23.667600 (ThreadPoolExecutor-3_0): 01:10:23  Opening a new connection, currently in state closed
+2022-02-04 01:10:24.527664 (ThreadPoolExecutor-3_1): 01:10:24  SQL status: SUCCESS 1 in 0.86 seconds
+2022-02-04 01:10:24.529056 (ThreadPoolExecutor-3_1): 01:10:24  On list_PC_DBT_DB_snapshots: Close
+2022-02-04 01:10:24.844577 (Thread-2290): handling poll request
+2022-02-04 01:10:24.844964 (Thread-2290): 01:10:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c3595b0>]}
+2022-02-04 01:10:24.845600 (Thread-2290): sending response (<Response 3807 bytes [200 OK]>) to 10.0.41.151
+2022-02-04 01:10:24.935074 (ThreadPoolExecutor-3_0): 01:10:24  SQL status: SUCCESS 33 in 1.27 seconds
+2022-02-04 01:10:24.937192 (ThreadPoolExecutor-3_0): 01:10:24  On list_PC_DBT_DB_dbt_abasak_CUST_DETAIL: Close
+2022-02-04 01:10:25.069616 (MainThread): 01:10:25  Concurrency: 4 threads (target='default')
+2022-02-04 01:10:25.069787 (MainThread): 01:10:25  
+2022-02-04 01:10:25.072323 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.SAT_HomeSite
+2022-02-04 01:10:25.072630 (Thread-1): 01:10:25  1 of 40 START table model dbt_abasak_CUST_DETAIL.SAT_HomeSite................... [RUN]
+2022-02-04 01:10:25.072916 (Thread-1): 01:10:25  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.SAT_HomeSite"
+2022-02-04 01:10:25.073028 (Thread-1): 01:10:25  Began compiling node model.dbtvault_snowflake_demo.SAT_HomeSite
+2022-02-04 01:10:25.073139 (Thread-1): 01:10:25  Compiling model.dbtvault_snowflake_demo.SAT_HomeSite
+2022-02-04 01:10:25.073856 (Thread-2): 01:10:25  Began running node model.dbtvault_snowflake_demo.raw_orders
+2022-02-04 01:10:25.074097 (Thread-2): 01:10:25  2 of 40 START view model dbt_abasak_CUST_DETAIL.raw_orders...................... [RUN]
+2022-02-04 01:10:25.074360 (Thread-2): 01:10:25  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.raw_orders"
+2022-02-04 01:10:25.074455 (Thread-2): 01:10:25  Began compiling node model.dbtvault_snowflake_demo.raw_orders
+2022-02-04 01:10:25.074543 (Thread-2): 01:10:25  Compiling model.dbtvault_snowflake_demo.raw_orders
+2022-02-04 01:10:25.081088 (Thread-2): 01:10:25  Writing injected SQL for node "model.dbtvault_snowflake_demo.raw_orders"
+2022-02-04 01:10:25.081336 (Thread-3): 01:10:25  Began running node model.dbtvault_snowflake_demo.raw_transactions
+2022-02-04 01:10:25.081585 (Thread-3): 01:10:25  3 of 40 START view model dbt_abasak_CUST_DETAIL.raw_transactions................ [RUN]
+2022-02-04 01:10:25.081851 (Thread-3): 01:10:25  Acquiring new snowflake connection "model.dbtvault_snowflake_demo.raw_transactions"
+2022-02-04 01:10:25.081942 (Thread-3): 01:10:25  Began compiling node model.dbtvault_snowflake_demo.raw_transactions
+2022-02-04 01:10:25.082029 (Thread-3): 01:10:25  Compiling model.dbtvault_snowflake_demo.raw_transactions
+2022-02-04 01:10:25.085754 (Thread-3): 01:10:25  Writing injected SQL for node "model.dbtvault_snowflake_demo.raw_transactions"
+2022-02-04 01:10:25.086001 (Thread-4): 01:10:25  Began running node test.dbtvault_snowflake_demo.DQ_Check
+2022-02-04 01:10:25.086190 (Thread-4): 01:10:25  4 of 40 START test DQ_Check..................................................... [RUN]
+2022-02-04 01:10:25.086451 (Thread-4): 01:10:25  Acquiring new snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-02-04 01:10:25.086540 (Thread-4): 01:10:25  Began compiling node test.dbtvault_snowflake_demo.DQ_Check
+2022-02-04 01:10:25.086624 (Thread-4): 01:10:25  Compiling test.dbtvault_snowflake_demo.DQ_Check
+2022-02-04 01:10:25.093557 (Thread-4): 01:10:25  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-02-04 01:10:25.093662 (Thread-4): 01:10:25  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = -1
+2022-02-04 01:10:25.093751 (Thread-4): 01:10:25  Opening a new connection, currently in state init
+2022-02-04 01:10:25.099429 (Thread-1): 01:10:25  Writing injected SQL for node "model.dbtvault_snowflake_demo.SAT_HomeSite"
+2022-02-04 01:10:25.106346 (Thread-2): 01:10:25  finished collecting timing info
+2022-02-04 01:10:25.106497 (Thread-2): 01:10:25  Began executing node model.dbtvault_snowflake_demo.raw_orders
+2022-02-04 01:10:25.111975 (Thread-3): 01:10:25  finished collecting timing info
+2022-02-04 01:10:25.112104 (Thread-3): 01:10:25  Began executing node model.dbtvault_snowflake_demo.raw_transactions
+2022-02-04 01:10:25.136058 (Thread-3): 01:10:25  finished collecting timing info
+2022-02-04 01:10:25.136395 (Thread-3): 01:10:25  Compilation Error in model raw_transactions (models/raw_stage/raw_transactions.sql)
+  'GetJobStatisticsMacro' is undefined
+  
+  > in macro run_hooks (macros/materializations/hooks.sql)
+  > called by macro create_or_replace_view (macros/materializations/models/view/create_or_replace_view.sql)
+  > called by macro materialization_view_snowflake (macros/materializations/view.sql)
+  > called by model raw_transactions (models/raw_stage/raw_transactions.sql). This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+2022-02-04 01:10:25.136595 (Thread-3): 01:10:25  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '47d4b023-a38c-448b-a709-b16c877ab114', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fab3fc9dc70>]}
+2022-02-04 01:10:25.136905 (Thread-3): 01:10:25  3 of 40 ERROR creating view model dbt_abasak_CUST_DETAIL.raw_transactions....... [ERROR in 0.05s]
+2022-02-04 01:10:25.137020 (Thread-3): 01:10:25  Finished running node model.dbtvault_snowflake_demo.raw_transactions
+2022-02-04 01:10:25.137161 (Thread-3): 01:10:25  Began running node test.dbtvault_snowflake_demo.Homesite_DQ_Check
+2022-02-04 01:10:25.137277 (Thread-3): 01:10:25  5 of 40 START test Homesite_DQ_Check............................................ [RUN]
+2022-02-04 01:10:25.137506 (Thread-3): 01:10:25  Acquiring new snowflake connection "test.dbtvault_snowflake_demo.Homesite_DQ_Check"
+2022-02-04 01:10:25.137597 (Thread-3): 01:10:25  Began compiling node test.dbtvault_snowflake_demo.Homesite_DQ_Check
+2022-02-04 01:10:25.137682 (Thread-3): 01:10:25  Compiling test.dbtvault_snowflake_demo.Homesite_DQ_Check
+2022-02-04 01:10:25.144751 (Thread-3): 01:10:25  Using snowflake connection "test.dbtvault_snowflake_demo.Homesite_DQ_Check"
+2022-02-04 01:10:25.144874 (Thread-3): 01:10:25  On test.dbtvault_snowflake_demo.Homesite_DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.Homesite_DQ_Check"} */
+SELECT * FROM "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_HOMESITE" WHERE ADDRESSLINE1 IS NOT NULL AND ADDRESSLINE1<>'NULL'
+     AND ACTUALDELIVERYDATE>ESTIMATEDDELIVERYDATE AND SALEDATE<>'NULL' AND ACTUALDELIVERYDATE<>'NULL';
+2022-02-04 01:10:25.144964 (Thread-3): 01:10:25  Opening a new connection, currently in state init
+2022-02-04 01:10:25.146080 (Thread-1): 01:10:25  finished collecting timing info
+2022-02-04 01:10:25.146235 (Thread-1): 01:10:25  Began executing node model.dbtvault_snowflake_demo.SAT_HomeSite
+2022-02-04 01:10:25.152601 (Thread-2): 01:10:25  finished collecting timing info
+2022-02-04 01:10:25.152902 (Thread-2): 01:10:25  Compilation Error in model raw_orders (models/raw_stage/raw_orders.sql)
+  'GetJobStatisticsMacro' is undefined
+  
+  > in macro run_hooks (macros/materializations/hooks.sql)
+  > called by macro create_or_replace_view (macros/materializations/models/view/create_or_replace_view.sql)
+  > called by macro materialization_view_snowflake (macros/materializations/view.sql)
+  > called by model raw_orders (models/raw_stage/raw_orders.sql). This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+2022-02-04 01:10:25.155784 (Thread-1): 01:10:25  finished collecting timing info
+2022-02-04 01:10:25.156072 (Thread-1): 01:10:25  Compilation Error in model SAT_HomeSite (models/LennarHomeSite/SAT_HomeSite.sql)
+  'GetJobStatisticsMacro' is undefined
+  
+  > in macro run_hooks (macros/materializations/hooks.sql)
+  > called by macro materialization_table_snowflake (macros/materializations/table.sql)
+  > called by model SAT_HomeSite (models/LennarHomeSite/SAT_HomeSite.sql). This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+2022-02-04 01:10:25.156237 (Thread-1): 01:10:25  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '47d4b023-a38c-448b-a709-b16c877ab114', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fab3cfce9a0>]}
+2022-02-04 01:10:25.156503 (Thread-1): 01:10:25  1 of 40 ERROR creating table model dbt_abasak_CUST_DETAIL.SAT_HomeSite.......... [ERROR in 0.08s]
+2022-02-04 01:10:25.156608 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.SAT_HomeSite
+2022-02-04 01:10:25.157342 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.v_stg_transactions
+2022-02-04 01:10:25.157518 (Thread-1): 01:10:25  6 of 40 SKIP relation dbt_abasak_CUST_DETAIL.v_stg_transactions................. [SKIP]
+2022-02-04 01:10:25.157622 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.v_stg_transactions
+2022-02-04 01:10:25.157952 (Thread-2): 01:10:25  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '47d4b023-a38c-448b-a709-b16c877ab114', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fab3cfda5e0>]}
+2022-02-04 01:10:25.158276 (Thread-2): 01:10:25  2 of 40 ERROR creating view model dbt_abasak_CUST_DETAIL.raw_orders............. [ERROR in 0.08s]
+2022-02-04 01:10:25.158387 (Thread-2): 01:10:25  Finished running node model.dbtvault_snowflake_demo.raw_orders
+2022-02-04 01:10:25.160116 (Thread-1): 01:10:25  Began running node test.dbtvault_snowflake_demo.accepted_values_SAT_HomeSite_HOMESTATUS__S__H__M__C__Z.3bb26614b1
+2022-02-04 01:10:25.160257 (Thread-1): 01:10:25  7 of 40 SKIP test accepted_values_SAT_HomeSite_HOMESTATUS__S__H__M__C__Z........ [SKIP]
+2022-02-04 01:10:25.160356 (Thread-1): 01:10:25  Finished running node test.dbtvault_snowflake_demo.accepted_values_SAT_HomeSite_HOMESTATUS__S__H__M__C__Z.3bb26614b1
+2022-02-04 01:10:25.160472 (Thread-1): 01:10:25  Began running node test.dbtvault_snowflake_demo.dbt_utils_expression_is_true_SAT_HomeSite_TEMPLATENUMBER_NULL__TEMPLATENUMBER_0_and_TEMPLATENUMBER_200.50726e5d8c
+2022-02-04 01:10:25.160581 (Thread-1): 01:10:25  8 of 40 SKIP test dbt_utils_expression_is_true_SAT_HomeSite_TEMPLATENUMBER_NULL__TEMPLATENUMBER_0_and_TEMPLATENUMBER_200 [SKIP]
+2022-02-04 01:10:25.160670 (Thread-1): 01:10:25  Finished running node test.dbtvault_snowflake_demo.dbt_utils_expression_is_true_SAT_HomeSite_TEMPLATENUMBER_NULL__TEMPLATENUMBER_0_and_TEMPLATENUMBER_200.50726e5d8c
+2022-02-04 01:10:25.160770 (Thread-1): 01:10:25  Began running node test.dbtvault_snowflake_demo.not_null_SAT_HomeSite_ADDRESSLINE1.ac22b12c2e
+2022-02-04 01:10:25.160872 (Thread-1): 01:10:25  9 of 40 SKIP test not_null_SAT_HomeSite_ADDRESSLINE1............................ [SKIP]
+2022-02-04 01:10:25.160958 (Thread-1): 01:10:25  Finished running node test.dbtvault_snowflake_demo.not_null_SAT_HomeSite_ADDRESSLINE1.ac22b12c2e
+2022-02-04 01:10:25.161060 (Thread-1): 01:10:25  Began running node test.dbtvault_snowflake_demo.string_length_check_SAT_HomeSite_PLANCODE__4.5ba04ce592
+2022-02-04 01:10:25.161200 (Thread-1): 01:10:25  10 of 40 SKIP test string_length_check_SAT_HomeSite_PLANCODE__4................. [SKIP]
+2022-02-04 01:10:25.161292 (Thread-1): 01:10:25  Finished running node test.dbtvault_snowflake_demo.string_length_check_SAT_HomeSite_PLANCODE__4.5ba04ce592
+2022-02-04 01:10:25.161393 (Thread-1): 01:10:25  Began running node test.dbtvault_snowflake_demo.unique_SAT_HomeSite_HOMESITEID.09de6316dd
+2022-02-04 01:10:25.161495 (Thread-1): 01:10:25  11 of 40 SKIP test unique_SAT_HomeSite_HOMESITEID............................... [SKIP]
+2022-02-04 01:10:25.161580 (Thread-1): 01:10:25  Finished running node test.dbtvault_snowflake_demo.unique_SAT_HomeSite_HOMESITEID.09de6316dd
+2022-02-04 01:10:25.161679 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.raw_inventory
+2022-02-04 01:10:25.161777 (Thread-1): 01:10:25  12 of 40 SKIP relation dbt_abasak_CUST_DETAIL.raw_inventory..................... [SKIP]
+2022-02-04 01:10:25.161861 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.raw_inventory
+2022-02-04 01:10:25.161957 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.v_stg_orders
+2022-02-04 01:10:25.162051 (Thread-1): 01:10:25  13 of 40 SKIP relation dbt_abasak_CUST_DETAIL.v_stg_orders...................... [SKIP]
+2022-02-04 01:10:25.162135 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.v_stg_orders
+2022-02-04 01:10:25.162273 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.t_link_transactions
+2022-02-04 01:10:25.162375 (Thread-1): 01:10:25  14 of 40 SKIP relation dbt_abasak_CUST_DETAIL.t_link_transactions............... [SKIP]
+2022-02-04 01:10:25.162461 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.t_link_transactions
+2022-02-04 01:10:25.164178 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.hub_customer
+2022-02-04 01:10:25.164302 (Thread-1): 01:10:25  15 of 40 SKIP relation dbt_abasak_CUST_DETAIL.hub_customer...................... [SKIP]
+2022-02-04 01:10:25.164391 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.hub_customer
+2022-02-04 01:10:25.164498 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.hub_lineitem
+2022-02-04 01:10:25.164596 (Thread-1): 01:10:25  16 of 40 SKIP relation dbt_abasak_CUST_DETAIL.hub_lineitem...................... [SKIP]
+2022-02-04 01:10:25.164682 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.hub_lineitem
+2022-02-04 01:10:25.164779 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.hub_order
+2022-02-04 01:10:25.164876 (Thread-1): 01:10:25  17 of 40 SKIP relation dbt_abasak_CUST_DETAIL.hub_order......................... [SKIP]
+2022-02-04 01:10:25.164962 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.hub_order
+2022-02-04 01:10:25.165063 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.link_customer_nation
+2022-02-04 01:10:25.165160 (Thread-1): 01:10:25  18 of 40 SKIP relation dbt_abasak_CUST_DETAIL.link_customer_nation.............. [SKIP]
+2022-02-04 01:10:25.165245 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.link_customer_nation
+2022-02-04 01:10:25.165344 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.link_customer_order
+2022-02-04 01:10:25.165439 (Thread-1): 01:10:25  19 of 40 SKIP relation dbt_abasak_CUST_DETAIL.link_customer_order............... [SKIP]
+2022-02-04 01:10:25.165522 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.link_customer_order
+2022-02-04 01:10:25.165617 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.link_inventory_allocation
+2022-02-04 01:10:25.165714 (Thread-1): 01:10:25  20 of 40 SKIP relation dbt_abasak_CUST_DETAIL.link_inventory_allocation......... [SKIP]
+2022-02-04 01:10:25.165799 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.link_inventory_allocation
+2022-02-04 01:10:25.165895 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.link_order_lineitem
+2022-02-04 01:10:25.165988 (Thread-1): 01:10:25  21 of 40 SKIP relation dbt_abasak_CUST_DETAIL.link_order_lineitem............... [SKIP]
+2022-02-04 01:10:25.166070 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.link_order_lineitem
+2022-02-04 01:10:25.166186 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.sat_order_cust_nation_details
+2022-02-04 01:10:25.166285 (Thread-1): 01:10:25  22 of 40 SKIP relation dbt_abasak_CUST_DETAIL.sat_order_cust_nation_details..... [SKIP]
+2022-02-04 01:10:25.166367 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.sat_order_cust_nation_details
+2022-02-04 01:10:25.166464 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.sat_order_cust_region_details
+2022-02-04 01:10:25.166556 (Thread-1): 01:10:25  23 of 40 SKIP relation dbt_abasak_CUST_DETAIL.sat_order_cust_region_details..... [SKIP]
+2022-02-04 01:10:25.166637 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.sat_order_cust_region_details
+2022-02-04 01:10:25.166732 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.sat_order_customer_details
+2022-02-04 01:10:25.166826 (Thread-1): 01:10:25  24 of 40 SKIP relation dbt_abasak_CUST_DETAIL.sat_order_customer_details........ [SKIP]
+2022-02-04 01:10:25.166908 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.sat_order_customer_details
+2022-02-04 01:10:25.167003 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.sat_order_lineitem_details
+2022-02-04 01:10:25.167095 (Thread-1): 01:10:25  25 of 40 SKIP relation dbt_abasak_CUST_DETAIL.sat_order_lineitem_details........ [SKIP]
+2022-02-04 01:10:25.167177 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.sat_order_lineitem_details
+2022-02-04 01:10:25.167270 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.sat_order_order_details
+2022-02-04 01:10:25.167364 (Thread-1): 01:10:25  26 of 40 SKIP relation dbt_abasak_CUST_DETAIL.sat_order_order_details........... [SKIP]
+2022-02-04 01:10:25.167636 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.sat_order_order_details
+2022-02-04 01:10:25.167769 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.v_stg_inventory
+2022-02-04 01:10:25.167878 (Thread-1): 01:10:25  27 of 40 SKIP relation dbt_abasak_CUST_DETAIL.v_stg_inventory................... [SKIP]
+2022-02-04 01:10:25.167981 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.v_stg_inventory
+2022-02-04 01:10:25.168837 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.hub_nation
+2022-02-04 01:10:25.168952 (Thread-1): 01:10:25  28 of 40 SKIP relation dbt_abasak_CUST_DETAIL.hub_nation........................ [SKIP]
+2022-02-04 01:10:25.169041 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.hub_nation
+2022-02-04 01:10:25.169147 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.hub_part
+2022-02-04 01:10:25.169244 (Thread-1): 01:10:25  29 of 40 SKIP relation dbt_abasak_CUST_DETAIL.hub_part.......................... [SKIP]
+2022-02-04 01:10:25.169329 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.hub_part
+2022-02-04 01:10:25.169426 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.hub_region
+2022-02-04 01:10:25.169524 (Thread-1): 01:10:25  30 of 40 SKIP relation dbt_abasak_CUST_DETAIL.hub_region........................ [SKIP]
+2022-02-04 01:10:25.169610 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.hub_region
+2022-02-04 01:10:25.169707 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.hub_supplier
+2022-02-04 01:10:25.169803 (Thread-1): 01:10:25  31 of 40 SKIP relation dbt_abasak_CUST_DETAIL.hub_supplier...................... [SKIP]
+2022-02-04 01:10:25.169886 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.hub_supplier
+2022-02-04 01:10:25.169980 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.link_inventory
+2022-02-04 01:10:25.170074 (Thread-1): 01:10:25  32 of 40 SKIP relation dbt_abasak_CUST_DETAIL.link_inventory.................... [SKIP]
+2022-02-04 01:10:25.170157 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.link_inventory
+2022-02-04 01:10:25.170277 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.link_nation_region
+2022-02-04 01:10:25.170372 (Thread-1): 01:10:25  33 of 40 SKIP relation dbt_abasak_CUST_DETAIL.link_nation_region................ [SKIP]
+2022-02-04 01:10:25.170453 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.link_nation_region
+2022-02-04 01:10:25.170546 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.link_supplier_nation
+2022-02-04 01:10:25.170639 (Thread-1): 01:10:25  34 of 40 SKIP relation dbt_abasak_CUST_DETAIL.link_supplier_nation.............. [SKIP]
+2022-02-04 01:10:25.170721 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.link_supplier_nation
+2022-02-04 01:10:25.170814 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.sat_inv_inventory_details
+2022-02-04 01:10:25.170906 (Thread-1): 01:10:25  35 of 40 SKIP relation dbt_abasak_CUST_DETAIL.sat_inv_inventory_details......... [SKIP]
+2022-02-04 01:10:25.170987 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.sat_inv_inventory_details
+2022-02-04 01:10:25.171083 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.sat_inv_part_details
+2022-02-04 01:10:25.171177 (Thread-1): 01:10:25  36 of 40 SKIP relation dbt_abasak_CUST_DETAIL.sat_inv_part_details.............. [SKIP]
+2022-02-04 01:10:25.171260 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.sat_inv_part_details
+2022-02-04 01:10:25.171353 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.sat_inv_supp_nation_details
+2022-02-04 01:10:25.171446 (Thread-1): 01:10:25  37 of 40 SKIP relation dbt_abasak_CUST_DETAIL.sat_inv_supp_nation_details....... [SKIP]
+2022-02-04 01:10:25.171527 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.sat_inv_supp_nation_details
+2022-02-04 01:10:25.171619 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.sat_inv_supp_region_details
+2022-02-04 01:10:25.171710 (Thread-1): 01:10:25  38 of 40 SKIP relation dbt_abasak_CUST_DETAIL.sat_inv_supp_region_details....... [SKIP]
+2022-02-04 01:10:25.171790 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.sat_inv_supp_region_details
+2022-02-04 01:10:25.171883 (Thread-1): 01:10:25  Began running node model.dbtvault_snowflake_demo.sat_inv_supplier_details
+2022-02-04 01:10:25.171976 (Thread-1): 01:10:25  39 of 40 SKIP relation dbt_abasak_CUST_DETAIL.sat_inv_supplier_details.......... [SKIP]
+2022-02-04 01:10:25.172059 (Thread-1): 01:10:25  Finished running node model.dbtvault_snowflake_demo.sat_inv_supplier_details
+2022-02-04 01:10:25.172158 (Thread-1): 01:10:25  Began running node snapshot.dbtvault_snowflake_demo.cust_snapshot
+2022-02-04 01:10:25.172256 (Thread-1): 01:10:25  40 of 40 SKIP relation snapshots.cust_snapshot.................................. [SKIP]
+2022-02-04 01:10:25.172340 (Thread-1): 01:10:25  Finished running node snapshot.dbtvault_snowflake_demo.cust_snapshot
+2022-02-04 01:10:26.006265 (Thread-3): 01:10:26  SQL status: SUCCESS 1 in 0.86 seconds
+2022-02-04 01:10:26.011060 (Thread-3): 01:10:26  Using snowflake connection "test.dbtvault_snowflake_demo.Homesite_DQ_Check"
+2022-02-04 01:10:26.011189 (Thread-3): 01:10:26  On test.dbtvault_snowflake_demo.Homesite_DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.Homesite_DQ_Check"} */
+SELECT * FROM "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_HOMESITE" WHERE ishomesitesold='0' and saledate <>'NULL'
+and cancellationdate='NULL' and ishomesitecancelled='0'
+2022-02-04 01:10:26.119608 (Thread-2291): handling poll request
+2022-02-04 01:10:26.119923 (Thread-2291): 01:10:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c249ee0>]}
+2022-02-04 01:10:26.122422 (Thread-2291): sending response (<Response 89466 bytes [200 OK]>) to 10.0.38.187
+2022-02-04 01:10:26.190973 (Thread-3): 01:10:26  SQL status: SUCCESS 626 in 0.18 seconds
+2022-02-04 01:10:26.583214 (Thread-3): 01:10:26  Using snowflake connection "test.dbtvault_snowflake_demo.Homesite_DQ_Check"
+2022-02-04 01:10:26.583378 (Thread-3): 01:10:26  On test.dbtvault_snowflake_demo.Homesite_DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.Homesite_DQ_Check"} */
+SELECT * FROM "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_HOMESITE" WHERE ishomesitecancelled='0'
+     and cancellationdate <>'NULL'
+2022-02-04 01:10:26.641496 (Thread-3): 01:10:26  SQL status: SUCCESS 10 in 0.06 seconds
+2022-02-04 01:10:26.643529 (Thread-3): 01:10:26  Writing injected SQL for node "test.dbtvault_snowflake_demo.Homesite_DQ_Check"
+2022-02-04 01:10:26.661509 (Thread-3): 01:10:26  finished collecting timing info
+2022-02-04 01:10:26.661679 (Thread-3): 01:10:26  Began executing node test.dbtvault_snowflake_demo.Homesite_DQ_Check
+2022-02-04 01:10:26.677180 (Thread-3): 01:10:26  Writing runtime SQL for node "test.dbtvault_snowflake_demo.Homesite_DQ_Check"
+2022-02-04 01:10:26.693015 (Thread-3): 01:10:26  Using snowflake connection "test.dbtvault_snowflake_demo.Homesite_DQ_Check"
+2022-02-04 01:10:26.693135 (Thread-3): 01:10:26  On test.dbtvault_snowflake_demo.Homesite_DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.Homesite_DQ_Check"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+        select 1 as temp 
+
+      
+    ) dbt_internal_test
+2022-02-04 01:10:26.697317 (Thread-4): 01:10:26  SQL status: SUCCESS 2 in 1.6 seconds
+2022-02-04 01:10:26.700864 (Thread-4): 01:10:26  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-02-04 01:10:26.700974 (Thread-4): 01:10:26  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT count(Query) FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-02-04 01:10:26.791468 (Thread-3): 01:10:26  SQL status: SUCCESS 1 in 0.1 seconds
+2022-02-04 01:10:26.793458 (Thread-3): 01:10:26  finished collecting timing info
+2022-02-04 01:10:26.793614 (Thread-3): 01:10:26  On test.dbtvault_snowflake_demo.Homesite_DQ_Check: Close
+2022-02-04 01:10:26.802243 (Thread-4): 01:10:26  SQL status: SUCCESS 1 in 0.1 seconds
+2022-02-04 01:10:26.803563 (Thread-4): 01:10:26  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-02-04 01:10:26.803670 (Thread-4): 01:10:26  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT  Query,ID FROM "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" where active_flg='1'
+2022-02-04 01:10:26.892509 (Thread-3): 01:10:26  5 of 40 WARN 1 Homesite_DQ_Check................................................ [WARN 1 in 1.76s]
+2022-02-04 01:10:26.892662 (Thread-3): 01:10:26  Finished running node test.dbtvault_snowflake_demo.Homesite_DQ_Check
+2022-02-04 01:10:27.090581 (Thread-4): 01:10:27  SQL status: SUCCESS 2 in 0.29 seconds
+2022-02-04 01:10:27.092408 (Thread-4): 01:10:27  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-02-04 01:10:27.092534 (Thread-4): 01:10:27  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_ORDER_DETAILS"
+where TOTALPRICE=0 or TOTALPRICE<0 ))
+    WHERE ID=2
+2022-02-04 01:10:27.397399 (Thread-2292): handling poll request
+2022-02-04 01:10:27.397751 (Thread-2292): 01:10:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c153dc0>]}
+2022-02-04 01:10:27.398550 (Thread-2292): sending response (<Response 10818 bytes [200 OK]>) to 10.0.0.16
+2022-02-04 01:10:27.788746 (Thread-4): 01:10:27  SQL status: SUCCESS 1 in 0.7 seconds
+2022-02-04 01:10:27.790322 (Thread-4): 01:10:27  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-02-04 01:10:27.790448 (Thread-4): 01:10:27  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+UPDATE "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" SET OUTPUT_RESULT = (SELECT * FROM (select count(*) from "PC_DBT_DB"."DBT_ABASAK_CUST_DETAIL"."SAT_ORDER_CUSTOMER_DETAILS"
+where CUSTOMER_PHONE IS NULL ))
+    WHERE ID=1
+2022-02-04 01:10:28.779717 (Thread-2293): handling poll request
+2022-02-04 01:10:28.780064 (Thread-2293): 01:10:28  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c153ca0>]}
+2022-02-04 01:10:28.780617 (Thread-2293): sending response (<Response 1716 bytes [200 OK]>) to 10.0.18.122
+2022-02-04 01:10:28.942765 (Thread-4): 01:10:28  SQL status: SUCCESS 1 in 1.15 seconds
+2022-02-04 01:10:28.944225 (Thread-4): 01:10:28  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-02-04 01:10:28.944345 (Thread-4): 01:10:28  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+SELECT count(*) from "PC_DBT_DB"."DBT_DQ_TEST"."DQ_CONFIG" WHERE OUTPUT_RESULT <> EXPECTED_RESULT
+2022-02-04 01:10:29.100360 (Thread-4): 01:10:29  SQL status: SUCCESS 1 in 0.16 seconds
+2022-02-04 01:10:29.101740 (Thread-4): 01:10:29  Writing injected SQL for node "test.dbtvault_snowflake_demo.DQ_Check"
+2022-02-04 01:10:29.117850 (Thread-4): 01:10:29  finished collecting timing info
+2022-02-04 01:10:29.118036 (Thread-4): 01:10:29  Began executing node test.dbtvault_snowflake_demo.DQ_Check
+2022-02-04 01:10:29.120584 (Thread-4): 01:10:29  Writing runtime SQL for node "test.dbtvault_snowflake_demo.DQ_Check"
+2022-02-04 01:10:29.136110 (Thread-4): 01:10:29  Using snowflake connection "test.dbtvault_snowflake_demo.DQ_Check"
+2022-02-04 01:10:29.136233 (Thread-4): 01:10:29  On test.dbtvault_snowflake_demo.DQ_Check: /* {"app": "dbt", "dbt_version": "1.0.1", "profile_name": "user", "target_name": "default", "node_id": "test.dbtvault_snowflake_demo.DQ_Check"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+       
+
+            select 1 as temp where 1=2
+    
+      
+    ) dbt_internal_test
+2022-02-04 01:10:29.349959 (Thread-4): 01:10:29  SQL status: SUCCESS 1 in 0.21 seconds
+2022-02-04 01:10:29.351621 (Thread-4): 01:10:29  finished collecting timing info
+2022-02-04 01:10:29.351792 (Thread-4): 01:10:29  On test.dbtvault_snowflake_demo.DQ_Check: Close
+2022-02-04 01:10:29.723444 (Thread-4): 01:10:29  4 of 40 PASS DQ_Check........................................................... [PASS in 4.64s]
+2022-02-04 01:10:29.723648 (Thread-4): 01:10:29  Finished running node test.dbtvault_snowflake_demo.DQ_Check
+2022-02-04 01:10:29.725328 (MainThread): 01:10:29  Acquiring new snowflake connection "master"
+2022-02-04 01:10:29.725777 (MainThread): 01:10:29  
+2022-02-04 01:10:29.725889 (MainThread): 01:10:29  Finished running 5 view models, 2 table models, 7 tests, 25 incremental models, 1 snapshot in 7.25s.
+2022-02-04 01:10:29.725980 (MainThread): 01:10:29  Connection 'master' was properly closed.
+2022-02-04 01:10:29.726053 (MainThread): 01:10:29  Connection 'model.dbtvault_snowflake_demo.raw_orders' was properly closed.
+2022-02-04 01:10:29.726121 (MainThread): 01:10:29  Connection 'model.dbtvault_snowflake_demo.SAT_HomeSite' was properly closed.
+2022-02-04 01:10:29.726227 (MainThread): 01:10:29  Connection 'test.dbtvault_snowflake_demo.Homesite_DQ_Check' was properly closed.
+2022-02-04 01:10:29.726302 (MainThread): 01:10:29  Connection 'test.dbtvault_snowflake_demo.DQ_Check' was properly closed.
+2022-02-04 01:10:29.809321 (MainThread): 01:10:29  
+2022-02-04 01:10:29.809545 (MainThread): 01:10:29  Completed with 3 errors and 1 warning:
+2022-02-04 01:10:29.809641 (MainThread): 01:10:29  
+2022-02-04 01:10:29.809736 (MainThread): 01:10:29  Compilation Error in model raw_transactions (models/raw_stage/raw_transactions.sql)
+2022-02-04 01:10:29.809817 (MainThread): 01:10:29    'GetJobStatisticsMacro' is undefined
+2022-02-04 01:10:29.809889 (MainThread): 01:10:29    
+2022-02-04 01:10:29.809958 (MainThread): 01:10:29    > in macro run_hooks (macros/materializations/hooks.sql)
+2022-02-04 01:10:29.810027 (MainThread): 01:10:29    > called by macro create_or_replace_view (macros/materializations/models/view/create_or_replace_view.sql)
+2022-02-04 01:10:29.810096 (MainThread): 01:10:29    > called by macro materialization_view_snowflake (macros/materializations/view.sql)
+2022-02-04 01:10:29.810164 (MainThread): 01:10:29    > called by model raw_transactions (models/raw_stage/raw_transactions.sql). This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+2022-02-04 01:10:29.810266 (MainThread): 01:10:29  
+2022-02-04 01:10:29.810346 (MainThread): 01:10:29  Compilation Error in model SAT_HomeSite (models/LennarHomeSite/SAT_HomeSite.sql)
+2022-02-04 01:10:29.810419 (MainThread): 01:10:29    'GetJobStatisticsMacro' is undefined
+2022-02-04 01:10:29.810486 (MainThread): 01:10:29    
+2022-02-04 01:10:29.810552 (MainThread): 01:10:29    > in macro run_hooks (macros/materializations/hooks.sql)
+2022-02-04 01:10:29.810619 (MainThread): 01:10:29    > called by macro materialization_table_snowflake (macros/materializations/table.sql)
+2022-02-04 01:10:29.810684 (MainThread): 01:10:29    > called by model SAT_HomeSite (models/LennarHomeSite/SAT_HomeSite.sql). This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+2022-02-04 01:10:29.810755 (MainThread): 01:10:29  
+2022-02-04 01:10:29.810832 (MainThread): 01:10:29  Compilation Error in model raw_orders (models/raw_stage/raw_orders.sql)
+2022-02-04 01:10:29.810903 (MainThread): 01:10:29    'GetJobStatisticsMacro' is undefined
+2022-02-04 01:10:29.810969 (MainThread): 01:10:29    
+2022-02-04 01:10:29.811035 (MainThread): 01:10:29    > in macro run_hooks (macros/materializations/hooks.sql)
+2022-02-04 01:10:29.811102 (MainThread): 01:10:29    > called by macro create_or_replace_view (macros/materializations/models/view/create_or_replace_view.sql)
+2022-02-04 01:10:29.811168 (MainThread): 01:10:29    > called by macro materialization_view_snowflake (macros/materializations/view.sql)
+2022-02-04 01:10:29.811236 (MainThread): 01:10:29    > called by model raw_orders (models/raw_stage/raw_orders.sql). This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+2022-02-04 01:10:29.811307 (MainThread): 01:10:29  
+2022-02-04 01:10:29.811412 (MainThread): 01:10:29  Warning in test Homesite_DQ_Check (tests/Homesite_DQ_Check.sql)
+2022-02-04 01:10:29.811491 (MainThread): 01:10:29    Got 1 result, configured to warn if != 0
+2022-02-04 01:10:29.811563 (MainThread): 01:10:29  
+2022-02-04 01:10:29.811645 (MainThread): 01:10:29    compiled SQL at target/compiled/dbtvault_snowflake_demo/tests/Homesite_DQ_Check.sql
+2022-02-04 01:10:29.811761 (MainThread): 01:10:29  
+2022-02-04 01:10:29.811847 (MainThread): 01:10:29  Done. PASS=1 WARN=1 ERROR=3 SKIP=35 TOTAL=40
+2022-02-04 01:10:30.302150 (Thread-2294): handling poll request
+2022-02-04 01:10:30.302528 (Thread-2294): 01:10:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c22eb80>]}
+2022-02-04 01:10:30.306583 (Thread-2294): sending response (<Response 128995 bytes [200 OK]>) to 10.0.15.151
+2022-02-04 01:10:31.407944 (Thread-2295): handling status request
+2022-02-04 01:10:31.408289 (Thread-2295): 01:10:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c22ed30>]}
+2022-02-04 01:10:31.408784 (Thread-2295): sending response (<Response 1247 bytes [200 OK]>) to 10.0.11.111
+2022-02-04 01:10:31.558347 (Thread-2296): handling status request
+2022-02-04 01:10:31.562763 (Thread-2296): 01:10:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c3650a0>]}
+2022-02-04 01:10:31.563255 (Thread-2296): sending response (<Response 1247 bytes [200 OK]>) to 10.0.12.143
+2022-02-04 01:10:58.317001 (Thread-2297): 01:10:58  Unable to do partial parsing because a project config has changed
+2022-02-04 01:10:58.317312 (Thread-2297): 01:10:58  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c31de80>]}
+2022-02-04 01:10:58.713345 (Thread-2297): 01:10:58  Parsing macros/Batch_Insert_update.sql
+2022-02-04 01:10:58.715985 (Thread-2297): 01:10:58  Parsing macros/Homesitemaster_DQ_Rules.sql
+2022-02-04 01:10:58.719437 (Thread-2297): 01:10:58  Parsing macros/GetJobStatisticsMacro.sql
+2022-02-04 01:10:58.722046 (Thread-2297): 01:10:58  Parsing macros/run_end_hook.sql
+2022-02-04 01:10:58.724205 (Thread-2297): 01:10:58  Parsing macros/Common_DQ_Checks.sql
+2022-02-04 01:10:58.724933 (Thread-2297): 01:10:58  Parsing macros/get_query_count.sql
+2022-02-04 01:10:58.726064 (Thread-2297): 01:10:58  Parsing macros/test_macro.sql
+2022-02-04 01:10:58.726566 (Thread-2297): 01:10:58  Parsing macros/Job_insert_update.sql
+2022-02-04 01:10:58.729081 (Thread-2297): 01:10:58  Parsing macros/catalog.sql
+2022-02-04 01:10:58.730850 (Thread-2297): 01:10:58  Parsing macros/adapters.sql
+2022-02-04 01:10:58.767036 (Thread-2297): 01:10:58  Parsing macros/materializations/merge.sql
+2022-02-04 01:10:58.770673 (Thread-2297): 01:10:58  Parsing macros/materializations/table.sql
+2022-02-04 01:10:58.773618 (Thread-2297): 01:10:58  Parsing macros/materializations/seed.sql
+2022-02-04 01:10:58.778517 (Thread-2297): 01:10:58  Parsing macros/materializations/view.sql
+2022-02-04 01:10:58.779805 (Thread-2297): 01:10:58  Parsing macros/materializations/snapshot.sql
+2022-02-04 01:10:58.780704 (Thread-2297): 01:10:58  Parsing macros/materializations/incremental.sql
+2022-02-04 01:10:58.789188 (Thread-2297): 01:10:58  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-02-04 01:10:58.790660 (Thread-2297): 01:10:58  Parsing macros/get_custom_name/get_custom_database.sql
+2022-02-04 01:10:58.792147 (Thread-2297): 01:10:58  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-02-04 01:10:58.794480 (Thread-2297): 01:10:58  Parsing macros/generic_test_sql/accepted_values.sql
+2022-02-04 01:10:58.795793 (Thread-2297): 01:10:58  Parsing macros/generic_test_sql/not_null.sql
+2022-02-04 01:10:58.796324 (Thread-2297): 01:10:58  Parsing macros/generic_test_sql/relationships.sql
+2022-02-04 01:10:58.797142 (Thread-2297): 01:10:58  Parsing macros/generic_test_sql/unique.sql
+2022-02-04 01:10:58.797800 (Thread-2297): 01:10:58  Parsing macros/materializations/configs.sql
+2022-02-04 01:10:58.800015 (Thread-2297): 01:10:58  Parsing macros/materializations/hooks.sql
+2022-02-04 01:10:58.803662 (Thread-2297): 01:10:58  Parsing macros/materializations/snapshots/strategies.sql
+2022-02-04 01:10:58.819711 (Thread-2297): 01:10:58  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-02-04 01:10:58.821261 (Thread-2297): 01:10:58  Parsing macros/materializations/snapshots/snapshot.sql
+2022-02-04 01:10:58.832109 (Thread-2297): 01:10:58  Parsing macros/materializations/snapshots/helpers.sql
+2022-02-04 01:10:58.842599 (Thread-2297): 01:10:58  Parsing macros/materializations/seeds/seed.sql
+2022-02-04 01:10:58.848278 (Thread-2297): 01:10:58  Parsing macros/materializations/seeds/helpers.sql
+2022-02-04 01:10:58.863640 (Thread-2297): 01:10:58  Parsing macros/materializations/models/view/create_view_as.sql
+2022-02-04 01:10:58.865820 (Thread-2297): 01:10:58  Parsing macros/materializations/models/view/view.sql
+2022-02-04 01:10:58.872385 (Thread-2297): 01:10:58  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-02-04 01:10:58.874931 (Thread-2297): 01:10:58  Parsing macros/materializations/models/view/helpers.sql
+2022-02-04 01:10:58.876176 (Thread-2297): 01:10:58  Parsing macros/materializations/models/table/table.sql
+2022-02-04 01:10:58.883031 (Thread-2297): 01:10:58  Parsing macros/materializations/models/table/create_table_as.sql
+2022-02-04 01:10:58.885750 (Thread-2297): 01:10:58  Parsing macros/materializations/models/incremental/merge.sql
+2022-02-04 01:10:58.896470 (Thread-2297): 01:10:58  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-02-04 01:10:58.910962 (Thread-2297): 01:10:58  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-02-04 01:10:58.915164 (Thread-2297): 01:10:58  Parsing macros/materializations/models/incremental/incremental.sql
+2022-02-04 01:10:58.924768 (Thread-2297): 01:10:58  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-02-04 01:10:58.926230 (Thread-2297): 01:10:58  Parsing macros/materializations/tests/test.sql
+2022-02-04 01:10:58.930437 (Thread-2297): 01:10:58  Parsing macros/materializations/tests/where_subquery.sql
+2022-02-04 01:10:58.932153 (Thread-2297): 01:10:58  Parsing macros/materializations/tests/helpers.sql
+2022-02-04 01:10:58.933817 (Thread-2297): 01:10:58  Parsing macros/etc/statement.sql
+2022-02-04 01:10:58.938037 (Thread-2297): 01:10:58  Parsing macros/etc/datetime.sql
+2022-02-04 01:10:58.945917 (Thread-2297): 01:10:58  Parsing macros/adapters/indexes.sql
+2022-02-04 01:10:58.948517 (Thread-2297): 01:10:58  Parsing macros/adapters/persist_docs.sql
+2022-02-04 01:10:58.952726 (Thread-2297): 01:10:58  Parsing macros/adapters/freshness.sql
+2022-02-04 01:10:58.955559 (Thread-2297): 01:10:58  Parsing macros/adapters/relation.sql
+2022-02-04 01:10:58.964613 (Thread-2297): 01:10:58  Parsing macros/adapters/metadata.sql
+2022-02-04 01:10:58.971358 (Thread-2297): 01:10:58  Parsing macros/adapters/columns.sql
+2022-02-04 01:10:58.980705 (Thread-2297): 01:10:58  Parsing macros/adapters/schema.sql
+2022-02-04 01:10:58.982814 (Thread-2297): 01:10:58  Parsing tests/generic/builtin.sql
+2022-02-04 01:10:58.985679 (Thread-2297): 01:10:58  Parsing macros/sql/pivot.sql
+2022-02-04 01:10:58.989517 (Thread-2297): 01:10:58  Parsing macros/sql/star.sql
+2022-02-04 01:10:58.993323 (Thread-2297): 01:10:58  Parsing macros/sql/surrogate_key.sql
+2022-02-04 01:10:58.996603 (Thread-2297): 01:10:58  Parsing macros/sql/get_query_results_as_dict.sql
+2022-02-04 01:10:58.998845 (Thread-2297): 01:10:58  Parsing macros/sql/date_spine.sql
+2022-02-04 01:10:59.003369 (Thread-2297): 01:10:59  Parsing macros/sql/get_column_values.sql
+2022-02-04 01:10:59.008216 (Thread-2297): 01:10:59  Parsing macros/sql/groupby.sql
+2022-02-04 01:10:59.009515 (Thread-2297): 01:10:59  Parsing macros/sql/get_tables_by_pattern_sql.sql
+2022-02-04 01:10:59.015376 (Thread-2297): 01:10:59  Parsing macros/sql/nullcheck_table.sql
+2022-02-04 01:10:59.016929 (Thread-2297): 01:10:59  Parsing macros/sql/get_tables_by_prefix_sql.sql
+2022-02-04 01:10:59.018569 (Thread-2297): 01:10:59  Parsing macros/sql/get_relations_by_pattern.sql
+2022-02-04 01:10:59.021783 (Thread-2297): 01:10:59  Parsing macros/sql/get_relations_by_prefix.sql
+2022-02-04 01:10:59.025005 (Thread-2297): 01:10:59  Parsing macros/sql/safe_add.sql
+2022-02-04 01:10:59.026597 (Thread-2297): 01:10:59  Parsing macros/sql/haversine_distance.sql
+2022-02-04 01:10:59.032275 (Thread-2297): 01:10:59  Parsing macros/sql/unpivot.sql
+2022-02-04 01:10:59.039664 (Thread-2297): 01:10:59  Parsing macros/sql/generate_series.sql
+2022-02-04 01:10:59.043712 (Thread-2297): 01:10:59  Parsing macros/sql/nullcheck.sql
+2022-02-04 01:10:59.045284 (Thread-2297): 01:10:59  Parsing macros/sql/union.sql
+2022-02-04 01:10:59.053376 (Thread-2297): 01:10:59  Parsing macros/materializations/insert_by_period_materialization.sql
+2022-02-04 01:10:59.076278 (Thread-2297): 01:10:59  Parsing macros/jinja_helpers/pretty_time.sql
+2022-02-04 01:10:59.077459 (Thread-2297): 01:10:59  Parsing macros/jinja_helpers/slugify.sql
+2022-02-04 01:10:59.085518 (Thread-2297): 01:10:59  Parsing macros/jinja_helpers/log_info.sql
+2022-02-04 01:10:59.086663 (Thread-2297): 01:10:59  Parsing macros/jinja_helpers/pretty_log_format.sql
+2022-02-04 01:10:59.087791 (Thread-2297): 01:10:59  Parsing macros/web/get_url_parameter.sql
+2022-02-04 01:10:59.089313 (Thread-2297): 01:10:59  Parsing macros/web/get_url_path.sql
+2022-02-04 01:10:59.091744 (Thread-2297): 01:10:59  Parsing macros/web/get_url_host.sql
+2022-02-04 01:10:59.093582 (Thread-2297): 01:10:59  Parsing macros/schema_tests/expression_is_true.sql
+2022-02-04 01:10:59.095339 (Thread-2297): 01:10:59  Parsing macros/schema_tests/not_constant.sql
+2022-02-04 01:10:59.096537 (Thread-2297): 01:10:59  Parsing macros/schema_tests/sequential_values.sql
+2022-02-04 01:10:59.099197 (Thread-2297): 01:10:59  Parsing macros/schema_tests/not_null_proportion.sql
+2022-02-04 01:10:59.106339 (Thread-2297): 01:10:59  Parsing macros/schema_tests/at_least_one.sql
+2022-02-04 01:10:59.107551 (Thread-2297): 01:10:59  Parsing macros/schema_tests/equality.sql
+2022-02-04 01:10:59.111160 (Thread-2297): 01:10:59  Parsing macros/schema_tests/test_not_null_where.sql
+2022-02-04 01:10:59.112555 (Thread-2297): 01:10:59  Parsing macros/schema_tests/equal_rowcount.sql
+2022-02-04 01:10:59.114130 (Thread-2297): 01:10:59  Parsing macros/schema_tests/not_accepted_values.sql
+2022-02-04 01:10:59.116153 (Thread-2297): 01:10:59  Parsing macros/schema_tests/test_unique_where.sql
+2022-02-04 01:10:59.123858 (Thread-2297): 01:10:59  Parsing macros/schema_tests/mutually_exclusive_ranges.sql
+2022-02-04 01:10:59.132099 (Thread-2297): 01:10:59  Parsing macros/schema_tests/relationships_where.sql
+2022-02-04 01:10:59.134220 (Thread-2297): 01:10:59  Parsing macros/schema_tests/accepted_range.sql
+2022-02-04 01:10:59.136547 (Thread-2297): 01:10:59  Parsing macros/schema_tests/fewer_rows_than.sql
+2022-02-04 01:10:59.138143 (Thread-2297): 01:10:59  Parsing macros/schema_tests/unique_combination_of_columns.sql
+2022-02-04 01:10:59.140836 (Thread-2297): 01:10:59  Parsing macros/schema_tests/recency.sql
+2022-02-04 01:10:59.142530 (Thread-2297): 01:10:59  Parsing macros/schema_tests/cardinality_equality.sql
+2022-02-04 01:10:59.144404 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/split_part.sql
+2022-02-04 01:10:59.146136 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/length.sql
+2022-02-04 01:10:59.147555 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/current_timestamp.sql
+2022-02-04 01:10:59.150955 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/right.sql
+2022-02-04 01:10:59.153078 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/hash.sql
+2022-02-04 01:10:59.154454 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/replace.sql
+2022-02-04 01:10:59.155662 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/cast_bool_to_text.sql
+2022-02-04 01:10:59.157023 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/concat.sql
+2022-02-04 01:10:59.157994 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/_is_relation.sql
+2022-02-04 01:10:59.159100 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/identifier.sql
+2022-02-04 01:10:59.160828 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/datediff.sql
+2022-02-04 01:10:59.169884 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/dateadd.sql
+2022-02-04 01:10:59.177791 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/datatypes.sql
+2022-02-04 01:10:59.188314 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/position.sql
+2022-02-04 01:10:59.193542 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/literal.sql
+2022-02-04 01:10:59.202580 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/_is_ephemeral.sql
+2022-02-04 01:10:59.205198 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/width_bucket.sql
+2022-02-04 01:10:59.210099 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/date_trunc.sql
+2022-02-04 01:10:59.211564 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/except.sql
+2022-02-04 01:10:59.212583 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/safe_cast.sql
+2022-02-04 01:10:59.214526 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/last_day.sql
+2022-02-04 01:10:59.217861 (Thread-2297): 01:10:59  Parsing macros/cross_db_utils/intersect.sql
+2022-02-04 01:10:59.218950 (Thread-2297): 01:10:59  Parsing macros/materialisations/incremental_pit_materialization.sql
+2022-02-04 01:10:59.224154 (Thread-2297): 01:10:59  Parsing macros/materialisations/incremental_bridge_materialization.sql
+2022-02-04 01:10:59.229287 (Thread-2297): 01:10:59  Parsing macros/materialisations/period_mat_helpers.sql
+2022-02-04 01:10:59.247069 (Thread-2297): 01:10:59  Parsing macros/materialisations/vault_insert_by_period_materialization.sql
+2022-02-04 01:10:59.264139 (Thread-2297): 01:10:59  Parsing macros/materialisations/incremental_bridge_helpers.sql
+2022-02-04 01:10:59.266708 (Thread-2297): 01:10:59  Parsing macros/materialisations/rank_mat_helpers.sql
+2022-02-04 01:10:59.272965 (Thread-2297): 01:10:59  Parsing macros/materialisations/incremental_pit_helper.sql
+2022-02-04 01:10:59.275529 (Thread-2297): 01:10:59  Parsing macros/materialisations/shared_helpers.sql
+2022-02-04 01:10:59.277513 (Thread-2297): 01:10:59  Parsing macros/materialisations/vault_insert_by_rank_materialization.sql
+2022-02-04 01:10:59.291580 (Thread-2297): 01:10:59  Parsing macros/staging/hash_columns.sql
+2022-02-04 01:10:59.295357 (Thread-2297): 01:10:59  Parsing macros/staging/stage.sql
+2022-02-04 01:10:59.296003 (Thread-2298): handling status request
+2022-02-04 01:10:59.306072 (Thread-2297): 01:10:59  Parsing macros/staging/rank_columns.sql
+2022-02-04 01:10:59.306510 (Thread-2298): 01:10:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c1654c0>]}
+2022-02-04 01:10:59.314856 (Thread-2297): 01:10:59  Parsing macros/staging/derive_columns.sql
+2022-02-04 01:10:59.315338 (Thread-2298): sending response (<Response 185 bytes [200 OK]>) to 10.0.32.183
+2022-02-04 01:10:59.320990 (Thread-2297): 01:10:59  Parsing macros/staging/source_columns.sql
+2022-02-04 01:10:59.322536 (Thread-2297): 01:10:59  Parsing macros/internal/alias_all.sql
+2022-02-04 01:10:59.324858 (Thread-2297): 01:10:59  Parsing macros/internal/alias.sql
+2022-02-04 01:10:59.328256 (Thread-2297): 01:10:59  Parsing macros/internal/prepend_generated_by.sql
+2022-02-04 01:10:59.328680 (Thread-2297): 01:10:59  Parsing macros/internal/stage_processing_macros.sql
+2022-02-04 01:10:59.337657 (Thread-2297): 01:10:59  Parsing macros/internal/multikey.sql
+2022-02-04 01:10:59.342792 (Thread-2297): 01:10:59  Parsing macros/internal/is_checks.sql
+2022-02-04 01:10:59.345625 (Thread-2297): 01:10:59  Parsing macros/internal/expand_column_list.sql
+2022-02-04 01:10:59.348708 (Thread-2297): 01:10:59  Parsing macros/internal/as_constant.sql
+2022-02-04 01:10:59.350753 (Thread-2297): 01:10:59  Parsing macros/internal/check_required_parameters.sql
+2022-02-04 01:10:59.352317 (Thread-2297): 01:10:59  Parsing macros/tables/link.sql
+2022-02-04 01:10:59.364729 (Thread-2297): 01:10:59  Parsing macros/tables/sat.sql
+2022-02-04 01:10:59.373669 (Thread-2297): 01:10:59  Parsing macros/tables/eff_sat.sql
+2022-02-04 01:10:59.386912 (Thread-2297): 01:10:59  Parsing macros/tables/xts.sql
+2022-02-04 01:10:59.394068 (Thread-2297): 01:10:59  Parsing macros/tables/hub.sql
+2022-02-04 01:10:59.405224 (Thread-2297): 01:10:59  Parsing macros/tables/ma_sat.sql
+2022-02-04 01:10:59.417469 (Thread-2297): 01:10:59  Parsing macros/tables/pit.sql
+2022-02-04 01:10:59.436895 (Thread-2297): 01:10:59  Parsing macros/tables/bridge.sql
+2022-02-04 01:10:59.470837 (Thread-2297): 01:10:59  Parsing macros/tables/t_link.sql
+2022-02-04 01:10:59.483365 (Thread-2297): 01:10:59  Parsing macros/supporting/max_datetime.sql
+2022-02-04 01:10:59.484313 (Thread-2297): 01:10:59  Parsing macros/supporting/current_timestamp.sql
+2022-02-04 01:10:59.485944 (Thread-2297): 01:10:59  Parsing macros/supporting/prefix.sql
+2022-02-04 01:10:59.491205 (Thread-2297): 01:10:59  Parsing macros/supporting/hash.sql
+2022-02-04 01:10:59.500986 (Thread-2297): 01:10:59  Parsing macros/supporting/datatypes.sql
+2022-02-04 01:10:59.511996 (Thread-2299): handling status request
+2022-02-04 01:10:59.532552 (Thread-2299): 01:10:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c2830d0>]}
+2022-02-04 01:10:59.538086 (Thread-2299): sending response (<Response 185 bytes [200 OK]>) to 10.0.38.187
+2022-02-04 01:11:00.017819 (Thread-2297): 01:11:00  1603: static parser failed on stage/v_stg_inventory.sql
+2022-02-04 01:11:00.044987 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on stage/v_stg_inventory.sql
+2022-02-04 01:11:00.046425 (Thread-2297): 01:11:00  1603: static parser failed on stage/v_stg_transactions.sql
+2022-02-04 01:11:00.056620 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on stage/v_stg_transactions.sql
+2022-02-04 01:11:00.057975 (Thread-2297): 01:11:00  1603: static parser failed on stage/v_stg_orders.sql
+2022-02-04 01:11:00.085095 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on stage/v_stg_orders.sql
+2022-02-04 01:11:00.086404 (Thread-2297): 01:11:00  1699: static parser successfully parsed LennarHomeSite/SAT_HomeSite.sql
+2022-02-04 01:11:00.090931 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/t_links/t_link_transactions.sql
+2022-02-04 01:11:00.098586 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/t_links/t_link_transactions.sql
+2022-02-04 01:11:00.099921 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/hubs/hub_supplier.sql
+2022-02-04 01:11:00.109094 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_supplier.sql
+2022-02-04 01:11:00.110442 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/hubs/hub_region.sql
+2022-02-04 01:11:00.118753 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_region.sql
+2022-02-04 01:11:00.120080 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/hubs/hub_order.sql
+2022-02-04 01:11:00.126751 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_order.sql
+2022-02-04 01:11:00.128094 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/hubs/hub_customer.sql
+2022-02-04 01:11:00.135388 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_customer.sql
+2022-02-04 01:11:00.136981 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/hubs/hub_nation.sql
+2022-02-04 01:11:00.145198 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_nation.sql
+2022-02-04 01:11:00.147751 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/hubs/hub_lineitem.sql
+2022-02-04 01:11:00.154497 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_lineitem.sql
+2022-02-04 01:11:00.155803 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/hubs/hub_part.sql
+2022-02-04 01:11:00.163984 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/hubs/hub_part.sql
+2022-02-04 01:11:00.165292 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/links/link_customer_order.sql
+2022-02-04 01:11:00.173155 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/links/link_customer_order.sql
+2022-02-04 01:11:00.174480 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/links/link_inventory_allocation.sql
+2022-02-04 01:11:00.181737 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/links/link_inventory_allocation.sql
+2022-02-04 01:11:00.183056 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/links/link_inventory.sql
+2022-02-04 01:11:00.191241 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/links/link_inventory.sql
+2022-02-04 01:11:00.192530 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/links/link_customer_nation.sql
+2022-02-04 01:11:00.199629 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/links/link_customer_nation.sql
+2022-02-04 01:11:00.200919 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/links/link_order_lineitem.sql
+2022-02-04 01:11:00.208180 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/links/link_order_lineitem.sql
+2022-02-04 01:11:00.209467 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/links/link_nation_region.sql
+2022-02-04 01:11:00.217782 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/links/link_nation_region.sql
+2022-02-04 01:11:00.219117 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/links/link_supplier_nation.sql
+2022-02-04 01:11:00.227364 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/links/link_supplier_nation.sql
+2022-02-04 01:11:00.228709 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/sats/sat_inv_inventory_details.sql
+2022-02-04 01:11:00.238113 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_inventory_details.sql
+2022-02-04 01:11:00.239463 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/sats/sat_order_cust_nation_details.sql
+2022-02-04 01:11:00.248444 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_cust_nation_details.sql
+2022-02-04 01:11:00.249775 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/sats/sat_order_lineitem_details.sql
+2022-02-04 01:11:00.261346 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_lineitem_details.sql
+2022-02-04 01:11:00.262686 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/sats/sat_inv_supplier_details.sql
+2022-02-04 01:11:00.273276 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_supplier_details.sql
+2022-02-04 01:11:00.274630 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/sats/sat_inv_supp_nation_details.sql
+2022-02-04 01:11:00.283559 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_supp_nation_details.sql
+2022-02-04 01:11:00.284883 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/sats/sat_inv_supp_region_details.sql
+2022-02-04 01:11:00.293885 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_supp_region_details.sql
+2022-02-04 01:11:00.295419 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/sats/sat_order_order_details.sql
+2022-02-04 01:11:00.307056 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_order_details.sql
+2022-02-04 01:11:00.308397 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/sats/sat_inv_part_details.sql
+2022-02-04 01:11:00.319017 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/sats/sat_inv_part_details.sql
+2022-02-04 01:11:00.320356 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/sats/sat_order_customer_details.sql
+2022-02-04 01:11:00.331395 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_customer_details.sql
+2022-02-04 01:11:00.333342 (Thread-2297): 01:11:00  1603: static parser failed on raw_vault/sats/sat_order_cust_region_details.sql
+2022-02-04 01:11:00.342655 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_vault/sats/sat_order_cust_region_details.sql
+2022-02-04 01:11:00.344150 (Thread-2297): 01:11:00  1603: static parser failed on raw_stage/raw_transactions.sql
+2022-02-04 01:11:00.351065 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_stage/raw_transactions.sql
+2022-02-04 01:11:00.352699 (Thread-2297): 01:11:00  1603: static parser failed on raw_stage/raw_orders.sql
+2022-02-04 01:11:00.360751 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_stage/raw_orders.sql
+2022-02-04 01:11:00.362479 (Thread-2297): 01:11:00  1603: static parser failed on raw_stage/raw_inventory.sql
+2022-02-04 01:11:00.371180 (Thread-2297): 01:11:00  1602: parser fallback to jinja rendering on raw_stage/raw_inventory.sql
+2022-02-04 01:11:00.535010 (Thread-2297): 01:11:00  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c0b5400>]}
+2022-02-04 01:11:00.886420 (Thread-2300): handling status request
+2022-02-04 01:11:00.886775 (Thread-2300): 01:11:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c0b5fd0>]}
+2022-02-04 01:11:00.889019 (Thread-2300): sending response (<Response 66390 bytes [200 OK]>) to 10.0.44.149
+2022-02-04 01:11:01.384463 (Thread-2301): handling status request
+2022-02-04 01:11:01.384801 (Thread-2301): 01:11:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f66c46b1040>]}
+2022-02-04 01:11:01.386761 (Thread-2301): sending response (<Response 66390 bytes [200 OK]>) to 10.0.20.252
+2022-02-04 01:11:02.806796 (Thread-2302): 01:11:02  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-02-04 01:11:02.807076 (Thread-2302): 01:11:02  Partial parsing enabled, no changes found, skipping parsing
+2022-02-04 01:11:02.815316 (Thread-2302): 01:11:02  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f66c44454f0>]}
+2022-02-04 01:11:03.174140 (Thread-2303): handling status request
+2022-02-04 01:11:03.174540 (Thread-2303): 01:11:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f66c44eb580>]}
+2022-02-04 01:11:03.175030 (Thread-2303): sending response (<Response 1247 bytes [200 OK]>) to 10.0.0.16
+2022-02-04 01:11:03.386550 (Thread-2304): handling status request
+2022-02-04 01:11:03.386965 (Thread-2304): 01:11:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f66c44eb130>]}
+2022-02-04 01:11:03.387451 (Thread-2304): sending response (<Response 1247 bytes [200 OK]>) to 10.0.32.183
+2022-02-04 01:11:10.822995 (Thread-2305): handling status request
+2022-02-04 01:11:10.823336 (Thread-2305): 01:11:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8a70881f-ff16-4aee-91aa-bdb3d794afd8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f671c08ab20>]}
+2022-02-04 01:11:10.823793 (Thread-2305): sending response (<Response 1247 bytes [200 OK]>) to 10.0.44.149
