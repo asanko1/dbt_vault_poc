@@ -19,13 +19,3 @@
     {% endif %}
     {{query_metric_entries}}
 {% endmacro %}
-   
-
-
-  
-
-    
-
-
-
-   
