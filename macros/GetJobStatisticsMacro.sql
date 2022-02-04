@@ -1,8 +1,10 @@
 {% macro GetJobStatisticMacro() %}
+    {%- set current_model_full_name = '{{this}}'.split('.') -%}
+    {%- set current_table_name =current_model_full_name[-1] -%}
     {%- call statement('GetMetrics', fetch_result=True) -%}
         Select SourceTableName,    SourceAttributeNames,
         OperationName,JobMetricsMaster_id from ABC.Public.JobMetricsMaster
-        WHERE SourceTableName = '{{this}}' 
+        WHERE SourceTableName = '{{current_table_name}}' 
     {%- endcall -%}
     {% if execute %}
         {%- set get_metrics_frame= load_result('GetMetrics') -%}
