@@ -4,7 +4,7 @@
     {%- call statement('GetMetrics', fetch_result=True) -%}
         Select SourceTableName,    SourceAttributeNames,
         OperationName,JobMetricsMaster_id from ABC.Public.JobMetricsMaster
-        WHERE SourceTableName = '{{current_table_name}}' 
+        WHERE SourceTableName = 'h' 
     {%- endcall -%}
     {% if execute %}
         {%- set get_metrics_frame= load_result('GetMetrics') -%}
