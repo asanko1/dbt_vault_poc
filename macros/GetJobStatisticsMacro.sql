@@ -1,5 +1,5 @@
 {% macro GetJobStatisticMacro() %}
-    {%- set current_model_full_name = '{{this}}'.split('.') -%}
+    {%- set current_model_full_name = '{{this|upper}}'.split('.') -%}
     {%- set current_table_name =current_model_full_name[-1] -%}
     {%- call statement('GetMetrics', fetch_result=True) -%}
         Select SourceTableName,    SourceAttributeNames,
