@@ -1,11 +1,13 @@
+
+   
 {{ 
     config(
         materialized='table',
-        post_hook = after_commit("{{run_end_hook('x','PC_DBT_DB.DBT_ABASAK_CUST_DETAIL.RAW_INVENTORY')}}")
+        post_hook = after_commit("{{run_end_hook('4','PC_DBT_DB.DBT_ABASAK_CUST_DETAIL.RAW_INVENTORY')}}")
         )
 }}
 
-{{ Job_insert_update('INSERT','inventory','pipeline_id','batch_id','inventory') }}
+{{ Job_insert_update('INSERT','inventory','4','batch_id') }}
 
 SELECT
     a.PS_PARTKEY AS PARTKEY,

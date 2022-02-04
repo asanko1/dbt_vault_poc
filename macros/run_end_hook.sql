@@ -2,7 +2,7 @@
 
     {% if execute %}
         {%- call statement('delta_count', fetch_result=True) -%}
-            SELECT count(*) FROM {{table_name}} where JOBID = concat(to_varchar('{{var('job_id')}}'),'-','inventory')
+            SELECT count(*) FROM {{table_name}} where JOBID = concat( '{{job_id}}','-','inventory')
         {%- endcall -%}
 
         {%- set Query_count = load_result('delta_count')  -%}
