@@ -31,7 +31,7 @@ vars:
 
 
 models:
-  +pre-hook:
+  +post-hook:
   - "{{GetJobStatisticMacro()}}"
   dbtvault_snowflake_demo:
     LennarHomeSite:
