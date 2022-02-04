@@ -24,13 +24,15 @@ target-path: target
 vars:
   load_date: '1992-01-09'
   tpch_size: 10 #1, 10, 100, 1000, 10000
-  batch_id: 'Null'
+  batch_id: '{{ invocation_id }}' #This is going to be overwritten from ADF in actual run, but let's keep as invocation id as default value, makes easier life when debugging dbt
   job_id: 'Null'
   batch_status : ''
   job_status : ''
 
 
 models:
+  +pre-hook:
+  - "{{GetJobStatisticsMacro()}}"
   dbtvault_snowflake_demo:
     LennarHomeSite:
       tags:
