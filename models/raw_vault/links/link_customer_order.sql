@@ -1,8 +1,3 @@
-{{ config(
-    tags=["Source_system_1"]
-) }}
-
-
 {%- set source_model = "v_stg_orders" -%}
 {%- set src_pk = "ORDER_CUSTOMER_PK" -%}
 {%- set src_fk = ["CUSTOMER_PK", "ORDER_PK"] -%}

@@ -1,7 +1,3 @@
-{{ config(
-    tags=["Source_system_1"]
-) }}
-
 
 SELECT
     a.L_ORDERKEY AS ORDERKEY,
