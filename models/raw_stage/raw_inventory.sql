@@ -1,7 +1,8 @@
+
 {{ 
     config(
         materialized='table',
-        tags=["Source_system_test"]
+         tags=["Source_system_1"]
         )
 }}
 
