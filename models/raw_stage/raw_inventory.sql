@@ -9,11 +9,15 @@
         Select  md5(concat(to_varchar('{{var('job_id')}}'),'-','{{this}}'))
 {%- endcall -%}
 {%- set  model_id = load_result('model_id_query') ['data'][0][0]  -%}
+{%- call statement('table_name_query', fetch_result=True) -%}
+        Select  trim(split('{{this}}','.')[2],'"') as DB_SH_TBL
+{%- endcall -%}
+{%- set  table_name = load_result('table_name_query')['data'][0][0] -%}
 {{ Job_insert_update('INSERT','{{this}}', model_id,var('batch_id')) }}
 
 
 SELECT
-    '{{this}}' as test,
+    '{{table_name}}' as test, 
     a.PS_PARTKEY AS PARTKEY,
     a.PS_SUPPKEY AS SUPPLIERKEY,
     a.PS_AVAILQTY AS AVAILQTY,
@@ -54,6 +58,7 @@ JOIN {{ ref('raw_orders') }} AS f
     ON a.PS_PARTKEY = f.PARTKEY AND a.PS_SUPPKEY=f.SUPPLIERKEY
 ORDER BY a.PS_PARTKEY, a.PS_SUPPKEY
 
-	{{run_end_hook(model_id,'PC_DBT_DB.DBT_ABASAK_CUST_DETAIL.RAW_INVENTORY','inventory')}}
+	{{run_end_hook(model_id,'{{this}}','{{table_name}}')}}
+    {{GetJobStatisticMacro(model_id,'{{table_name}}','{{batch_id}}')}}
 
 

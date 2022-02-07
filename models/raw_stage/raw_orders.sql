@@ -1,6 +1,17 @@
 {{ config(
     tags=["Source_system_1"]
 ) }}
+
+{%- call statement('model_id_query', fetch_result=True) -%}
+        Select  md5(concat(to_varchar('{{var('job_id')}}'),'-','{{this}}'))
+{%- endcall -%}
+{%- set  model_id = load_result('model_id_query') ['data'][0][0]  -%}
+{%- call statement('table_name_query', fetch_result=True) -%}
+        Select  trim(split('{{this}}','.')[2],'"') as DB_SH_TBL
+{%- endcall -%}
+{%- set  table_name = load_result('table_name_query')['data'][0][0] -%}
+{{ Job_insert_update('INSERT','{{this}}', model_id,var('batch_id')) }}
+
 SELECT
     a.L_ORDERKEY AS ORDERKEY,
     a.L_PARTKEY AS PARTKEY ,
@@ -58,3 +69,5 @@ LEFT JOIN {{ source('tpch_sample', 'NATION') }} AS j
 LEFT JOIN {{ source('tpch_sample', 'REGION') }} AS k
     ON j.N_REGIONKEY = k.R_REGIONKEY
 WHERE b.O_ORDERDATE = TO_DATE('{{ var('load_date') }}')
+
+{{GetJobStatisticMacro(model_id,'{{table_name}}','{{batch_id}}')}}
