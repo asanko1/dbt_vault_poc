@@ -69,8 +69,6 @@ models:
           - 't_link'
 #Source System tags
     raw_orders:
-      tags:
-        'Source_system_1'
     raw_inventory:
       tags:
         'Source_system_1'
