@@ -2,6 +2,7 @@
     config(
         materialized='table',
         tags=["Source_system_1"]
+       
         )
 }}
 
@@ -68,6 +69,12 @@ LEFT JOIN {{ source('tpch_sample', 'REGION') }} AS e
 JOIN {{ ref('raw_orders') }} AS f
     ON a.PS_PARTKEY = f.PARTKEY AND a.PS_SUPPKEY=f.SUPPLIERKEY
 ORDER BY a.PS_PARTKEY, a.PS_SUPPKEY
+{{ 
+    config(
+      
+        post_hook=after_commit(run_end_hook(Job_id,model_name,table_name))
+        )
+}}
 
-{{run_end_hook(Job_id,model_name,table_name)}}
-{{GetJobStatisticMacro(Job_id,table_name)}}
+
+
