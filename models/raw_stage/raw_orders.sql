@@ -22,7 +22,7 @@
 SELECT
     '{{model_id}}' as ModeL_ID,
     '{{table_name}}' AS Table_name,
-    '{{model_name}}' AS Model_name,
+    '{{model_name}}' AS JOBID,
     a.L_ORDERKEY AS ORDERKEY,
     a.L_PARTKEY AS PARTKEY ,
     a.L_SUPPKEY AS SUPPLIERKEY,
@@ -80,4 +80,4 @@ LEFT JOIN {{ source('tpch_sample', 'REGION') }} AS k
     ON j.N_REGIONKEY = k.R_REGIONKEY
 WHERE b.O_ORDERDATE = TO_DATE('{{ var('load_date') }}')
 
-{{run_end_hook(model_id,'PC_DBT_DB.DBT_ABASAK_CUST_DETAIL.RAW_ORDERS',table_name)}}
+{{run_end_hook(model_id,model_name,table_name)}}
