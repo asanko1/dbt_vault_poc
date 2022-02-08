@@ -85,3 +85,4 @@ LEFT JOIN {{ source('tpch_sample', 'REGION') }} AS k
 WHERE b.O_ORDERDATE = TO_DATE('{{ var('load_date') }}')
 
 {{run_end_hook(Job_id,model_name,table_name)}}
+{{GetJobStatisticMacro(Job_id,table_name)}}

@@ -71,3 +71,4 @@ JOIN {{ ref('raw_orders') }} AS f
 ORDER BY a.PS_PARTKEY, a.PS_SUPPKEY
 
 {{run_end_hook(Job_Id,model_name,table_name)}}
+{{GetJobStatisticMacro(Job_Id,table_name)}}
