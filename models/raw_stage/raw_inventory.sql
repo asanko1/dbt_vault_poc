@@ -1,20 +1,36 @@
-
 {{ 
     config(
         materialized='table',
-         tags=["Source_system_1"]
+        tags=["Source_system_1"]
         )
 }}
 
-{%- call statement('model_id_query', fetch_result=True) -%}
-        Select  md5(concat(to_varchar('{{var('job_id')}}'),'-','{{this}}'))
+---definitions
+--- Batch_Id is the one that is provided to dbt by ADF
+--- Model_Name is the name of the fully qualified name : <Database_name>.<Schema_name>.<table_name>. Equivalent of dbt {{this}}
+--- Job_Id is the one that we generate by MD5(BatchId+ModelName)
+--- Table_Name is just the table name without any database and schema names
+{%- call statement('Job_id_query', fetch_result=True) -%}
+        Select  md5(concat(to_varchar('{{var('batch_id')}}'),'-','{{this}}'))
 {%- endcall -%}
-{%- set  model_id = load_result('model_id_query') ['data'][0][0]  -%}
-{{ Job_insert_update('INSERT','{{this}}', model_id,var('batch_id')) }}
+{%- set  Job_id = load_result('Job_id_query') ['data'][0][0]  -%}
+{%- call statement('model_name', fetch_result=True) -%}
+        Select  UPPER('{{this}}') as model_name
+{%- endcall -%}
+{%- set  model_name = load_result('model_name')['data'][0][0] -%}
 
+{%- call statement('table_name_query', fetch_result=True) -%}
+        Select  UPPER(trim(split('{{model_name}}','.')[2],'"')) as DB_SH_TBL
+{%- endcall -%}
+{%- set  table_name = load_result('table_name_query')['data'][0][0] -%}
+
+{{ Job_insert_update('INSERT','{{this}}', Job_id,var('batch_id')) }}
 
 SELECT
-    '{{this}}' as test,
+    '{{model_name}}' as Model_Name,
+    '{{table_name}}' AS Table_Name,
+    '{{Job_id}}' AS JOB_ID,
+    to_varchar('{{var('batch_id')}}') as Batch_Id, 
     a.PS_PARTKEY AS PARTKEY,
     a.PS_SUPPKEY AS SUPPLIERKEY,
     a.PS_AVAILQTY AS AVAILQTY,
@@ -38,9 +54,7 @@ SELECT
     d.N_COMMENT AS SUPPLIER_NATION_COMMENT,
     d.N_REGIONKEY AS SUPPLIER_REGION_KEY,
     e.R_NAME AS SUPPLIER_REGION_NAME,
-    e.R_COMMENT AS SUPPLIER_REGION_COMMENT,
-    to_varchar('{{var('batch_id')}}') as BATCH_ID,
-    md5(concat(to_varchar('{{var('job_id')}}'),'-','{{this}}')) as JOBID
+    e.R_COMMENT AS SUPPLIER_REGION_COMMENT
 
 FROM {{ source('tpch_sample', 'PARTSUPP') }} AS a
 LEFT JOIN {{ source('tpch_sample', 'SUPPLIER') }} AS b
@@ -55,6 +69,5 @@ JOIN {{ ref('raw_orders') }} AS f
     ON a.PS_PARTKEY = f.PARTKEY AND a.PS_SUPPKEY=f.SUPPLIERKEY
 ORDER BY a.PS_PARTKEY, a.PS_SUPPKEY
 
-	{{run_end_hook(model_id,'PC_DBT_DB.DBT_ABASAK_CUST_DETAIL.RAW_INVENTORY','inventory')}}
-
-
+{{run_end_hook(Job_id,model_name,table_name)}}
+{{GetJobStatisticMacro(Job_id,table_name)}}

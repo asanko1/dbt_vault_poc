@@ -31,9 +31,6 @@ vars:
 
 
 models:
-  +post-hook:
-  - "{{GetJobStatisticMacro()}}"
-  - "{{testthis()}}"
   dbtvault_snowflake_demo:
     LennarHomeSite:
       tags:
@@ -68,6 +65,8 @@ models:
       t_links:
         tags:
           - 't_link'
+
+  
     
 
 
