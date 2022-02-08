@@ -9,7 +9,7 @@
 {%- set  model_id = load_result('model_id_query') ['data'][0][0]  -%}
 
 {%- call statement('model_name', fetch_result=True) -%}
-        Select  '{{this}}' as model_name
+        Select  UPPER('{{this}}') as model_name
 {%- endcall -%}
 {%- set  model_name = load_result('model_name')['data'][0][0] -%}
 
@@ -22,6 +22,7 @@
 SELECT
     '{{model_id}}' as ModeL_ID,
     '{{table_name}}' AS Table_name,
+    '{{model_name}}' AS Model_name,
     a.L_ORDERKEY AS ORDERKEY,
     a.L_PARTKEY AS PARTKEY ,
     a.L_SUPPKEY AS SUPPLIERKEY,
@@ -79,4 +80,4 @@ LEFT JOIN {{ source('tpch_sample', 'REGION') }} AS k
     ON j.N_REGIONKEY = k.R_REGIONKEY
 WHERE b.O_ORDERDATE = TO_DATE('{{ var('load_date') }}')
 
-{{run_end_hook(model_id,'PC_DBT_DB.DBT_ABASAK_CUST_DETAIL.RAW_INVENTORY','{{table_name}}')}}
+{{run_end_hook(model_id,model_name,table_name)}}
