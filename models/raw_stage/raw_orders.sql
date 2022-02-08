@@ -1,12 +1,15 @@
 {{ config(
     tags=["Source_system_1"]
 ) }}
-
-{%- call statement('model_id_query', fetch_result=True) -%}
-        Select  md5(concat(to_varchar('{{var('job_id')}}'),'-','{{this}}'))
+---definitions
+--- Batch_Id is the one that is provided to dbt by ADF
+--- Model_Name is the name of the fully qualified name : <Database_name>.<Schema_name>.<table_name>. Equivalent of dbt {{this}}
+--- Job_Id is the one that we generate by MD5(BatchId+ModelName)
+--- Table_Name is just the table name without any database and schema names
+{%- call statement('Job_id_query', fetch_result=True) -%}
+        Select  md5(concat(to_varchar('{{var('batch_id')}}'),'-','{{this}}'))
 {%- endcall -%}
-
-{%- set  model_id = load_result('model_id_query') ['data'][0][0]  -%}
+{%- set  Job_id = load_result('Job_id_query') ['data'][0][0]  -%}
 
 {%- call statement('model_name', fetch_result=True) -%}
         Select  UPPER('{{this}}') as model_name
@@ -17,12 +20,14 @@
         Select  UPPER(trim(split('{{this}}','.')[2],'"')) as DB_SH_TBL
 {%- endcall -%}
 {%- set  table_name = load_result('table_name_query')['data'][0][0] -%}
-{{ Job_insert_update('INSERT','{{this}}', model_id,var('batch_id')) }}
+
+{{ Job_insert_update('INSERT','{{this}}', Job_id,var('batch_id')) }}
 
 SELECT
-    '{{model_id}}' as ModeL_ID,
-    '{{table_name}}' AS Table_name,
-    '{{model_name}}' AS JOBID,
+    '{{model_name}}' as Model_Name,
+    '{{table_name}}' AS Table_Name,
+    '{{Job_id}}' AS JOB_ID,
+    to_varchar('{{var('batch_id')}}') as Batch_Id,
     a.L_ORDERKEY AS ORDERKEY,
     a.L_PARTKEY AS PARTKEY ,
     a.L_SUPPKEY AS SUPPLIERKEY,
@@ -58,9 +63,8 @@ SELECT
     d.N_REGIONKEY AS CUSTOMER_REGION_KEY,
     d.N_COMMENT AS CUSTOMER_NATION_COMMENT,
     e.R_NAME AS CUSTOMER_REGION_NAME,
-    e.R_COMMENT AS CUSTOMER_REGION_COMMENT,
-    to_varchar('{{var('batch_id')}}') as BATCH_ID,
-    to_varchar('{{var('job_id')}}') as ADF_JOBID
+    e.R_COMMENT AS CUSTOMER_REGION_COMMENT
+
 FROM {{ source('tpch_sample', 'ORDERS') }} AS b
 LEFT JOIN {{ source('tpch_sample', 'LINEITEM') }} AS a
     ON a.L_ORDERKEY = b.O_ORDERKEY
@@ -80,4 +84,4 @@ LEFT JOIN {{ source('tpch_sample', 'REGION') }} AS k
     ON j.N_REGIONKEY = k.R_REGIONKEY
 WHERE b.O_ORDERDATE = TO_DATE('{{ var('load_date') }}')
 
-{{run_end_hook(model_id,model_name,table_name)}}
+{{run_end_hook(Job_id,model_name,table_name)}}
