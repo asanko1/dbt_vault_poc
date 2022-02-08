@@ -43,7 +43,7 @@ SELECT
     e.R_NAME AS SUPPLIER_REGION_NAME,
     e.R_COMMENT AS SUPPLIER_REGION_COMMENT,
     to_varchar('{{var('batch_id')}}') as BATCH_ID,
-    md5(concat(to_varchar('{{var('job_id')}}'),'-','{{this}}')) as JOBID
+    '{{model_id}}' as JOBID
 
 FROM {{ source('tpch_sample', 'PARTSUPP') }} AS a
 LEFT JOIN {{ source('tpch_sample', 'SUPPLIER') }} AS b
@@ -58,7 +58,6 @@ JOIN {{ ref('raw_orders') }} AS f
     ON a.PS_PARTKEY = f.PARTKEY AND a.PS_SUPPKEY=f.SUPPLIERKEY
 ORDER BY a.PS_PARTKEY, a.PS_SUPPKEY
 
-	{{run_end_hook(model_id,'{{this}}','{{table_name}}')}}
-    {{GetJobStatisticMacro(model_id,'{{table_name}}','{{batch_id}}')}}
-
+--run_end_hook(model_id,'{{this}}','{{table_name}}')}}
+{{GetJobStatisticMacro(model_id,'{{table_name}}','{{batch_id}}')}}
 

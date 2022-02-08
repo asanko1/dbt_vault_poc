@@ -13,6 +13,8 @@
 {{ Job_insert_update('INSERT','{{this}}', model_id,var('batch_id')) }}
 
 SELECT
+    '{{model_id}}' as ModeL_ID,
+    '{{table_name}}' AS Table_name,
     a.L_ORDERKEY AS ORDERKEY,
     a.L_PARTKEY AS PARTKEY ,
     a.L_SUPPKEY AS SUPPLIERKEY,
