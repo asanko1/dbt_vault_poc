@@ -7,7 +7,7 @@
 {%- endcall -%}
 {%- set  model_id = load_result('model_id_query') ['data'][0][0]  -%}
 {%- call statement('table_name_query', fetch_result=True) -%}
-        Select  trim(split('{{this}}','.')[2],'"') as DB_SH_TBL
+        Select  UPPER(trim(split('{{this}}','.')[2],'"')) as DB_SH_TBL
 {%- endcall -%}
 {%- set  table_name = load_result('table_name_query')['data'][0][0] -%}
 {{ Job_insert_update('INSERT','{{this}}', model_id,var('batch_id')) }}
