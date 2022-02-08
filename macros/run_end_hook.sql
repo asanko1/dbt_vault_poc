@@ -2,7 +2,7 @@
 
     
         {%- call statement('delta_count', fetch_result=True) -%}
-            SELECT count(*) FROM {{model_name}} where JOB_ID = to_varchar('{{job_id}}')
+            SELECT count(*) as cnt FROM {{model_name}} where JOB_ID = to_varchar('{{job_id}}')
         {%- endcall -%}
         {% set query -%}
             Insert into PC_DBT_DB.DBT_ABASAK_CUST_DETAIL.job_id(Job_ID) 
@@ -15,7 +15,7 @@
             {%- set Query_count = load_result('delta_count')['data'][0][0] | int -%}
             {%- set out_result = Query_count | int -%}
            
-            
+           
             {% if out_result > 0 %} 
                 {{ Job_insert_update('SUCCESS','{{table_name}}',job_id,'batch_id') }}
             {% else %}

@@ -14,14 +14,13 @@
         Select  md5(concat(to_varchar('{{var('batch_id')}}'),'-','{{this}}'))
 {%- endcall -%}
 {%- set  Job_id = load_result('Job_id_query') ['data'][0][0]  -%}
-
 {%- call statement('model_name', fetch_result=True) -%}
         Select  UPPER('{{this}}') as model_name
 {%- endcall -%}
 {%- set  model_name = load_result('model_name')['data'][0][0] -%}
 
 {%- call statement('table_name_query', fetch_result=True) -%}
-        Select  UPPER(trim(split('{{this}}','.')[2],'"')) as DB_SH_TBL
+        Select  UPPER(trim(split('{{model_name}}','.')[2],'"')) as DB_SH_TBL
 {%- endcall -%}
 {%- set  table_name = load_result('table_name_query')['data'][0][0] -%}
 
@@ -70,5 +69,5 @@ JOIN {{ ref('raw_orders') }} AS f
     ON a.PS_PARTKEY = f.PARTKEY AND a.PS_SUPPKEY=f.SUPPLIERKEY
 ORDER BY a.PS_PARTKEY, a.PS_SUPPKEY
 
-{{run_end_hook(Job_Id,model_name,table_name)}}
-{{GetJobStatisticMacro(Job_Id,table_name)}}
+{{run_end_hook(Job_id,model_name,table_name)}}
+{{GetJobStatisticMacro(Job_id,table_name)}}
