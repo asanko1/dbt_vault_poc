@@ -80,4 +80,4 @@ LEFT JOIN {{ source('tpch_sample', 'REGION') }} AS k
     ON j.N_REGIONKEY = k.R_REGIONKEY
 WHERE b.O_ORDERDATE = TO_DATE('{{ var('load_date') }}')
 
-{{run_end_hook(model_id,model_name,table_name)}}
+{{run_end_hook(model_id,'PC_DBT_DB.DBT_ABASAK_CUST_DETAIL.RAW_ORDERS',table_name)}}
