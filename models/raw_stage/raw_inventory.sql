@@ -58,6 +58,4 @@ JOIN {{ ref('raw_orders') }} AS f
     ON a.PS_PARTKEY = f.PARTKEY AND a.PS_SUPPKEY=f.SUPPLIERKEY
 ORDER BY a.PS_PARTKEY, a.PS_SUPPKEY
 
---run_end_hook(model_id,'{{this}}','{{table_name}}')}}
-{{GetJobStatisticMacro(model_id,'{{table_name}}','{{batch_id}}')}}
-
+{{run_end_hook(model_id,'PC_DBT_DB.DBT_ABASAK_CUST_DETAIL.RAW_INVENTORY','{{table_name}}')}}

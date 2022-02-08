@@ -5,7 +5,14 @@
 {%- call statement('model_id_query', fetch_result=True) -%}
         Select  md5(concat(to_varchar('{{var('job_id')}}'),'-','{{this}}'))
 {%- endcall -%}
+
 {%- set  model_id = load_result('model_id_query') ['data'][0][0]  -%}
+
+{%- call statement('model_name', fetch_result=True) -%}
+        Select  '{{this}}' as model_name
+{%- endcall -%}
+{%- set  model_name = load_result('model_name')['data'][0][0] -%}
+
 {%- call statement('table_name_query', fetch_result=True) -%}
         Select  UPPER(trim(split('{{this}}','.')[2],'"')) as DB_SH_TBL
 {%- endcall -%}
@@ -72,4 +79,4 @@ LEFT JOIN {{ source('tpch_sample', 'REGION') }} AS k
     ON j.N_REGIONKEY = k.R_REGIONKEY
 WHERE b.O_ORDERDATE = TO_DATE('{{ var('load_date') }}')
 
-{{GetJobStatisticMacro(model_id,'{{table_name}}','{{batch_id}}')}}
+{{run_end_hook(model_id,'PC_DBT_DB.DBT_ABASAK_CUST_DETAIL.RAW_INVENTORY','{{table_name}}')}}
