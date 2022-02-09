@@ -42,8 +42,8 @@ models:
                   severity: warn
         - name: PLANCODE
           tests:
-            - string_length_check:
-                desired_len: '4'
+            - str_len_check:
+                desired_len: '3'
                 config:            
                   severity: warn
     tests:
