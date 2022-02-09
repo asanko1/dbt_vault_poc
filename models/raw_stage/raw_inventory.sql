@@ -25,7 +25,13 @@
 {%- endcall -%}
 {%- set  table_name = load_result('table_name_query')['data'][0][0] -%}
 
-{{ Job_insert_update('INSERT','{{this}}', Job_id,var('batch_id')) }}
+{{ 
+    config(
+        pre_hook=before_begin(Job_insert_update('INSERT','{{this}}', Job_id,var('batch_id'))),
+        post_hook=after_commit(run_end_hook(Job_id,model_name,table_name))
+        )
+}}
+
 
 SELECT
     '{{model_name}}' as Model_Name,
@@ -69,12 +75,7 @@ LEFT JOIN {{ source('tpch_sample', 'REGION') }} AS e
 JOIN {{ ref('raw_orders') }} AS f
     ON a.PS_PARTKEY = f.PARTKEY AND a.PS_SUPPKEY=f.SUPPLIERKEY
 ORDER BY a.PS_PARTKEY, a.PS_SUPPKEY
-{{ 
-    config(
-      
-        post_hook=after_commit(run_end_hook(Job_id,model_name,table_name))
-        )
-}}
+
 
 
 
