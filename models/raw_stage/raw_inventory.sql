@@ -109,7 +109,7 @@ ABC.PUBLIC.ABC_Job_Details where   job_id = md5(concat(to_varchar('{{var('batch_
         e.R_NAME AS SUPPLIER_REGION_NAME,
         e.R_COMMENT AS SUPPLIER_REGION_COMMENT
 
-    FROM tpch_sample.Orders AS a
+    FROM {{ source('tpch_sample', 'PARTSUPP') }} AS a
     LEFT JOIN {{ source('tpch_sample', 'SUPPLIER') }} AS b
         ON a.PS_SUPPKEY = b.S_SUPPKEY
     LEFT JOIN {{ source('tpch_sample', 'PART') }} AS c
