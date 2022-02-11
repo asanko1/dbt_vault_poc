@@ -33,6 +33,11 @@ vars:
 #Assume raw_orders and raw_inventory are being populated from two sources : JDE and BP. creating two tags for raw_orders
 models:
   dbtvault_snowflake_demo:
+    all_failed_records:
+      tags:
+        - 'fr'
+      materialized: view
+      +schema: "{{env_var('DBT_TGT_SCHEMA') }}"
     raw_stage:
       tags:
         - 'raw'

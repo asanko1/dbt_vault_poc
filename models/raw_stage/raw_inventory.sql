@@ -5,7 +5,6 @@
     config(
         materialized='table',
         tags=["Source_system_inventory"]
-       
         )
 }}
 
@@ -62,6 +61,7 @@ ABC.PUBLIC.ABC_Job_Details where   job_id = md5(concat(to_varchar('{{var('batch_
 
 
 {% if Job_Id_status ==  'True' or Job_status_output == 'FAILED' %} 
+
     {%- call statement('Job_id_query', fetch_result=True) -%}
             Select  md5(concat(to_varchar('{{var('batch_id')}}'),'-','{{this}}'))
     {%- endcall -%}
@@ -109,7 +109,7 @@ ABC.PUBLIC.ABC_Job_Details where   job_id = md5(concat(to_varchar('{{var('batch_
         e.R_NAME AS SUPPLIER_REGION_NAME,
         e.R_COMMENT AS SUPPLIER_REGION_COMMENT
 
-    FROM {{ source('tpch_sample', 'PARTSUPP') }} AS a
+    FROM tpch_sample.Orders AS a
     LEFT JOIN {{ source('tpch_sample', 'SUPPLIER') }} AS b
         ON a.PS_SUPPKEY = b.S_SUPPKEY
     LEFT JOIN {{ source('tpch_sample', 'PART') }} AS c
@@ -123,7 +123,7 @@ ABC.PUBLIC.ABC_Job_Details where   job_id = md5(concat(to_varchar('{{var('batch_
     ORDER BY a.PS_PARTKEY, a.PS_SUPPKEY
 
 {% else %}
-    select * from {{this}}    
+    select * from {{this}}  
 {% endif %}
 
 

@@ -26,7 +26,7 @@ models:
     columns:
         - name: HOMESITEID
           tests:
-            - unique:
+            - edna_col_unique_check:
                 config:            
                   severity: warn
         - name: ADDRESSLINE1
@@ -42,15 +42,18 @@ models:
                   severity: warn
         - name: PLANCODE
           tests:
-            - str_len_check:
+            - edna_str_len_check:
                 desired_len: '3'
+                c_name: 'PLANCODE'
                 config:            
                   severity: warn
     tests:
             - dbt_utils.expression_is_true:
-                expression: "TEMPLATENUMBER>0 and TEMPLATENUMBER<200"
-                condition: "TEMPLATENUMBER <> NULL"
+                issue_desc: "INVALID TEMPLATE NUMBER"
+                expression: "TEMPLATENUMBER>190 and TEMPLATENUMBER<200"
+                condition: "TEMPLATENUMBER <> NULL OR TEMPLATENUMBER<>'NULL'"
                 config:            
                   severity: warn
+
                       
     
