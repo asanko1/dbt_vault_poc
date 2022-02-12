@@ -29,19 +29,26 @@ vars:
   batch_status : ''
   job_status : ''
 
-
+#POC- for combination of tags and sources
+#Assume raw_orders and raw_inventory are being populated from two sources : JDE and BP. creating two tags for raw_orders
 models:
   dbtvault_snowflake_demo:
-    LennarHomeSite:
+    all_failed_records:
       tags:
-        - 'hs'
-      materialized: table
-      +schema:  "{{env_var('DBT_TGT_SCHEMA') }}"
+        - 'fr'
+      materialized: view
+      +schema: "{{env_var('DBT_TGT_SCHEMA') }}"
     raw_stage:
       tags:
         - 'raw'
       materialized: view
       +schema: "{{env_var('DBT_TGT_SCHEMA') }}"
+      raw_orders:
+#how to assign multiple tags to same model. Not able to find easier way to assign same tags to multiple models without repeatition of lines
+        tags:
+          - 'JDE'
+          - 'BP'
+
     stage:
       tags:
         - 'stage'

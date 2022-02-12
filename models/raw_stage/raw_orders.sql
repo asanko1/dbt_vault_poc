@@ -2,6 +2,7 @@
     materialized='table',
     tags=["Source_system_1"]
 ) }}
+
 ---definitions
 --- Batch_Id is the one that is provided to dbt by ADF
 --- Model_Name is the name of the fully qualified name : <Database_name>.<Schema_name>.<table_name>. Equivalent of dbt {{this}}
@@ -22,7 +23,29 @@
 {%- endcall -%}
 {%- set  table_name = load_result('table_name_query')['data'][0][0] -%}
 
-{{ Job_insert_update('INSERT','{{this}}', Job_id,var('batch_id')) }}
+--Last Job Status check
+{%- call statement('Last_Job_Status_check', fetch_result=True) -%}
+    --return the lastest job id or 'Never_Run' if it is the first time
+    SELECT job_status
+    FROM   (SELECT job_status,
+                Rank()
+                    OVER (
+                    ORDER BY start_timestamp DESC) AS OrderOfExecution
+            FROM   (SELECT job_status,
+                        start_timestamp
+                    FROM   abc.PUBLIC.abc_job_details
+                    WHERE  job_id = '{{Job_id}}'
+                    UNION
+                    SELECT 'Never_Run'  AS job_Status,
+                        '1900-01-01' AS Start_TimeStamp))
+    WHERE  orderofexecution = 1 
+{%- endcall -%}  
+
+{%  set Last_Job_Status =load_result('Last_Job_Status_check') ['data'][0][0] %}
+
+{% if Last_Job_Status != 'Success' %}
+    {{ Job_insert_update('INSERT','{{this}}', Job_id,var('batch_id')) }}
+{% endif %}
 
 SELECT
     '{{model_name}}' as Model_Name,
@@ -84,6 +107,8 @@ LEFT JOIN {{ source('tpch_sample', 'NATION') }} AS j
 LEFT JOIN {{ source('tpch_sample', 'REGION') }} AS k
     ON j.N_REGIONKEY = k.R_REGIONKEY
 WHERE b.O_ORDERDATE = TO_DATE('{{ var('load_date') }}')
+--Skip the model in case it was successful earlier for the same batch
+AND UPPER('{{Last_Job_Status}}')<>'SUCCESS'
 
 {{run_end_hook(Job_id,model_name,table_name)}}
 {{GetJobStatisticMacro(Job_id,table_name)}}
