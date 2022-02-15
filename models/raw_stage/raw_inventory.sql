@@ -1,10 +1,10 @@
--- depends_on: {{ ref('raw_orders') }}
 -- The above depends_on statement needs to be added to the top of the model if ref is used in conditional. Please dont remove the above 
 
 {{ 
     config(
         materialized='table',
         tags=["Source_system_inventory"]
+       
         )
 }}
 
@@ -13,6 +13,10 @@
 -- if the output of the query is 'False' then model is in re run and further check is required
 
 {%- call statement('Job_Id_check', fetch_result=True) -%}
+
+-- i have not done a count * check with job_batch_detail table as if the snowflake does not return any  output the data[0][0] part in the set variable will fail as there is no output
+
+
 Select distinct 'True'  
 where 0 =(
 select count(*) from 
@@ -61,7 +65,6 @@ ABC.PUBLIC.ABC_Job_Details where   job_id = md5(concat(to_varchar('{{var('batch_
 
 
 {% if Job_Id_status ==  'True' or Job_status_output == 'FAILED' %} 
-
     {%- call statement('Job_id_query', fetch_result=True) -%}
             Select  md5(concat(to_varchar('{{var('batch_id')}}'),'-','{{this}}'))
     {%- endcall -%}
@@ -75,8 +78,7 @@ ABC.PUBLIC.ABC_Job_Details where   job_id = md5(concat(to_varchar('{{var('batch_
             Select  UPPER(trim(split('{{model_name}}','.')[2],'"')) as DB_SH_TBL
     {%- endcall -%}
     {%- set  table_name = load_result('table_name_query')['data'][0][0] -%}
-
-
+	
 
     SELECT
         sysdate() as  System_date,
@@ -118,12 +120,12 @@ ABC.PUBLIC.ABC_Job_Details where   job_id = md5(concat(to_varchar('{{var('batch_
         ON b.S_NATIONKEY = d.N_NATIONKEY
     LEFT JOIN {{ source('tpch_sample', 'REGION') }} AS e
         ON d.N_REGIONKEY = e.R_REGIONKEY
-    JOIN {{ ref('raw_orders') }} AS f
-        ON a.PS_PARTKEY = f.PARTKEY AND a.PS_SUPPKEY=f.SUPPLIERKEY
-    ORDER BY a.PS_PARTKEY, a.PS_SUPPKEY
+
 
 {% else %}
-    select * from {{this}}  
+-- this part is there in the code else there would be no ouput for the model so the create statement will fail
+-- the below code will ensure that the table wil have the data as is 
+    select * from {{this}}    
 {% endif %}
 
 

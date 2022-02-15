@@ -4,22 +4,12 @@ version: '5.2.0'
 config-version: 2
 
 
-snapshot-paths: 
-  - snapshots
-analysis-paths:
-  - analysis
-clean-targets:
-  - target
-data-paths:
-  - data
+
 macro-paths:
   - macros
 source-paths:
   - models
-test-paths:
-  - tests
-  - DQ_Test
-target-path: target
+
 
 vars:
   load_date: '1992-01-09'
@@ -29,52 +19,21 @@ vars:
   batch_status : ''
   job_status : ''
 
-#POC- for combination of tags and sources
-#Assume raw_orders and raw_inventory are being populated from two sources : JDE and BP. creating two tags for raw_orders
+
 models:
-  dbtvault_snowflake_demo:
-    all_failed_records:
-      tags:
-        - 'fr'
-      materialized: view
-      +schema: "{{env_var('DBT_TGT_SCHEMA') }}"
     raw_stage:
       tags:
         - 'raw'
       materialized: view
-      +schema: "{{env_var('DBT_TGT_SCHEMA') }}"
-      raw_orders:
-#how to assign multiple tags to same model. Not able to find easier way to assign same tags to multiple models without repeatition of lines
-        tags:
-          - 'JDE'
-          - 'BP'
-
-    stage:
-      tags:
-        - 'stage'
-      enabled: true
-      materialized: view
-      +schema: "{{env_var('DBT_TGT_SCHEMA') }}"
-    raw_vault:
-      tags:
-        - 'raw_vault'
-      materialized: incremental
-      +schema: "{{env_var('DBT_TGT_SCHEMA') }}"
-      hubs:
-        tags:
-          - 'hub'
-      links:
-        tags:
-          - 'link'
-      sats:
-        tags:
-          - 'satellite'
-      t_links:
-        tags:
-          - 't_link'
+      +schema: 'DBT_ABASAK_CUST_DETAIL'
+      raw_inventory:
+        materialized: view
+        +schema: 'DBT_ABASAK_CUST_DETAIL'
+      raw_order:
+        materialized: view
+        +schema: 'DBT_ABASAK_CUST_DETAIL'
 
   
     
-
 
 
