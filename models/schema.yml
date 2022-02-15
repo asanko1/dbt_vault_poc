@@ -22,6 +22,7 @@ sources:
 
 
 models:
+  - name: sat_homsite_tests
   - name: SAT_HomeSite
     columns:
         - name: HOMESITEID
