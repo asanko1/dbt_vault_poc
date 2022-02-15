@@ -25,7 +25,11 @@
        '{{column_name}}'||'-LENGTH ISSUE' AS ISSUE , 'Error' as  ErrorClassification 
            FROM {{ref('SAT_HomeSite')}}
            where {{ column_name }} is not null 
-           and length({{column_name}})<>{{desired_len}}
-    {% if not loop.last %}union all {% endif %}
+           and length({{column_name}})<>{{desired_len}} union all 
+    
 {% endfor %}
+-- check for valid templateno 
+select BATCH_ID,MODEL_NAME,'TEMPLATENUMBER' as column_name,'INVALID Template NO','W' from {{ref('SAT_HomeSite')}}
+where ( TEMPLATENUMBER>190 and TEMPLATENUMBER<200 ) and
+TEMPLATENUMBER <> NULL 
 
