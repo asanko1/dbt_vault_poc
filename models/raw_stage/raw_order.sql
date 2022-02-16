@@ -121,12 +121,12 @@ WHERE b.O_ORDERDATE = TO_DATE('{{ var('load_date') }}')
 --Skip the model in case it was successful earlier for the same batch
 AND UPPER('{{Last_Job_Status}}')<>'SUCCESS'
 
- {{ GetJobStatisticMacro(Job_id,'RAW_ORDER') }}
+ {{ GetJobStatisticMacro(Job_id,'RAW_ORDERS') }}
 
 {% else %}
 -- this part is there in the code else there would be no ouput for the model so the create statement will fail
 -- the below code will ensure that the table wil have the data as is 
     select * from {{this}} 
 
- {{ GetJobStatisticMacro(Job_id,'RAW_ORDER') }}
+ {{ GetJobStatisticMacro(Job_id,'RAW_ORDERS') }}
 {% endif %}
