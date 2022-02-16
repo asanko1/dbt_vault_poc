@@ -48,13 +48,7 @@ models:
                 c_name: 'PLANCODE'
                 config:            
                   severity: warn
-    tests:
-            - dbt_utils.expression_is_true:
-                issue_desc: "INVALID TEMPLATE NUMBER"
-                expression: "TEMPLATENUMBER>190 and TEMPLATENUMBER<200"
-                condition: "TEMPLATENUMBER <> NULL OR TEMPLATENUMBER<>'NULL'"
-                config:            
-                  severity: warn
+    
 
                       
     
