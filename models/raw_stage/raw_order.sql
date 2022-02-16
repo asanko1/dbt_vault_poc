@@ -8,20 +8,23 @@
 --- Model_Name is the name of the fully qualified name : <Database_name>.<Schema_name>.<table_name>. Equivalent of dbt {{this}}
 --- Job_Id is the one that we generate by MD5(BatchId+ModelName)
 --- Table_Name is just the table name without any database and schema names
-{%- call statement('Job_id_query', fetch_result=True) -%}
-        Select  md5(concat(to_varchar('{{var('batch_id')}}'),'-','{{this}}'))
-{%- endcall -%}
-{%- set  Job_id = load_result('Job_id_query') ['data'][0][0]  -%}
+
 
 {%- call statement('model_name', fetch_result=True) -%}
-        Select  UPPER('{{this}}') as model_name
+        Select  LOWER('{{this}}') as model_name
 {%- endcall -%}
 {%- set  model_name = load_result('model_name')['data'][0][0] -%}
 
 {%- call statement('table_name_query', fetch_result=True) -%}
-        Select  UPPER(trim(split('{{this}}','.')[2],'"')) as DB_SH_TBL
+        Select  LOWER(trim(split('{{this}}','.')[2],'"')) as DB_SH_TBL
 {%- endcall -%}
 {%- set  table_name = load_result('table_name_query')['data'][0][0] -%}
+
+
+{%- call statement('Job_id_query', fetch_result=True) -%}
+        Select  md5(concat(to_varchar('{{var('batch_id')}}'),'-','{{table_name}}'))
+{%- endcall -%}
+{%- set  Job_id = load_result('Job_id_query') ['data'][0][0]  -%}
 
 --Last Job Status check
 {%- call statement('Last_Job_Status_check', fetch_result=True) -%}
@@ -42,15 +45,23 @@
 {%- endcall -%}  
 
 {%  set Last_Job_Status =load_result('Last_Job_Status_check') ['data'][0][0] %}
+{% set query -%}
+            Insert into PC_DBT_DB.DBT_ABASAK_CUST_DETAIL.job_id(Job_ID) 
+            VALUES ('{{Last_Job_Status}}') ;
+{%- endset %}
+{% do run_query(query) %}
+{% if Last_Job_Status != 'SUCCESS' %}
+    {{ Job_insert_update('INSERT','{{table_name}}', Job_id,var('batch_id')) }}
 
-{% if Last_Job_Status != 'Success' %}
-    {{ Job_insert_update('INSERT','{{this}}', Job_id,var('batch_id')) }}
-{% endif %}
 
 SELECT
+    '{{this}}' as this_model,
+     UPPER('{{Last_Job_Status}}') as value1,
+    'new_run_3' as temp,
     '{{model_name}}' as Model_Name,
     '{{table_name}}' AS Table_Name,
     '{{Job_id}}' AS JOB_ID,
+     current_timestamp()  as timestamp,
     to_varchar('{{var('batch_id')}}') as Batch_Id,
     a.L_ORDERKEY AS ORDERKEY,
     a.L_PARTKEY AS PARTKEY ,
@@ -110,4 +121,12 @@ WHERE b.O_ORDERDATE = TO_DATE('{{ var('load_date') }}')
 --Skip the model in case it was successful earlier for the same batch
 AND UPPER('{{Last_Job_Status}}')<>'SUCCESS'
 
+ {{ GetJobStatisticMacro(Job_id,'RAW_ORDER') }}
 
+{% else %}
+-- this part is there in the code else there would be no ouput for the model so the create statement will fail
+-- the below code will ensure that the table wil have the data as is 
+    select * from {{this}} 
+
+ {{ GetJobStatisticMacro(Job_id,'RAW_ORDER') }}
+{% endif %}
