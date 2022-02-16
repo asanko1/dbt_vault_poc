@@ -14,7 +14,7 @@
 {%- set  Job_id = load_result('Job_id_query') ['data'][0][0]  -%}
 
 {%- call statement('model_name', fetch_result=True) -%}
-        Select  UPPER('{{this}}') as model_name
+        Select  LOWER('{{this}}') as model_name
 {%- endcall -%}
 {%- set  model_name = load_result('model_name')['data'][0][0] -%}
 
@@ -48,6 +48,7 @@
 {% endif %}
 
 SELECT
+    '{{this}}' as this_model,
     '{{model_name}}' as Model_Name,
     '{{table_name}}' AS Table_Name,
     '{{Job_id}}' AS JOB_ID,

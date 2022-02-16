@@ -75,12 +75,13 @@ ABC.PUBLIC.ABC_Job_Details where   job_id = md5(concat(to_varchar('{{var('batch_
     {%- set  model_name = load_result('model_name')['data'][0][0] -%}
 
     {%- call statement('table_name_query', fetch_result=True) -%}
-            Select  UPPER(trim(split('{{model_name}}','.')[2],'"')) as DB_SH_TBL
+            Select  LOWER(trim(split('{{model_name}}','.')[2],'"')) as DB_SH_TBL
     {%- endcall -%}
     {%- set  table_name = load_result('table_name_query')['data'][0][0] -%}
 	
 
     SELECT
+        '{{this}}' as this_model,
         sysdate() as  System_date,
         '{{model_name}}' as Model_Name,
         '{{table_name}}' AS Table_Name,
