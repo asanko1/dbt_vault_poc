@@ -15,10 +15,15 @@ sources:
       - name: REGION
       - name: raw_order
       
-
+  - name: Homesite
+    database: PC_DBT_DB
+    schema: DBT_ABASAK
+    tables:
+      - name: HOMESITEMASTER
 models:
   - name: raw_order
   - name: raw_inventory 
+
 
                       
     

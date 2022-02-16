@@ -21,6 +21,7 @@ vars:
 
 
 models:
+
     raw_stage:
       tags:
         - 'raw'
@@ -32,6 +33,22 @@ models:
       raw_order:
         materialized: view
         +schema: 'DBT_ABASAK_CUST_DETAIL'
+    LennarHomeSite:
+      tags:
+        - 'raw'
+      materialized: view
+      +schema: 'dbt_abasak'
+      SAT_HomeSite:
+        materialized: view
+        +schema: 'dbt_abasak'
+    test_suit:
+      tags:
+        - 'raw'
+      materialized: view
+      +schema: 'dbt_abasak'
+      sat_homsite_tests:
+        materialized: view
+        +schema: 'dbt_abasak'
 
   
     
