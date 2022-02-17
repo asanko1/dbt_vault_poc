@@ -1,7 +1,7 @@
 {{ 
     config(
         materialized='table',
-        tags=["SAT_HomeSite"]
+        tags=["Source_system_orders"]
         )
 }}
 {%- set column_names = ['HOMESITEID']    -%}
