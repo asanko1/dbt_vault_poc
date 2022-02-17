@@ -1,6 +1,6 @@
 {{ config(
     materialized='table',
-    tags=["Source_system_orders"]
+    tags=["HomeSite"]
 ) }}
 
 ---definitions
