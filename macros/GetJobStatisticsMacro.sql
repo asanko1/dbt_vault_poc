@@ -18,10 +18,10 @@
                 {% if get_metrics_array[i][4] == 'Source' %}
                     Insert into ABC.Public.ABC_JOBBALANCE(JOB_ID,Batch_ID,SourceValue,Metric_ID)
                     Select '{{Job_id}}','{{var('batch_id')}}',count(distinct {{get_metrics_array[i][1]}}) , {{get_metrics_array[i][3]}}
-                    from ShreyDBTPOC.Demo_dev.{{get_metrics_array[i][0]}};
+                    from PC_DBT_DB.DBT_ABASAK.{{get_metrics_array[i][0]}};
                 {% else %}
                     update ABC.Public.ABC_JOBBALANCE
-                    SET TargetValue = (Select count(distinct {{get_metrics_array[i][1]}}) from ShreyDBTPOC.Demo_dev.{{get_metrics_array[i][0]}})
+                    SET TargetValue = (Select count(distinct {{get_metrics_array[i][1]}}) from PC_DBT_DB.DBT_ABASAK.{{get_metrics_array[i][0]}})
                     WHERE JOB_ID='{{Job_id}}' AND 
                     Batch_ID='{{var('batch_id')}}'
                     AND Metric_ID='{{get_metrics_array[i][3]}}';
