@@ -1,78 +1,51 @@
+{{ config(
+    materialized='table',
+    tags=["Source_system_1"]
+) }}
 
-{{ 
-    config(
-        materialized='table',
-        tags=["Source_system_inventory2"]
-        )
-}}
-
--- The below state ment job_id_check is the query that checks if the job id that is created with the incoming batch is new or a rerun
--- if the output of the query returns 'True' that means it is a new batch and the model will run
--- if the output of the query is 'False' then model is in re run and further check is required
-
-{%- call statement('Job_Id_check', fetch_result=True) -%}
-Select distinct 'True'  
-where 0 =(
-select count(*) from 
-ABC.PUBLIC.ABC_Job_Details where   job_id = md5(concat(to_varchar('{{var('batch_id')}}'),'-','{{this}}'))
-    )
-union
-Select distinct 'False'  
-where 0 !=(
-select count(*) from 
-ABC.PUBLIC.ABC_Job_Details where   job_id = md5(concat(to_varchar('{{var('batch_id')}}'),'-','{{this}}'))
-    ) ;
-
+---definitions
+--- Batch_Id is the one that is provided to dbt by ADF
+--- Model_Name is the name of the fully qualified name : <Database_name>.<Schema_name>.<table_name>. Equivalent of dbt {{this}}
+--- Job_Id is the one that we generate by MD5(BatchId+ModelName)
+--- Table_Name is just the table name without any database and schema names
+{%- call statement('Job_id_query', fetch_result=True) -%}
+        Select  md5(concat(to_varchar('{{var('batch_id')}}'),'-','{{this}}'))
 {%- endcall -%}
-{%- set  Job_Id_status = load_result('Job_Id_check') ['data'][0][0]  -%}
+{%- set  Job_id = load_result('Job_id_query') ['data'][0][0]  -%}
 
-{% set query -%}
-            Insert into PC_DBT_DB.DBT_ABASAK_CUST_DETAIL.job_id(Job_ID) 
-            VALUES ('{{Job_Id_status}}') ;
-{%- endset %}
-{% do run_query(query) %}
-
-
-
-{% if Job_Id_status ==  'False'  %} 
--- if the model is in re run then we need to see if the previous ru was successful or not
--- if previous run is success then the data in snowflake should be as is (the else part does this)
--- if previous run has failed then we need to run the model again 
-
-{%- call statement('Job_status', fetch_result=True) -%}
-        Select  JOB_STATUS from ABC.PUBLIC.ABC_Job_Details  where job_id = md5(concat(to_varchar('{{var('batch_id')}}'),'-','{{this}}')) order by END_TIMESTAMP desc limit 1 ;
+{%- call statement('model_name', fetch_result=True) -%}
+        Select  UPPER('{{this}}') as model_name
 {%- endcall -%}
-{%- set  Job_status_output = load_result('Job_status') ['data'][0][0]  -%}
+{%- set  model_name = load_result('model_name')['data'][0][0] -%}
 
-{% set query -%}
-            Insert into PC_DBT_DB.DBT_ABASAK_CUST_DETAIL.job_id(Job_ID) 
-            VALUES ('{{Job_status_output}}') ;
-{%- endset %}
-{% do run_query(query) %}
-{% else %}
-{%- set  Job_status_output = 'NA'  -%}
+{%- call statement('table_name_query', fetch_result=True) -%}
+        Select  UPPER(trim(split('{{this}}','.')[2],'"')) as DB_SH_TBL
+{%- endcall -%}
+{%- set  table_name = load_result('table_name_query')['data'][0][0] -%}
+
+--Last Job Status check
+{%- call statement('Last_Job_Status_check', fetch_result=True) -%}
+    --return the lastest job id or 'Never_Run' if it is the first time
+    SELECT job_status
+    FROM   (SELECT job_status,
+                Rank()
+                    OVER (
+                    ORDER BY start_timestamp DESC) AS OrderOfExecution
+            FROM   (SELECT job_status,
+                        start_timestamp
+                    FROM   abc.PUBLIC.abc_job_details
+                    WHERE  job_id = '{{Job_id}}'
+                    UNION
+                    SELECT 'Never_Run'  AS job_Status,
+                        '1900-01-01' AS Start_TimeStamp))
+    WHERE  orderofexecution = 1 
+{%- endcall -%}  
+
+{%  set Last_Job_Status =load_result('Last_Job_Status_check') ['data'][0][0] %}
+
+{% if Last_Job_Status != 'Success' %}
+    {{ Job_insert_update('INSERT','{{this}}', Job_id,var('batch_id')) }}
 {% endif %}
-
-
--- JOB ID Check 
-
-
-
-{% if Job_Id_status ==  'True' or Job_status_output == 'FAILED' %} 
-
-    {%- call statement('Job_id_query', fetch_result=True) -%}
-            Select  md5(concat(to_varchar('{{var('batch_id')}}'),'-','{{this}}'))
-    {%- endcall -%}
-    {%- set  Job_id = load_result('Job_id_query') ['data'][0][0]  -%}
-    {%- call statement('model_name', fetch_result=True) -%}
-            Select  UPPER('{{this}}') as model_name
-    {%- endcall -%}
-    {%- set  model_name = load_result('model_name')['data'][0][0] -%}
-
-    {%- call statement('table_name_query', fetch_result=True) -%}
-            Select  UPPER(trim(split('{{model_name}}','.')[2],'"')) as DB_SH_TBL
-    {%- endcall -%}
-    {%- set  table_name = load_result('table_name_query')['data'][0][0] -%}
 
 
 
@@ -123,6 +96,5 @@ SALEDATE
  from 
 {{ source('Homesite', 'HOMESITEMASTER') }}
 
-{% else %}
-    select * from {{this}}  
-{% endif %}
+{{run_end_hook(Job_id,model_name,table_name)}}
+{{GetJobStatisticMacro(Job_id,table_name)}}
